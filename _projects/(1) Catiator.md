@@ -1,22 +1,22 @@
 ---
 name: Catiator
-tools: [Photoshop, Maya, Unity3D]
-image: https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png
+tools: [Photoshop, Maya, Unity3D, Hackathon]
+image: /assets/img/projcards/catiator_card.png
 description: Fight gladiator cats using American Sign Language.
 ---
 
-# Catiator
+# Catiator [image title here]
 
-The Movies Project is something like **Netflix**, the only difference is that **it's not real**! It doesn't exist! I just created it to demonstrate how the **showcase** page looks like and how you can write whatever you want with full markdown support.
+## Info [image title here]
+- **Hackathon**: Stanford University's [TreeHacks (2021)](https://devpost.com/software/catiator)
+- **Awards**: Moonshot Prize, [Pinnacle](https://pinnacle.us.org/) Qualification
 
-![preview](https://www.sketchappsources.com/resources/source-image/we-were-soldiers-landing-page-dbruggisser.jpg)
+### Contribution [image title here]
+- **Roles**: Character Designer, 3D Generalist
+- **Tools**: Autodesk Maya, Adobe Photoshop, Unity3D
 
-## Search Movies
+(divider image here)
 
-![search](https://www.sketchappsources.com/resources/source-image/microsoft-windows-10-virtual-keyboard-diogo-sousa.png)
+*Catiator* is a VR game aimed at teaching American Sign Language through gamification. Using the Oculus Quest 2's gesture recognition feature, players practice one-handed signs to defeat gladiator cats in a vaporwave colosseum.
 
-https://devpost.com/software/catiator
-
-<!-- <p class="text-center">
-{% include elements/button.html link="https://github.com/YoussefRaafatNasry/portfolYOU" text="Learn More" %}
-</p> -->
+<iframe width="854" height="480" src="https://www.youtube.com/embed/_OPf_EpcgpE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -1,17 +1,23 @@
 ---
 name: lARp
-tools: [Photoshop, Maya, Unity3D]
-image: https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png
-description: This project has an individual showcase page, not just a direct link to the project site or repo. Now you have more space to describe your awesome project!
+tools: [Photoshop, Maya, Unity3D, Hackathon]
+image: /assets/img/projcards/lARp_card.png
+description: Exercise and treat your body with mush respect.
 ---
 
-# lARp
-The Movies Project is something like **Netflix**, the only difference is that **it's not real**! It doesn't exist! I just created it to demonstrate how the **showcase** page looks like and how you can write whatever you want with full markdown support.
+# lARp [image title here]
 
-![preview](https://www.sketchappsources.com/resources/source-image/we-were-soldiers-landing-page-dbruggisser.jpg)
+## Info [image title here]
+- **Hackathon**: University of Virginia's [HooHacks (2021)](https://hoohacks21.devpost.com/)
+- **Awards**: Best Art & Gaming Hack - 1st Place
 
-## Search Movies
+### Contribution [image title here]
+- **Roles**: Development, Art
+- **Tools**: Unity3D, Adobe Photoshop
+- **Languages**: C#
 
-![search](https://www.sketchappsources.com/resources/source-image/microsoft-windows-10-virtual-keyboard-diogo-sousa.png)
+(divider image here)
 
-https://devpost.com/software/catiator
+*lARp* is an augmented reality roleplaying game encouraging exercise via running. You play as a questing fungi looking to better the lives of your shroomy homeland by running errands for them. *lARp* tracks the time exercised and steps taken using a pedometer. Along the way, questers can run into friendly and deadly mushrooms. Using GPT-3, players can converse back and forth with unique characters before deciding their fate and defeating them in minigames between quests.
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/wR7rJfNN0Ow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

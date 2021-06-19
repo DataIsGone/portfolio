@@ -1,17 +1,23 @@
 ---
 name: IntARnet
-tools: [Photoshop, Maya, Unity3D]
-image: https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png
-description: This project has an individual showcase page, not just a direct link to the project site or repo. Now you have more space to describe your awesome project!
+tools: [Unity3D, C#, Hackathon]
+image: /assets/img/projcards/intARnet_card.png
+description: Social media doesn't have to be two dimensions of endless scrolling.
 ---
 
-# IntARnet
-The Movies Project is something like **Netflix**, the only difference is that **it's not real**! It doesn't exist! I just created it to demonstrate how the **showcase** page looks like and how you can write whatever you want with full markdown support.
+# IntARnet [image title here]
 
-![preview](https://www.sketchappsources.com/resources/source-image/we-were-soldiers-landing-page-dbruggisser.jpg)
+## Info [image title here]
+- **Hackathon**: Carnegie Mellon University's [TartanHacks (2021)](https://tartanhacks-2021.devpost.com/)
+- **Awards**: Scott Krulcik Grand Prize, Best Throwback Hack
 
-## Search Movies
+### Contribution [image title here]
+- **Roles**: Development (Azure spatial anchors), iOS Development (ARKit)
+- **Tools**: Unity3D
+- **Languages**: C#
 
-![search](https://www.sketchappsources.com/resources/source-image/microsoft-windows-10-virtual-keyboard-diogo-sousa.png)
+(divider image here)
 
-https://devpost.com/software/catiator
+*IntARnet* is the idea of social media in augmented reality come to life. Inspired by graffiti and pop culture, posts can consist of drawings, text, and graphics and reside in augmented reality. Users can place these posts on landmarks they find memorable -- for example, a college student could bookmark the lecture hall where they took their first college course with a 3D model of a book. Posts eventually fade from the augmented reality space as time passes.
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/2WW6OzM3Tsc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
