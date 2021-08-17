@@ -7,9 +7,12 @@ weight: 3
 
 # **About Me**
 
-Hi I am **{{ site.author.name }}** :wave:
+Hey, it's **{{ site.author.name }}**
+<br><br>
+Ryan Davis is an aspiring software engineer, VR developer, and digital artist. She earned her first bachelor’s degree in Art Practice from UC Berkeley in 2015 and worked different positions in the animation industry. Previous companies have included Industrial Light & Magic, Pixar Animation Studios, and Microsoft with projects revolving around 3D graphics, photogrammetry, and art education. She is now attending Oregon State University’s post baccalaureate computer science program where she currently focuses on computer vision and mixed reality applications.
 <br>
-UC Berkeley, Bachelor of Arts in Art Practice, 2015. Oregon State University, Bachelor of Science in Computer Science, 2022.
+Ryan is currently located in San Diego, CA and enjoys painting, participating in hackathons, gardening, 3D printing, and MMO gaming. She’s probably trying to complete a quest in Pokemon Go as you’re reading this.
+
 
 <!-- <embed src="http://example.com/the.pdf" width="500" height="375" 
  type="application/pdf"> -->
