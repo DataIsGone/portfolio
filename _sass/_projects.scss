@@ -1,16 +1,16 @@
 .project.card {
-  border-radius: $rounded-borders;
+  border-radius: 0 0 0 0;
   text-decoration: none !important;
   margin: 10px auto;
 
   .card-img-top {
-    border-radius: $rounded-borders $rounded-borders 0 0;
+    border-radius: 0 0 0 0;
   }
 
   transition: transform 400ms;
 
   &:hover:not(.post) {
     transform: translateY(-8px);
-    box-shadow: -2px 8px 40px -12px rgba(0, 0, 0, 0.24);
+    box-shadow: 11px 15px 0px -12px #00fff9, 15px 10px 0px -12px #ff00c1;
   }
 }

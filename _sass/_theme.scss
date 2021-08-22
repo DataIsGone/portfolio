@@ -3,13 +3,9 @@
     #{$property}: $light-value;
   }
 
-  [data-theme="dark"] & {
-    #{$property}: $dark-value;
-  }
-}
-
-#theme-toggler:before {
-  @include themed(content, "🌙", "🌞");
+  // [data-theme="dark"] & {
+  //   #{$property}: $dark-value;
+  // }
 }
 
 .navbar-themed {

@@ -4,6 +4,7 @@ tools: [Photoshop, Maya, Unity3D, Hackathon]
 image: /assets/img/projcards/catiator_card.png
 description: Fight gladiator cats using American Sign Language.
 ---
+<link rel="stylesheet" href="../assets/css/mystyle.css">
 
 # Catiator [image title here]
 
@@ -15,7 +16,7 @@ description: Fight gladiator cats using American Sign Language.
 - **Roles**: Character Designer, 3D Generalist
 - **Tools**: Autodesk Maya, Adobe Photoshop, Unity3D
 
-(divider image here)
+<hr class="icon">
 
 *Catiator* is a VR game aimed at teaching American Sign Language through gamification. Using the Oculus Quest 2's gesture recognition feature, players practice one-handed signs to defeat gladiator cats in a vaporwave colosseum.
 

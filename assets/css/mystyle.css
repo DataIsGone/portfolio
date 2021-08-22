@@ -1,0 +1,22 @@
+.cyber {
+    font-family: Cyber;
+}
+
+hr.icon {
+    margin: 50px auto 50px;
+    padding: 0;
+    border: 0;
+    border-top: solid 2px;
+    text-align: center;
+}
+    
+hr.icon:after {
+    content: "\f0e7";
+    display: inline-block;
+    position: relative;
+    top: -1.7rem;
+    padding: 0 1rem;
+    font-family: "Font Awesome 5 Free";
+    font-size: 3rem;
+    background-color: white;
+}
