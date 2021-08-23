@@ -20,3 +20,31 @@ hr.icon:after {
     font-size: 3rem;
     background-color: white;
 }
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    /* border: 2px solid yellow; */
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
+
+/* Centering: https://www.w3schools.com/howto/howto_css_center_button.asp */
+.vertical-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+a.no-underline {
+    text-decoration: none !important;
+}
+
+
+

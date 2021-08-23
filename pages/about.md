@@ -12,13 +12,14 @@ Ryan Davis is an aspiring software engineer, VR developer, and digital artist. S
 <br><br>
 Ryan is currently located in San Diego, CA and enjoys painting, participating in hackathons, gardening, 3D printing, and MMO gaming. She’s probably trying to complete a quest in Pokemon Go as you’re reading this.
 
-<p>
+<br>
+<div class="vertical-center">
     <button class="cybr-btn">
         download resume<span aria-hidden>_</span>
         <span aria-hidden class="cybr-btn__glitch">download resume_</span>
         <span aria-hidden class="cybr-btn__tag">R25</span>
     </button>
-</p>
+</div>
 
 
 <!-- <embed src="http://example.com/the.pdf" width="500" height="375" 
