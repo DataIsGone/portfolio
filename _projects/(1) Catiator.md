@@ -5,6 +5,7 @@ image: /assets/img/projcards/catiator_card.png
 description: Fight gladiator cats using American Sign Language.
 ---
 <link rel="stylesheet" href="../assets/css/mystyle.css">
+<link rel="stylesheet" href="../assets/css/hoverimg.css">
 
 # Catiator [image title here]
 ## Info [image title here]
@@ -53,7 +54,29 @@ I don't consider myself a 3D animator in the slightest (especially on a lack of 
 
 ### Gallery [image title here]
 <br>
-	<!-- <div class="container"> -->
+
+<div class="flex-container">
+    <div class="flex-child vertical-center">
+        <a href="#image1" class="no-underline"><img class="hover cropped" src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/393/691/datas/gallery.jpg"/></a>
+        <div class="lightbox short-animate" id="image1">
+            <img src="https://hips.hearstapps.com/ghk.h-cdn.co/assets/17/30/2560x1280/landscape-1500925839-golden-retriever-puppy.jpg"/>
+        </div>
+        <div id="lightbox-controls" class="short-animate">
+            <a id="close-lightbox" class="long-animate" href="#!">Close Lightbox</a>
+        </div>
+    </div>
+
+    <div class="flex-child vertical-center">
+        <a href="#image2" class="no-underline"><img class="hover" src="https://media.giphy.com/media/l378bu6ZYmzS6nBrW/giphy.gif?cid=790b7611a9db071b890131b390d469cff2a56b7b390da6e5&rid=giphy.gif&ct=g"/></a>
+        <div class="lightbox short-animate" id="image2">
+            <img src="https://media.giphy.com/media/l378bu6ZYmzS6nBrW/giphy.gif?cid=790b7611a9db071b890131b390d469cff2a56b7b390da6e5&rid=giphy.gif&ct=g"/>
+        </div>
+        <div id="lightbox-controls" class="short-animate">
+            <a id="close-lightbox" class="long-animate" href="#!">Close Lightbox</a>
+        </div>
+    </div>
+
+</div>
 
 
 <hr class="icon">
