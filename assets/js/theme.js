@@ -12,17 +12,6 @@ initTheme();
 function initTheme() {
   const savedTheme = localStorage.getItem(STORAGE_KEY);
 
-  // if (savedTheme) {
-  //   // Storage theme
-  //   setTheme(savedTheme);
-  // } else if (window.matchMedia && window.matchMedia(QUERY_KEY).matches) {
-  //   // system theme
-  //   setTheme(themes.DARK);
-  // } else {
-  //   // Default theme
-  //   setTheme(themes.LIGHT);
-  // }
-
   setTheme(themes.LIGHT);
 
   // Watch for system theme changes

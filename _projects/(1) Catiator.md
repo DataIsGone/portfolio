@@ -42,6 +42,12 @@ description: Fight gladiator cats using American Sign Language.
 
 <hr class="icon">
 
+### Demo [image title here]
+<br>
+<iframe width="854" height="480" src="https://www.youtube.com/embed/_OPf_EpcgpE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<hr class="icon">
+
 ### Project Description & Thoughts [image title here]
 <br>
 *Catiator* is a VR game aimed at teaching American Sign Language through gamification. Using the Oculus Quest 2's gesture recognition feature, players practice one-handed signs to defeat gladiator cats in a vaporwave colosseum.
@@ -57,9 +63,9 @@ I don't consider myself a 3D animator in the slightest (especially on a lack of 
 
 <div class="flex-container">
     <div class="flex-child vertical-center">
-        <a href="#image1" class="no-underline"><img class="hover cropped" src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/393/691/datas/gallery.jpg"/></a>
+        <a href="#image1" class="no-underline"><img class="hover cropped" src="../assets/img/projects/catiator/turnaround.png"/></a>
         <div class="lightbox short-animate" id="image1">
-            <img src="https://hips.hearstapps.com/ghk.h-cdn.co/assets/17/30/2560x1280/landscape-1500925839-golden-retriever-puppy.jpg"/>
+            <img src="../assets/img/projects/catiator/turnaround.png"/>
         </div>
         <div id="lightbox-controls" class="short-animate">
             <a id="close-lightbox" class="long-animate" href="#!">Close Lightbox</a>
@@ -67,20 +73,54 @@ I don't consider myself a 3D animator in the slightest (especially on a lack of 
     </div>
 
     <div class="flex-child vertical-center">
-        <a href="#image2" class="no-underline"><img class="hover" src="https://media.giphy.com/media/l378bu6ZYmzS6nBrW/giphy.gif?cid=790b7611a9db071b890131b390d469cff2a56b7b390da6e5&rid=giphy.gif&ct=g"/></a>
+        <a href="#image2" class="no-underline"><img class="hover cropped" src="../assets/img/projects/catiator/bones.png"/></a>
         <div class="lightbox short-animate" id="image2">
-            <img src="https://media.giphy.com/media/l378bu6ZYmzS6nBrW/giphy.gif?cid=790b7611a9db071b890131b390d469cff2a56b7b390da6e5&rid=giphy.gif&ct=g"/>
+            <img src="../assets/img/projects/catiator/bones.png"/>
         </div>
         <div id="lightbox-controls" class="short-animate">
             <a id="close-lightbox" class="long-animate" href="#!">Close Lightbox</a>
         </div>
     </div>
 
+    <div class="flex-child vertical-center">
+        <a href="#image3" class="no-underline"><img class="hover cropped" src="../assets/img/projects/catiator/nurbcurves.png"/></a>
+        <div class="lightbox short-animate" id="image3">
+            <img src="../assets/img/projects/catiator/nurbcurves.png"/>
+        </div>
+        <div id="lightbox-controls" class="short-animate">
+            <a id="close-lightbox" class="long-animate" href="#!">Close Lightbox</a>
+        </div>
+    </div>
 </div>
 
+<div class="flex-container">
+    <div class="flex-child vertical-center">
+        <a href="#image4" class="no-underline"><img class="hover cropped" src="../assets/img/projects/catiator/defeated.gif"/></a>
+        <div class="lightbox short-animate" id="image4">
+            <img src="../assets/img/projects/catiator/defeated.gif"/>
+        </div>
+        <div id="lightbox-controls" class="short-animate">
+            <a id="close-lightbox" class="long-animate" href="#!">Close Lightbox</a>
+        </div>
+    </div>
 
-<hr class="icon">
+    <div class="flex-child vertical-center">
+        <a href="#image5" class="no-underline"><img class="hover cropped" src="../assets/img/projects/catiator/attackplayer.gif"/></a>
+        <div class="lightbox short-animate" id="image5">
+            <img src="../assets/img/projects/catiator/attackplayer.gif"/>
+        </div>
+        <div id="lightbox-controls" class="short-animate">
+            <a id="close-lightbox" class="long-animate" href="#!">Close Lightbox</a>
+        </div>
+    </div>
 
-### Demo [image title here]
-<br>
-<iframe width="854" height="480" src="https://www.youtube.com/embed/_OPf_EpcgpE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="flex-child vertical-center">
+        <a href="#image6" class="no-underline"><img class="hover cropped" src="../assets/img/projects/catiator/waddle.gif"/></a>
+        <div class="lightbox short-animate" id="image6">
+            <img src="../assets/img/projects/catiator/waddle.gif"/>
+        </div>
+        <div id="lightbox-controls" class="short-animate">
+            <a id="close-lightbox" class="long-animate" href="#!">Close Lightbox</a>
+        </div>
+    </div> 
+</div>

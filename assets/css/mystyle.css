@@ -27,12 +27,11 @@ hr.icon:after {
 
 .flex-child {
     flex: 1;
-    /* border: 2px solid yellow; */
-}  
-
-.flex-child:first-child {
+    /* border: 2px solid blue; */
     margin-right: 20px;
-}
+    margin-top: 5px;
+    margin-bottom: 5px;
+}  
 
 /* Centering: https://www.w3schools.com/howto/howto_css_center_button.asp */
 .vertical-center {
@@ -47,11 +46,6 @@ a.no-underline {
 }
 
 
-
-#content {
-    height:4000px;
-}
-  
 
 .short-animate {
     -webkit-transition:.5s ease-in-out;
@@ -75,14 +69,13 @@ a.no-underline {
     bottom:100%;
     left:0;
     right:0;
-    /* background:rgba(161,4,52,.8); */
     background: #b3b3b3;
     z-index:501;
     opacity:0;
   }
   
   .lightbox img {
-      position:absolute;
+    position:absolute;
     margin:auto;
     top:0;
     left:0;
@@ -186,11 +179,11 @@ a.no-underline {
       100% {-webkit-transform:rotate(-2deg);}
   }
 
-  /* Cropped Images: https://www.educative.io/edpresso/how-to-crop-an-image-in-css */
+/* Cropped Images: https://www.educative.io/edpresso/how-to-crop-an-image-in-css */
 .cropped {
-    width: 200px; /* width of container */
-    /* height: 200px; */
+    max-width: 300px; 
+    max-height: 200px;
     object-fit: cover;
-    /* object-position: 20% 10%; try 20px 10px  */
     /* border: 5px solid black; */
+    overflow: hidden;
 }
