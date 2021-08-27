@@ -21,15 +21,6 @@ Ryan is currently located in San Diego, CA and enjoys painting, participating in
     </button>
 </div>
 
-
-<!-- <embed src="http://example.com/the.pdf" width="500" height="375" 
- type="application/pdf"> -->
-
-<!-- <div class="row">
-{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
-{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
-</div> -->
-
-<!-- <div class="row">
-{% include about/timeline.html %}
-</div> -->
+Languages: Python, C, C++, C#
+Tools/Software: Adobe Photoshop, Adobe Illustrator, Autodesk Maya
+Toolkits: OpenVINO

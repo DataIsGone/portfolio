@@ -2,18 +2,21 @@
 name: Catiator
 tools: [Photoshop, Maya, Unity3D, Hackathon]
 image: /assets/img/projcards/catiator_card.png
-description: Fight gladiator cats using American Sign Language.
+description: Fight gladiator cats in VR using American Sign Language.
 ---
 <link rel="stylesheet" href="../assets/css/mystyle.css">
 <link rel="stylesheet" href="../assets/css/hoverimg.css">
 
-# Catiator [image title here]
-## Info [image title here]
+{:.project-title .cyber .glitch .vhs-filter}
+# Catiator
+
+{:.cyber .subtitle}
+## Info 
 - **Hackathon**: Stanford University's [TreeHacks (2021)](https://devpost.com/software/catiator) (36 hours)
 - **Awards**: Moonshot Prize, [Pinnacle](https://pinnacle.us.org/) Qualification
 
-
-### Contribution [image title here]
+{:.cyber .subtitle}
+### Contribution
 - **Roles**: Character Designer, 3D Generalist
 - **Tools**: Autodesk Maya, Adobe Photoshop, Unity3D
 
@@ -40,15 +43,11 @@ description: Fight gladiator cats using American Sign Language.
     </div>
 </div>
 
-<hr class="icon">
+<!-- <hr class="icon"> -->
+<br><br>
 
-### Demo [image title here]
-<br>
-<iframe width="854" height="480" src="https://www.youtube.com/embed/_OPf_EpcgpE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<hr class="icon">
-
-### Project Description & Thoughts [image title here]
+{:.cyber .subtitle .liner}
+### Description & Thoughts
 <br>
 *Catiator* is a VR game aimed at teaching American Sign Language through gamification. Using the Oculus Quest 2's gesture recognition feature, players practice one-handed signs to defeat gladiator cats in a vaporwave colosseum.
 
@@ -56,10 +55,12 @@ My role on this project was the development of the *Catiator*, the enemy charact
 
 I don't consider myself a 3D animator in the slightest (especially on a lack of sleep) but instead a 3D generalist with a majority of her knowledge self-taught. Recalling how to do each stage of the 3D animation pipeline in Autodesk Maya from memory was a highlight of this hackathon for me.
 
-<hr class="icon">
-
-### Gallery [image title here]
+<!-- <hr class="icon"> -->
 <br>
+
+{:.cyber .subtitle .liner}
+### Gallery
+<!-- <br> -->
 
 <div class="flex-container">
     <div class="flex-child vertical-center">
@@ -123,4 +124,16 @@ I don't consider myself a 3D animator in the slightest (especially on a lack of 
             <a id="close-lightbox" class="long-animate" href="#!">Close Lightbox</a>
         </div>
     </div> 
+</div>
+
+<!-- <hr class="icon"> -->
+<br>
+
+{:.cyber .subtitle .liner}
+### Demo
+<br>
+<div class="flex-container">
+    <div class="flex-child vertical-center">
+        <iframe width="854" height="480" src="https://www.youtube.com/embed/_OPf_EpcgpE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 </div>

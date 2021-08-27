@@ -84,13 +84,3 @@ $steps: 20;
     }
   }
 }
-
-// // Does the same deal as before, but now only skews. Used for main text.
-// @keyframes glitch-skew {
-// $steps: 10;
-//   @for $i from 0 through $steps {
-//     #{percentage($i*(1/$steps))} {
-//       transform: skew((random(10) - 5) + deg);
-//     }
-//   }
-// }

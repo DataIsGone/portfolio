@@ -2,23 +2,39 @@
     font-family: Cyber;
 }
 
-hr.icon {
-    margin: 50px auto 50px;
-    padding: 0;
-    border: 0;
-    border-top: solid 2px;
-    text-align: center;
+/* Gradient: https://codepen.io/argyleink/pen/OJMEpGp */
+.project-title {
+  background: linear-gradient(
+    to right, 
+    #000000, 
+    #ffffff
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 500%;
+  text-transform: uppercase;
 }
-    
-hr.icon:after {
-    content: "\f0e7";
-    display: inline-block;
-    position: relative;
-    top: -1.7rem;
-    padding: 0 1rem;
-    font-family: "Font Awesome 5 Free";
-    font-size: 3rem;
-    background-color: white;
+
+.subtitle {
+  text-transform: uppercase;
+  font-size: 250%;
+}
+
+.liner {
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+}
+.liner:after {
+  content: "";
+  flex-grow: 1;
+  height: 2px;
+  background: #000000;
+  min-width: 20px;
+  margin: auto;
+}
+.liner:after {
+  margin-left: 20px;
 }
 
 .flex-container {
