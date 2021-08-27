@@ -20,6 +20,7 @@
   font-size: 250%;
 }
 
+/* Inline HR: https://codepen.io/oaviv/pen/GqXwYp */
 .liner {
   display: flex;
   align-items: flex-start;
@@ -43,7 +44,6 @@
 
 .flex-child {
     flex: 1;
-    /* border: 2px solid blue; */
     margin-right: 20px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -60,8 +60,6 @@
 a.no-underline {
     text-decoration: none !important;
 }
-
-
 
 .short-animate {
     -webkit-transition:.5s ease-in-out;
@@ -203,3 +201,21 @@ a.no-underline {
     /* border: 5px solid black; */
     overflow: hidden;
 }
+
+/* TODO: change these */
+/* a:link {
+  color: red !important;
+} */
+
+/*
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: blue;
+} */

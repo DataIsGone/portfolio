@@ -43,7 +43,6 @@ description: Fight gladiator cats in VR using American Sign Language.
     </div>
 </div>
 
-<!-- <hr class="icon"> -->
 <br><br>
 
 {:.cyber .subtitle .liner}
@@ -55,12 +54,10 @@ My role on this project was the development of the *Catiator*, the enemy charact
 
 I don't consider myself a 3D animator in the slightest (especially on a lack of sleep) but instead a 3D generalist with a majority of her knowledge self-taught. Recalling how to do each stage of the 3D animation pipeline in Autodesk Maya from memory was a highlight of this hackathon for me.
 
-<!-- <hr class="icon"> -->
 <br>
 
 {:.cyber .subtitle .liner}
 ### Gallery
-<!-- <br> -->
 
 <div class="flex-container">
     <div class="flex-child vertical-center">
@@ -126,7 +123,6 @@ I don't consider myself a 3D animator in the slightest (especially on a lack of 
     </div> 
 </div>
 
-<!-- <hr class="icon"> -->
 <br>
 
 {:.cyber .subtitle .liner}
