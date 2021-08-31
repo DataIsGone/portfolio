@@ -12,13 +12,23 @@ description: Fight gladiator cats in VR using American Sign Language.
 
 {:.cyber .subtitle}
 ## Info 
-- **Hackathon**: Stanford University's [TreeHacks (2021)](https://devpost.com/software/catiator) (36 hours)
-- **Awards**: Moonshot Prize, [Pinnacle](https://pinnacle.us.org/) Qualification
+<div class="cyberpunk">
+    <ul>
+        <li><strong>Hackathon</strong>: Stanford University's <a href="https://devpost.com/software/catiator">TreeHacks (2021)</a> (36 hours)</li>
+        <li><strong>Awards</strong>: Moonshot Prize, <a href="https://pinnacle.us.org/">Pinnacle</a> Qualification</li>
+    </ul>
+</div>
+
+<br>
 
 {:.cyber .subtitle}
 ### Contribution
-- **Roles**: Character Designer, 3D Generalist
-- **Tools**: Autodesk Maya, Adobe Photoshop, Unity3D
+<div class="cyberpunk">
+    <ul>
+        <li><strong>Roles</strong>: Character Designer, 3D Generalist</li>
+        <li><strong>Tools</strong>: Autodesk Maya, Adobe Photoshop, Unity3D</li>
+    </ul>
+</div>
 
 <br>
 
@@ -43,22 +53,31 @@ description: Fight gladiator cats in VR using American Sign Language.
     </div>
 </div>
 
-<br><br>
+<br><br><br>
 
 {:.cyber .subtitle .liner}
 ### Description & Thoughts
 <br>
-*Catiator* is a VR game aimed at teaching American Sign Language through gamification. Using the Oculus Quest 2's gesture recognition feature, players practice one-handed signs to defeat gladiator cats in a vaporwave colosseum.
+<div class="cyberpunk">
+    <p>
+        <em>Catiator</em> is a VR game aimed at teaching American Sign Language through gamification. Using the Oculus Quest 2's gesture recognition feature, players practice one-handed signs to defeat gladiator cats in a vaporwave colosseum.
+    </p>
+    
+    <p>
+        My role on this project was the development of the Catiator, the enemy character the player must fight off with their alphabet signing. I created this character from scratch, exlcuding its texture maps; this means I produced everything else, ranging from character design to all of its animations.
+    </p>
+    
+    <p>
+        I don't consider myself a 3D animator in the slightest (especially on a lack of sleep) but instead a 3D generalist with a majority of her knowledge self-taught. Recalling how to do each stage of the 3D animation pipeline in Autodesk Maya from memory was a highlight of this hackathon for me.
+    </p>    
+</div>
 
-My role on this project was the development of the *Catiator*, the enemy character the player must fight off with their alphabet signing. I created this character from scratch, exlcuding its texture maps; this means I produced everything else, ranging from character design to all of its animations.
-
-I don't consider myself a 3D animator in the slightest (especially on a lack of sleep) but instead a 3D generalist with a majority of her knowledge self-taught. Recalling how to do each stage of the 3D animation pipeline in Autodesk Maya from memory was a highlight of this hackathon for me.
-
-<br>
+<br><br>
 
 {:.cyber .subtitle .liner}
 ### Gallery
-
+<br>
+<div class="cyberpunk">
 <div class="flex-container">
     <div class="flex-child vertical-center">
         <a href="#image1" class="no-underline"><img class="hover cropped" src="../assets/img/projects/catiator/turnaround.png"/></a>
@@ -122,8 +141,9 @@ I don't consider myself a 3D animator in the slightest (especially on a lack of 
         </div>
     </div> 
 </div>
+</div>
 
-<br>
+<br><br>
 
 {:.cyber .subtitle .liner}
 ### Demo
