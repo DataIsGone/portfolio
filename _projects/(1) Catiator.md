@@ -7,7 +7,7 @@ description: Fight gladiator cats in VR using American Sign Language.
 <link rel="stylesheet" href="../assets/css/mystyle.css">
 <link rel="stylesheet" href="../assets/css/hoverimg.css">
 
-{:.project-title .cyber .glitch .vhs-filter}
+{:.project-title .cyber .glitch}
 # Catiator
 
 {:.cyber .subtitle}
@@ -21,9 +21,9 @@ description: Fight gladiator cats in VR using American Sign Language.
 
 <br>
 
-{:.cyber .subtitle}
+{:.pixel-font .subtitle}
 ### Contribution
-<div class="cyberpunk">
+<div class="pixel-div">
     <ul>
         <li><strong>Roles</strong>: Character Designer, 3D Generalist</li>
         <li><strong>Tools</strong>: Autodesk Maya, Adobe Photoshop, Unity3D</li>

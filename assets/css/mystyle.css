@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 body {
   background-color: #f5f5f5;
   background-image: url("../img/common/plant_bg.png");
@@ -257,4 +259,18 @@ a.no-underline {
 .cyberpunk.inverse:before, .cyberpunk:before {
   background-color: #000;
   color: var(--main-color);
+}
+
+.pixel-div {
+  margin: 2em auto;
+  padding: 5px;
+  background-color: #f5f5f5;
+  box-shadow:   -3px 0 0 0 black,
+                 3px 0 0 0 black,
+                 0 -3px 0 0 black,
+                 0 3px 0 0 black;
+}
+
+.pixel-font {
+  font-family: 'Press Start 2P', cursive;
 }
