@@ -29,8 +29,11 @@ body {
 .subtitle {
   text-transform: uppercase;
   font-size: 250%;
-  /* background-color: #f5f5f5; */
-  padding: 5px;
+  /* background: rgba(245, 245, 245, 0.4); */
+  background: #746e6e;
+  /* text-shadow: -1px 0 rgba(0, 0, 0, 0.075), 0 1px rgba(0, 0, 0, 0.075), 1px 0 rgba(0, 0, 0, 0.075), 0 -1px rgba(0, 0, 0, 0.075); */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* Inline HR: https://codepen.io/oaviv/pen/GqXwYp */
@@ -44,7 +47,7 @@ body {
   content: "";
   flex-grow: 1;
   height: 2px;
-  background: #000000;
+  background: #746e6e;
   min-width: 20px;
   margin: auto;
 }
@@ -227,7 +230,6 @@ a.no-underline {
   padding: 15px 15px;
   position: relative;
   font-size: 1rem;
-  /* color: var(--main-color); */
   border: 30px solid var(--secondary-color);
   border-right: 2px solid var(--secondary-color);
   border-left: 2px solid var(--secondary-color);
@@ -262,15 +264,11 @@ a.no-underline {
 }
 
 .pixel-div {
-  margin: 2em auto;
-  padding: 5px;
+  margin: 0.5em auto;
+  padding: 20px 30px;
   background-color: #f5f5f5;
-  box-shadow:   -3px 0 0 0 black,
-                 3px 0 0 0 black,
-                 0 -3px 0 0 black,
-                 0 3px 0 0 black;
-}
-
-.pixel-font {
-  font-family: 'Press Start 2P', cursive;
+  box-shadow:   -3px 0 0 0 #746e6e,
+                 6px 0 0 0 #746e6e,
+                 0 -4px 0 0 #746e6e,
+                 0 6px 0 0 #746e6e;
 }

@@ -21,7 +21,7 @@ description: Fight gladiator cats in VR using American Sign Language.
 
 <br>
 
-{:.pixel-font .subtitle}
+{:.cyber .subtitle}
 ### Contribution
 <div class="pixel-div">
     <ul>
@@ -57,16 +57,14 @@ description: Fight gladiator cats in VR using American Sign Language.
 
 {:.cyber .subtitle .liner}
 ### Description & Thoughts
-<br>
-<div class="cyberpunk">
+<!-- <br> -->
+<div class="pixel-div">
     <p>
         <em>Catiator</em> is a VR game aimed at teaching American Sign Language through gamification. Using the Oculus Quest 2's gesture recognition feature, players practice one-handed signs to defeat gladiator cats in a vaporwave colosseum.
     </p>
-    
     <p>
         My role on this project was the development of the Catiator, the enemy character the player must fight off with their alphabet signing. I created this character from scratch, exlcuding its texture maps; this means I produced everything else, ranging from character design to all of its animations.
     </p>
-    
     <p>
         I don't consider myself a 3D animator in the slightest (especially on a lack of sleep) but instead a 3D generalist with a majority of her knowledge self-taught. Recalling how to do each stage of the 3D animation pipeline in Autodesk Maya from memory was a highlight of this hackathon for me.
     </p>    
@@ -77,7 +75,7 @@ description: Fight gladiator cats in VR using American Sign Language.
 {:.cyber .subtitle .liner}
 ### Gallery
 <br>
-<div class="cyberpunk">
+<!-- <div class="cyberpunk"> -->
 <div class="flex-container">
     <div class="flex-child vertical-center">
         <a href="#image1" class="no-underline"><img class="hover cropped" src="../assets/img/projects/catiator/turnaround.png"/></a>
@@ -141,7 +139,7 @@ description: Fight gladiator cats in VR using American Sign Language.
         </div>
     </div> 
 </div>
-</div>
+<!-- </div> -->
 
 <br><br>
 
