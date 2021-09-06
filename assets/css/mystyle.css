@@ -15,13 +15,9 @@ body {
 
 /* Gradient: https://codepen.io/argyleink/pen/OJMEpGp */
 .project-title {
-  background: linear-gradient(
-    to right, 
-    #000000, 
-    #f5f5f5
-  );
+  color: #3a3636;
+  text-shadow: 2px 2px rgba(245, 245, 245, 0.5);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   font-size: 500%;
   text-transform: uppercase;
 }
@@ -29,11 +25,16 @@ body {
 .subtitle {
   text-transform: uppercase;
   font-size: 250%;
-  /* background: #746e6e; */
-  background: linear-gradient(to right, #3a3636, #746e6e);
+  color: #3a3636;
   text-shadow: 2px 2px rgba(245, 245, 245, 0.5);
   -webkit-background-clip: text;
-  /* -webkit-text-fill-color: transparent; */
+}
+
+.info-subtitle {
+  text-transform: uppercase;
+  font-size: 150%;
+  color: #3a3636;
+  -webkit-background-clip: text;
 }
 
 /* Inline HR: https://codepen.io/oaviv/pen/GqXwYp */
@@ -47,12 +48,37 @@ body {
   content: "";
   flex-grow: 1;
   height: 2px;
-  background: linear-gradient(to bottom, #3a3636, #746e6e);
+  background: linear-gradient(to right, #3a3636, #746e6e, #BAB5B5);
   min-width: 20px;
   margin: auto;
 }
 .liner:after {
   margin-left: 20px;
+}
+
+.liner-title {
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.liner-title:after {
+  content: "";
+  flex-grow: 1;
+  height: 4px;
+  background: linear-gradient(to right, #3a3636, #746e6e, #BAB5B5, #f5f5f5);
+  min-width: 20px;
+  margin: auto;
+}
+.liner-title:after {
+  margin-left: 20px;
+}
+
+.inner-hr {
+  max-width: 30%;
+  margin: 5% auto;
+  border-color: #BAB5B5;
+  border-bottom: 2px solid #746e6e;
 }
 
 /* Div Containers */
@@ -79,193 +105,31 @@ a.no-underline {
     text-decoration: none !important;
 }
 
-.short-animate {
-    -webkit-transition:.5s ease-in-out;
-    -moz-transition:.5s ease-in-out;
-    -ms-transition:.5s ease-in-out;
-    -o-transition:.5s ease-in-out;
-    transition:.5s ease-in-out;
+ul {
+  list-style-type: square;
 }
-  
-  .long-animate {
-    -webkit-transition: .5s .5s ease-in-out;
-    -moz-transition: .5s .5s ease-in-out;
-    -ms-transition: .5s .5s ease-in-out;
-    -o-transition:.5s .5s ease-in-out;
-    transition:.5s .5s ease-in-out;
-  }
-  
-  .lightbox {
-    position:fixed;
-    top:-100%;
-    bottom:100%;
-    left:0;
-    right:0;
-    background: #b3b3b3;
-    z-index:501;
-    opacity:0;
-  }
-  
-  .lightbox img {
-    position:absolute;
-    margin:auto;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    max-width:0%;
-    max-height:0%;
-  }
-  
-  #lightbox-controls {
-    position:fixed;
-    height:70px;
-    width:70px;
-    top:-70px;
-    right:0;
-    z-index:502;
-    background:rgba(0,0,0,.1);
-  }
-  
-  #close-lightbox {
-    display:block;
-    position:absolute;
-    overflow:hidden;
-    height:50px;
-    width:50px;
-    text-indent:-5000px;
-    right:10px;
-    top:10px;
-    -webkit-transform:rotate(45deg);
-    -moz-transform:rotate(45deg);
-    -ms-transform:rotate(45deg);
-    -o-transform:rotate(45deg);
-    transform:rotate(45deg);
-  }
-  
-  #close-lightbox:before {
-      content:'';
-    display:block;
-    position:absolute;
-    height:0px;
-    width:3px;
-    left:24px;
-    top:0;
-    background:white;
-    border-radius:2px;
-    -webkit-transition: .5s .5s ease-in-out;
-    -moz-transition: .5s .5s ease-in-out;
-    -ms-transition: .5s .5s ease-in-out;
-    -o-transition:.5s .5s ease-in-out;
-    transition:.5s .5s ease-in-out;
-  }
-  
-  #close-lightbox:after {
-      content:'';
-    display:block;
-    position:absolute;
-    width:0px;
-    height:3px;
-    top:24px;
-    left:0;
-    background:white;
-    border-radius:2px;
-    -webkit-transition: .5s 1s ease-in-out;
-    -moz-transition: .5s 1s ease-in-out;
-    -ms-transition: .5s 1s ease-in-out;
-    -o-transition:.5s 1s ease-in-out;
-    transition:.5s 1s ease-in-out;
-  }
-  
-  .lightbox:target {
-    top:0%;
-    bottom:0%;
-    opacity:1;
-  }
-  
-  .lightbox:target img {
-    max-width:100%;
-    max-height:100%;
-  }
-  
-  .lightbox:target ~ #lightbox-controls {
-    top:0px;
-  }
-  
-  .lightbox:target ~ #lightbox-controls #close-lightbox:after {
-    width:50px;
-  }
-  
-  .lightbox:target ~ #lightbox-controls #close-lightbox:before {
-    height:50px;
-  }
-  
-  @-webkit-keyframes wiggle {
-      0% {
-        -webkit-transform:rotate(2deg);
-    }
-    20% {-webkit-transform:rotate(-2deg);}
-    40% {-webkit-transform:rotate(2deg);}
-    60% {-webkit-transform:rotate(-2deg);}
-    80% {-webkit-transform:rotate(2deg);}
-    100% {-webkit-transform:rotate(-2deg);}
-  }
 
 /* Cropped Images: https://www.educative.io/edpresso/how-to-crop-an-image-in-css */
 .cropped {
     max-width: 300px; 
     max-height: 200px;
     object-fit: cover;
-    /* border: 5px solid black; */
     overflow: hidden;
-}
-
-/* Cyberpunk Div Box: https://developpaper.com/css-steps-to-achieve-the-visual-effect-of-cyberpunk-2077-style/ */
-:root {
-  --main-color: #f5f5f5;
-  --secondary-color: #746e6e;
-}
-
-.cyberpunk {
-  padding: 15px 15px;
-  position: relative;
-  font-size: 1rem;
-  border: 30px solid var(--secondary-color);
-  border-right: 2px solid var(--secondary-color);
-  border-left: 2px solid var(--secondary-color);
-  border-bottom: 20px solid var(--secondary-color);
-  background-color: #f5f5f5;
-  clip-path: polygon(0px 25px, 26px 0px, calc(60% - 25px) 0px, 60% 25px, 100% 25px, 100% calc(100% - 10px), calc(100% - 15px) calc(100% - 10px), calc(80% - 10px) calc(100% - 10px), calc(80% - 15px) 100%, 80px calc(100% - 0px), 65px calc(100% - 15px), 0% calc(100% - 15px));
-}
-
-.cyberpunk.inverse {
-  border: none;
-  padding: 40px 15px 30px;
-  color: #f5f5f5;
-  background-color: var(--main-color);
-  border-right: 2px solid var(--border-color);
-}
-
-.dotted, .dotted:before, .dotted:after {
-  background: var(--main-color);
-  background-image: radial-gradient(#50505021 1px, transparent 0);
-  background-size: 5px 5px;
-  background-position: -13px -3px;
-}
-
-.cyberpunk.inverse:before {
-  content: "RAD";
-  right: 90px;
-  bottom: 9px;
-}
-.cyberpunk.inverse:before, .cyberpunk:before {
-  background-color: #000;
-  color: var(--main-color);
 }
 
 .pixel-div {
   margin: 0.5em auto;
-  padding: 20px 30px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  box-shadow:   -3px 0 0 0 #746e6e,
+                 6px 0 0 0 #746e6e,
+                 0 -4px 0 0 #746e6e,
+                 0 6px 0 0 #746e6e;
+}
+
+.pixel-div-enclose {
+  margin: 0.5em auto;
+  padding: 10px;
   background-color: #f5f5f5;
   box-shadow:   -3px 0 0 0 #746e6e,
                  6px 0 0 0 #746e6e,

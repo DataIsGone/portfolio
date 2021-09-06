@@ -6,58 +6,67 @@ description: Fight gladiator cats in VR using American Sign Language.
 ---
 <link rel="stylesheet" href="../assets/css/mystyle.css">
 <link rel="stylesheet" href="../assets/css/hoverimg.css">
+<link rel="stylesheet" href="../assets/css/lightbox.css">
 
-{:.project-title .cyber .glitch}
+{:.project-title .cyber .liner-title}
 # Catiator
 
-{:.cyber .subtitle}
-## Info 
-<div class="cyberpunk">
+<div class="flex-container">
+    <div class="flex-child vertical-center">
+        <iframe width="854" height="480" class="pixel-div-enclose" src="https://www.youtube.com/embed/_OPf_EpcgpE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+
+<br>
+
+{:.cyber .subtitle .liner}
+## Project Info
+<div class="pixel-div">
+    <h4 class="cyber info-subtitle">Hackathon</h4>
     <ul>
         <li><strong>Hackathon</strong>: Stanford University's <a href="https://devpost.com/software/catiator">TreeHacks (2021)</a> (36 hours)</li>
         <li><strong>Awards</strong>: Moonshot Prize, <a href="https://pinnacle.us.org/">Pinnacle</a> Qualification</li>
     </ul>
-</div>
-
-<br>
-
-{:.cyber .subtitle}
-### Contribution
-<div class="pixel-div">
+    <h4 class="cyber info-subtitle">Contributions</h4>
     <ul>
         <li><strong>Roles</strong>: Character Designer, 3D Generalist</li>
         <li><strong>Tools</strong>: Autodesk Maya, Adobe Photoshop, Unity3D</li>
     </ul>
+    <hr class="inner-hr">
+    <h5 class="cyber info-subtitle">Interested in trying Catiator?</h5>
+    <ul>
+        <li>Download from our <a href="https://trisol.itch.io/catiators">Itch.io</a> and use password <em>Treehacks</em></li>
+        <li>Catiator is an Oculus Quest application; you must sideload the APK using any of the following:</li>
+            <ul>
+                <li>Sidequest</li>
+                <li>Oculus Developer App</li>
+            </ul>
+    </ul>
 </div>
 
-<br>
-
 <div class="flex-container">
-    <div class="flex-child vertical-center">
-        <a class="no-underline" href="https://www.youtube.com/watch?v=_OPf_EpcgpE">
-            <button class="btn">
-            <span class="btn__content">Demo</span>
-            <span class="btn__glitch"></span>
-            <span class="btn__label">r25</span>
-            </button>
-        </a>
-    </div>
     <div class="flex-child vertical-center">
         <a class="no-underline" href="https://devpost.com/software/catiator">
             <button class="btn">
             <span class="btn__content">Devpost</span>
             <span class="btn__glitch"></span>
-            <span class="btn__label">r25</span>
+            </button>
+        </a>
+    </div>
+    <div class="flex-child vertical-center">
+        <a class="no-underline" href="https://trisol.itch.io/catiators">
+            <button class="btn">
+            <span class="btn__content">Itch.io</span>
+            <span class="btn__glitch"></span>
             </button>
         </a>
     </div>
 </div>
 
-<br><br><br>
+<br><br>
 
 {:.cyber .subtitle .liner}
 ### Description & Thoughts
-<!-- <br> -->
 <div class="pixel-div">
     <p>
         <em>Catiator</em> is a VR game aimed at teaching American Sign Language through gamification. Using the Oculus Quest 2's gesture recognition feature, players practice one-handed signs to defeat gladiator cats in a vaporwave colosseum.
@@ -74,80 +83,40 @@ description: Fight gladiator cats in VR using American Sign Language.
 
 {:.cyber .subtitle .liner}
 ### Gallery
+<div class="pixel-div">
+    <div class="flex-container">
+        <div class="flex-child vertical-center">
+            <a class="no-underline" href="../assets/img/projects/catiator/turnaround.png" data-lightbox="roadtrip">
+                <img class="hover cropped" src="../assets/img/projects/catiator/turnaround.png">
+            </a>
+        </div>
+        <div class="flex-child vertical-center">
+            <a class="no-underline" href="../assets/img/projects/catiator/bones.png" data-lightbox="roadtrip">
+                <img class="hover cropped" src="../assets/img/projects/catiator/bones.png">
+            </a>
+        </div>
+        <div class="flex-child vertical-center">
+            <a class="no-underline" href="../assets/img/projects/catiator/nurbcurves.png" data-lightbox="roadtrip">
+                <img class="hover cropped" src="../assets/img/projects/catiator/nurbcurves.png">
+            </a>
+        </div>
+    </div>
+    <div class="flex-container">
+        <div class="flex-child vertical-center">
+            <a class="no-underline" href="../assets/img/projects/catiator/defeated.gif" data-lightbox="roadtrip">
+                <img class="hover cropped" src="../assets/img/projects/catiator/defeated.gif">
+            </a>
+        </div>
+        <div class="flex-child vertical-center">
+            <a class="no-underline" href="../assets/img/projects/catiator/attackplayer.gif" data-lightbox="roadtrip">
+                <img class="hover cropped" src="../assets/img/projects/catiator/attackplayer.gif">
+            </a>
+        </div>
+        <div class="flex-child vertical-center">
+            <a class="no-underline" href="../assets/img/projects/catiator/waddle.gif" data-lightbox="roadtrip">
+                <img class="hover cropped" src="../assets/img/projects/catiator/waddle.gif">
+            </a>
+        </div>
+    </div>
+</div>
 <br>
-<!-- <div class="cyberpunk"> -->
-<div class="flex-container">
-    <div class="flex-child vertical-center">
-        <a href="#image1" class="no-underline"><img class="hover cropped" src="../assets/img/projects/catiator/turnaround.png"/></a>
-        <div class="lightbox short-animate" id="image1">
-            <img src="../assets/img/projects/catiator/turnaround.png"/>
-        </div>
-        <div id="lightbox-controls" class="short-animate">
-            <a id="close-lightbox" class="long-animate" href="#!">Close Lightbox</a>
-        </div>
-    </div>
-
-    <div class="flex-child vertical-center">
-        <a href="#image2" class="no-underline"><img class="hover cropped" src="../assets/img/projects/catiator/bones.png"/></a>
-        <div class="lightbox short-animate" id="image2">
-            <img src="../assets/img/projects/catiator/bones.png"/>
-        </div>
-        <div id="lightbox-controls" class="short-animate">
-            <a id="close-lightbox" class="long-animate" href="#!">Close Lightbox</a>
-        </div>
-    </div>
-
-    <div class="flex-child vertical-center">
-        <a href="#image3" class="no-underline"><img class="hover cropped" src="../assets/img/projects/catiator/nurbcurves.png"/></a>
-        <div class="lightbox short-animate" id="image3">
-            <img src="../assets/img/projects/catiator/nurbcurves.png"/>
-        </div>
-        <div id="lightbox-controls" class="short-animate">
-            <a id="close-lightbox" class="long-animate" href="#!">Close Lightbox</a>
-        </div>
-    </div>
-</div>
-
-<div class="flex-container">
-    <div class="flex-child vertical-center">
-        <a href="#image4" class="no-underline"><img class="hover cropped" src="../assets/img/projects/catiator/defeated.gif"/></a>
-        <div class="lightbox short-animate" id="image4">
-            <img src="../assets/img/projects/catiator/defeated.gif"/>
-        </div>
-        <div id="lightbox-controls" class="short-animate">
-            <a id="close-lightbox" class="long-animate" href="#!">Close Lightbox</a>
-        </div>
-    </div>
-
-    <div class="flex-child vertical-center">
-        <a href="#image5" class="no-underline"><img class="hover cropped" src="../assets/img/projects/catiator/attackplayer.gif"/></a>
-        <div class="lightbox short-animate" id="image5">
-            <img src="../assets/img/projects/catiator/attackplayer.gif"/>
-        </div>
-        <div id="lightbox-controls" class="short-animate">
-            <a id="close-lightbox" class="long-animate" href="#!">Close Lightbox</a>
-        </div>
-    </div>
-
-    <div class="flex-child vertical-center">
-        <a href="#image6" class="no-underline"><img class="hover cropped" src="../assets/img/projects/catiator/waddle.gif"/></a>
-        <div class="lightbox short-animate" id="image6">
-            <img src="../assets/img/projects/catiator/waddle.gif"/>
-        </div>
-        <div id="lightbox-controls" class="short-animate">
-            <a id="close-lightbox" class="long-animate" href="#!">Close Lightbox</a>
-        </div>
-    </div> 
-</div>
-<!-- </div> -->
-
-<br><br>
-
-{:.cyber .subtitle .liner}
-### Demo
-<br>
-<div class="flex-container">
-    <div class="flex-child vertical-center">
-        <iframe width="854" height="480" src="https://www.youtube.com/embed/_OPf_EpcgpE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-</div>
