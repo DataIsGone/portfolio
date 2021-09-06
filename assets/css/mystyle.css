@@ -29,11 +29,11 @@ body {
 .subtitle {
   text-transform: uppercase;
   font-size: 250%;
-  /* background: rgba(245, 245, 245, 0.4); */
-  background: #746e6e;
-  /* text-shadow: -1px 0 rgba(0, 0, 0, 0.075), 0 1px rgba(0, 0, 0, 0.075), 1px 0 rgba(0, 0, 0, 0.075), 0 -1px rgba(0, 0, 0, 0.075); */
+  /* background: #746e6e; */
+  background: linear-gradient(to right, #3a3636, #746e6e);
+  text-shadow: 2px 2px rgba(245, 245, 245, 0.5);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* -webkit-text-fill-color: transparent; */
 }
 
 /* Inline HR: https://codepen.io/oaviv/pen/GqXwYp */
@@ -47,7 +47,7 @@ body {
   content: "";
   flex-grow: 1;
   height: 2px;
-  background: #746e6e;
+  background: linear-gradient(to bottom, #3a3636, #746e6e);
   min-width: 20px;
   margin: auto;
 }
