@@ -20,14 +20,14 @@ description: Fight gladiator cats in VR using American Sign Language.
 <br>
 
 {:.cyber .subtitle .liner}
-## Project Info
+## Get The Lowdown
 <div class="pixel-div">
-    <h4 class="cyber info-subtitle">Hackathon</h4>
+    <h4 class="cyber info-subtitle">The Event</h4>
     <ul>
         <li><strong>Hackathon</strong>: Stanford University's <a href="https://devpost.com/software/catiator">TreeHacks (2021)</a> (36 hours)</li>
         <li><strong>Awards</strong>: Moonshot Prize, <a href="https://pinnacle.us.org/">Pinnacle</a> Qualification</li>
     </ul>
-    <h4 class="cyber info-subtitle">Contributions</h4>
+    <h4 class="cyber info-subtitle">The Contributions of Ryan</h4>
     <ul>
         <li><strong>Roles</strong>: Character Designer, 3D Generalist</li>
         <li><strong>Tools</strong>: Autodesk Maya, Adobe Photoshop, Unity3D</li>
@@ -66,7 +66,7 @@ description: Fight gladiator cats in VR using American Sign Language.
 <br><br>
 
 {:.cyber .subtitle .liner}
-### Description & Thoughts
+### Let Me Tell You More
 <div class="pixel-div">
     <p>
         <em>Catiator</em> is a VR game aimed at teaching American Sign Language through gamification. Using the Oculus Quest 2's gesture recognition feature, players practice one-handed signs to defeat gladiator cats in a vaporwave colosseum.
@@ -82,7 +82,7 @@ description: Fight gladiator cats in VR using American Sign Language.
 <br><br>
 
 {:.cyber .subtitle .liner}
-### Gallery
+### Made By Yours Truly
 <div class="pixel-div">
     <div class="flex-container">
         <div class="flex-child vertical-center">

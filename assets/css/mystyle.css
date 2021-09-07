@@ -77,8 +77,8 @@ body {
 .inner-hr {
   max-width: 30%;
   margin: 5% auto;
-  border-color: #BAB5B5;
-  border-bottom: 2px solid #746e6e;
+  border: 1.5px solid #BAB5B5;
+  /* border-bottom: 2px solid #746e6e; */
 }
 
 /* Div Containers */
