@@ -1,13 +1,9 @@
 ---
-name: XR Brain Jam 2021
+name: Murmur Nation
 tools: [Game Jams, VR]
 image: /assets/img/projcards/murmur_card.gif
 description: Sort candid thoughts spoken a la Tweet.
 ---
-
-<link rel="stylesheet" href="../assets/css/mystyle.css">
-<link rel="stylesheet" href="../assets/css/hoverimg.css">
-<link rel="stylesheet" href="../assets/css/lightbox.css">
 
 {:.project-title .cyber .liner-title}
 # Murmur Nation

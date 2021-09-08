@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
 body {
   background-color: #f5f5f5;
   background-image: url("../img/common/plant_bg.png");
@@ -7,6 +5,12 @@ body {
   background-size: contain;
   background-position: left bottom;
   background-attachment: fixed;
+}
+
+@font-face {
+  font-family: Cyber;
+  src: url("https://assets.codepen.io/605876/Blender-Pro-Bold.otf");
+  font-display: swap;
 }
 
 .cyber {
@@ -78,7 +82,7 @@ body {
   max-width: 30%;
   margin: 5% auto;
   border: 1.5px solid #BAB5B5;
-  /* border-bottom: 2px solid #746e6e; */
+
 }
 
 /* Div Containers */
@@ -135,4 +139,58 @@ ul {
                  6px 0 0 0 #746e6e,
                  0 -4px 0 0 #746e6e,
                  0 6px 0 0 #746e6e;
+}
+
+/* Cyberpunk Button: https://dev.to/leandroruel/how-to-make-a-cyberpunk-2077-button-with-css-c9m */
+:root {
+  --white-color: #f5f5f5;
+  --main-color: #746e6e;
+  --detail-color: #3a3636;
+}
+
+.btn {
+  width: 230px;
+  height: 60px; 
+  border: 0;
+  outline: none;
+  background-color: var(--detail-color);
+  cursor: pointer;
+  position: relative;
+  font-family: Cyber, sans-serif;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  color: var(--detail-color);
+  clip-path: polygon(92% 0, 100% 25%, 100% 100%, 8% 100%, 0% 75%, 0 0);
+}
+
+.btn__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  background-color: var(--white-color);
+  clip-path: polygon(92% 0, 100% 25%, 100% 100%, 8% 100%, 0% 75%, 0 0);
+}
+
+.btn__glitch {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--white-color);
+}
+.btn:hover .btn__glitch,
+.btn:hover .btn__content::after,
+.btn:focus .btn__glitch,
+.btn:focus .btn__content::after {
+  color: var(--white-color);
+  display: block;
+  opacity: 30%;
+  background-color: var(--main-color);
 }

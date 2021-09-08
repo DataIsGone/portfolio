@@ -4,9 +4,6 @@ tools: [Photoshop, Maya, Unity3D, Hackathon]
 image: /assets/img/projcards/catiator_card.png
 description: Fight gladiator cats in VR using American Sign Language.
 ---
-<link rel="stylesheet" href="../assets/css/mystyle.css">
-<link rel="stylesheet" href="../assets/css/hoverimg.css">
-<link rel="stylesheet" href="../assets/css/lightbox.css">
 
 {:.project-title .cyber .liner-title}
 # Catiator
@@ -22,12 +19,12 @@ description: Fight gladiator cats in VR using American Sign Language.
 {:.cyber .subtitle .liner}
 ## Get The Lowdown
 <div class="pixel-div">
-    <h4 class="cyber info-subtitle">The Event</h4>
+    <h4 class="cyber info-subtitle">Event</h4>
     <ul>
         <li><strong>Hackathon</strong>: Stanford University's <a href="https://devpost.com/software/catiator">TreeHacks (2021)</a> (36 hours)</li>
         <li><strong>Awards</strong>: Moonshot Prize, <a href="https://pinnacle.us.org/">Pinnacle</a> Qualification</li>
     </ul>
-    <h4 class="cyber info-subtitle">The Contributions of Ryan</h4>
+    <h4 class="cyber info-subtitle">Contributions</h4>
     <ul>
         <li><strong>Roles</strong>: Character Designer, 3D Generalist</li>
         <li><strong>Tools</strong>: Autodesk Maya, Adobe Photoshop, Unity3D</li>
@@ -57,7 +54,7 @@ description: Fight gladiator cats in VR using American Sign Language.
         <a class="no-underline" href="https://trisol.itch.io/catiators">
             <button class="btn">
             <span class="btn__content">Itch.io</span>
-            <span class="btn__glitch"></span>
+            <span class="btn__glitch" style="font-size:1em;text-transform:none">PASSWORD: <em>Treehacks</em></span>
             </button>
         </a>
     </div>
@@ -82,7 +79,7 @@ description: Fight gladiator cats in VR using American Sign Language.
 <br><br>
 
 {:.cyber .subtitle .liner}
-### Made By Yours Truly
+### The Gallery
 <div class="pixel-div">
     <div class="flex-container">
         <div class="flex-child vertical-center">

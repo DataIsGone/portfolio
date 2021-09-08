@@ -5,10 +5,6 @@ image: /assets/img/projcards/intARnet_card.png
 description: Social media doesn't have to be two dimensions of endless scrolling.
 ---
 
-<link rel="stylesheet" href="../assets/css/mystyle.css">
-<link rel="stylesheet" href="../assets/css/hoverimg.css">
-<link rel="stylesheet" href="../assets/css/lightbox.css">
-
 {:.project-title .cyber .liner-title}
 # IntARnet
 

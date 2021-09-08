@@ -5,10 +5,15 @@ weight: 4
 permalink: /now/
 ---
 
-# **So what am I up to now?**
+{:.subtitle .cyber .liner}
+# So what am I up to now?
 
-- Preparing for Pinnacle in Dallas, TX
-- Preparing for PennApps 2021
-- Embarking on the Summer 2022 internship hunt
-- Making this website, pixel art included
-- Trying to improve her greenthumb
+<div class="pixel-div">
+    <ul>
+        <li>Preparing for Pinnacle in Dallas, TX</li>
+        <li>Preparing for PennApps 2021</li>
+        <li>Embarking on the Summer 2022 internship hunt</li>
+        <li>Making this website, pixel art included</li>
+        <li>Trying to improve her greenthumb</li>
+    </ul>
+</div>
