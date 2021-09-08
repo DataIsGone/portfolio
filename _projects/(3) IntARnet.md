@@ -24,22 +24,21 @@ description: Social media doesn't have to be two dimensions of endless scrolling
         <li><strong>Hackathon</strong>: Carnegie Mellon University's <a href="https://tartanhacks-2021.devpost.com/">TartanHacks (2021)</a> (36 hours)</li>
         <li><strong>Awards</strong>: Scott Krulcik Grand Prize, Best Throwback Hack</li>
     </ul>
-    <h4 class="cyber info-subtitle">The Contributions of Ryan</h4>
+    <h4 class="cyber info-subtitle">My Contributions</h4>
     <ul>
-        <li><strong>Roles</strong>: Spatial Anchor Development, iOS Development</li>
-        <li><strong>Tools</strong>: Autodesk Maya, Adobe Photoshop, Unity3D, ARKit, Azure</li>
+        <li><strong>Roles</strong>: Backend - Spatial Anchor Development, iOS Development</li>
+        <li><strong>Tools</strong>: Unity3D, ARFoundation, Azure</li>
         <li><strong>Languages</strong>: C#</li>
     </ul>
     <hr class="inner-hr">
     <h5 class="cyber info-subtitle">What's happening with IntARnet?</h5>
-    <!-- <ul>
-        <li>Download from our <a href="https://trisol.itch.io/catiators">Itch.io</a> and use password <em>Treehacks</em></li>
-        <li>Catiator is an Oculus Quest application; you must sideload the APK using any of the following:</li>
+    <ul>
+        <li>We're expanding on the project with the new name of <strong>ARnet</strong>! Check us out on <a href="https://twitter.com/ARnetApp">Twitter</a></li>
+        <li>My team is also trying to secure some funding and have applied to the following:</li>
             <ul>
-                <li>Sidequest</li>
-                <li>Oculus Developer App</li>
+                <li><a href="https://ar.snap.com/ghost">Snap GHOST AR Innovation Lab</a></li>
             </ul>
-    </ul> -->
+    </ul>
 </div>
 
 <div class="flex-container">
@@ -66,9 +65,24 @@ description: Social media doesn't have to be two dimensions of endless scrolling
 {:.cyber .subtitle .liner}
 ### Let Me Tell You More
 <div class="pixel-div">
+    <h5 class="cyber info-subtitle">What is IntARnet exactly?</h5>
     <p>
-        *IntARnet* is the idea of social media in augmented reality come to life. Inspired by graffiti and pop culture, posts can consist of drawings, text, and graphics and reside in augmented reality. Users can place these posts on landmarks they find memorable -- for example, a college student could bookmark the lecture hall where they took their first college course with a 3D model of a book. Posts eventually fade from the augmented reality space as time passes.
+        <em>IntARnet</em> is the idea of social media in augmented reality come to life. Inspired by graffiti and pop culture, posts can consist of drawings, text, and graphics and reside in augmented reality. Users can place these posts on landmarks they find memorable -- for example, a college student could bookmark the lecture hall where they took their first college course with a 3D model of a book. Posts stay live where the user sets their AR memory, though they eventually fade from the augmented reality space as time passes.
     </p>
+    <br>
+    <h5 class="cyber info-subtitle">The Experience, My Thoughts</h5>
+    <p>
+        This project was my first foray into anything regarding mobile development or Azure ever, let alone spatial anchors. <a href="https://vimeo.com/381227578">My previous work in XR</a> was content creation at Microsoft’s MRCS, so I hadn’t gotten a chance to program for something like this before. I also hadn’t done anything for a mobile project in Unity in particular, which made this all the more challenging for me.
+    </p>
+    <p>
+        That being said, I dug into the work. I managed to get the spatial anchors working on my personal phone using (unfortunately) outdated tutorials. The feeling of getting something working is pretty indescribable -- despite being really tired, that got me to keep working. I also got our app to work on iOS with ARFoundation, allowing our project to be cross platform. 
+    </p>
+    <p>
+        My ultimate roadblock that put an end to spatial anchor development was saving them into a database. At that point, we had a team member leave early due to other commitments, so I had to look into taking over their database work. I had some knowledge of databases from an introductory class, so SQL was not the issue for me at the time. It was actually trying to store the posts properly. My original intention was to use something like Microsoft’s Azure Cosmos DB, but after struggling to get Azure working the way I thought I needed it to, I ended up looking at other DBs, including Firebase.
+    </p>
+    <p>
+        Between getting spatial anchors working, digging for good tutorials, planning out the server, I ended up running out of time. I didn’t want to drag down my team with incomplete work, so I opted to remove my portion of the project for our final submission to TartanHacks. We ended up winning the grand prize, and my team acknowledged all of the effort I put in to make my contribution work. Overall, I’m happy that we won and that I learned a lot of new things through some difficult struggles. This has also taught me that every project, whether a success in my eyes or not, pushes me to get better, and I’m grateful I got to work on <em>IntARnet</em>.
+    </p> 
 </div>
 
 <br><br>

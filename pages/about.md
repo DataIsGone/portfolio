@@ -8,8 +8,9 @@ weight: 3
 {:.subtitle .cyber .liner}
 # Me, in the third person
 
-<div class="pixel-div">
-    <p>
+<div class="pixel-div flex-container">
+<div class="flex-child vertical-center">
+    <!-- <p>
         Ryan Davis is an aspiring software engineer, VR developer, and digital artist. She earned her first bachelor’s degree in Art Practice from UC Berkeley in 2015 and worked different positions in the animation industry. Previous companies have included Industrial Light & Magic, Pixar Animation Studios, and Microsoft with projects revolving around 3D graphics, photogrammetry, and art education.
     </p>
     <p>
@@ -18,7 +19,16 @@ weight: 3
     <br>
     <p>
         Ryan is currently located in San Diego, CA and enjoys painting, participating in hackathons, gardening, 3D printing, and MMO gaming. She’s probably trying to complete a quest in Pokemon Go as you’re reading this.
-    </p>
+    </p> -->
+    Ryan Davis is an aspiring software engineer, VR developer, and digital artist. She earned her first bachelor’s degree in Art Practice from UC Berkeley in 2015 and worked different positions in the animation industry. Previous companies have included Industrial Light & Magic, Pixar Animation Studios, and Microsoft with projects revolving around 3D graphics, photogrammetry, and art education.
+    <br><br>
+    She is now attending Oregon State University’s post baccalaureate computer science program where she currently focuses on computer vision and mixed reality applications. Recently, she completed an internship at Intel designing for an augmented reality application.
+    <br><br>
+    Ryan is currently located in San Diego, CA and enjoys painting, participating in hackathons, gardening, 3D printing, and MMO gaming. She’s probably trying to complete a quest in Pokemon Go as you’re reading this.
+</div>
+<div class="flex-child">
+    <img src="../assets/img/common/test.png">
+</div>
 </div>
 <br>
 <div class="pixel-div flex-container">
@@ -30,7 +40,7 @@ weight: 3
         </ul>
     </div>
     <div class="flex-child vertical-center">
-        Test
+        test
     </div>
 </div>
 <div class="flex-container vertical-center">
