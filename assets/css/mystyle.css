@@ -85,6 +85,36 @@ body {
 
 }
 
+.quick-info-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* background-color: #2196F3; */
+  /* padding: 10px; */
+}
+
+.social-media-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.social-media-item {
+  padding: 0 5px 5px 5px;
+}
+
+.social-media-icon {
+  margin: 0 !important;
+}
+
+.grid-item {
+  padding: 0 10px;
+}
+
+.spacer {
+  margin: 0 2em;
+}
+
+
+
 /* Div Containers */
 .flex-container {
     display: flex;

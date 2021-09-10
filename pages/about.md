@@ -21,13 +21,8 @@ weight: 3
     </div>
 </div>
 <br>
-
-<!-- {:.subtitle .cyber .liner}
-# Me, in the third person -->
-
-<div class="pixel-div flex-container">
+<!-- <div class="pixel-div flex-container">
     <div class="flex-child vertical-center">
-        <!-- <h5 class="cyber info-subtitle">The Skillset</h5> -->
         <ul style="list-style:none">
             <li><h5 class="cyber info-subtitle">The Skillset</h5></li>
             <li style="list-style:square"><strong>Languages</strong>: Python, C, C++, C#</li>
@@ -38,15 +33,50 @@ weight: 3
     <div class="flex-child vertical-center">
         <ul style="list-style:none">
             <li><h5 class="cyber info-subtitle">Find Me Here</h5></li>
-            <li>Languages: Python, C, C++, C#</li>
-            <li>Tools/Software: Adobe Photoshop, Adobe Illustrator, Autodesk Maya</li>
-            <li>Toolkits: OpenVINO, ARKit, ARFoundation, MRTK</li>
+            <li><img src="../assets/img/common/testIconSize.png"></li>
+            <li><img src="../assets/img/common/testIconSize.png"></li>
         </ul>
     </div>
+</div> -->
+
+<div class="pixel-div quick-info-grid">
+    <div class="grid-item">
+        <h5 class="cyber info-subtitle">The Skillset</h5>
+    </div>
+    <div class="grid-item spacer"></div>
+    <div class="grid-item">
+        <h5 class="cyber info-subtitle">Find Me Here</h5>
+    </div>  
+    <div class="grid-item">
+        <ul style="list-style:none">
+            <li style="list-style:square"><strong>Languages</strong>: Python, C, C++, C#</li>
+            <li style="list-style:square"><strong>Tools/Software</strong>: Adobe Photoshop, Adobe Illustrator, Autodesk Maya</li>
+            <li style="list-style:square"><strong>Toolkits</strong>: OpenVINO, ARKit, ARFoundation, MRTK</li>
+        </ul>
+    </div>
+    <div class="grid-item spacer"></div>
+    <div class="grid-item">
+        <div class="social-media-grid">
+            <div class="social-media-item">
+                <img class="social-media-icon" src="../assets/img/common/testIconSize.png">
+            </div>
+            <div class="social-media-item">
+                <img class="social-media-icon" src="../assets/img/common/testIconSize.png">
+            </div>
+            <div class="social-media-item">
+                <img class="social-media-icon" src="../assets/img/common/testIconSize.png">
+            </div>
+        </div>
+        <div class="social-media-grid">
+            <div class="social-media-item"><img src="../assets/img/common/testIconSize.png"></div>
+            <div class="social-media-item"><img src="../assets/img/common/testIconSize.png"></div>
+            <div class="social-media-item"><img src="../assets/img/common/testIconSize.png"></div>
+        </div>
+    </div>  
 </div>
-<!-- <hr> -->
+
 <div class="flex-container vertical-center">
-        <a class="no-underline" href="https://trisol.itch.io/catiators">
+        <a class="no-underline" href="">
             <button class="btn">
             <span class="btn__content">Download Resume</span>
             <span class="btn__glitch"></span>
