@@ -58,17 +58,17 @@ weight: 3
     <div class="grid-item">
         <div class="social-media-grid">
             <div class="social-media-item">
-                <img class="social-media-icon" src="../assets/img/common/testIconSize.png">
+                <img class="social-media-icon" src="../assets/img/common/email.png">
             </div>
             <div class="social-media-item">
-                <img class="social-media-icon" src="../assets/img/common/testIconSize.png">
+                <img class="social-media-icon" src="../assets/img/common/linkedin.png">
             </div>
             <div class="social-media-item">
-                <img class="social-media-icon" src="../assets/img/common/testIconSize.png">
+                <img class="social-media-icon" src="../assets/img/common/devpost.png">
             </div>
         </div>
         <div class="social-media-grid">
-            <div class="social-media-item"><img src="../assets/img/common/testIconSize.png"></div>
+            <div class="social-media-item"><img src="../assets/img/common/twitter.png"></div>
             <div class="social-media-item"><img src="../assets/img/common/testIconSize.png"></div>
             <div class="social-media-item"><img src="../assets/img/common/testIconSize.png"></div>
         </div>
