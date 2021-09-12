@@ -25,7 +25,7 @@ weight: 3
 
 <div class="pixel-div quick-info-grid">
     <div class="grid-item">
-        <h5 class="cyber info-subtitle">The Skillset</h5>
+        <h5 class="cyber info-subtitle">The Skillsets</h5>
     </div>
     <div class="grid-item spacer"></div>
     <div class="grid-item">
@@ -59,12 +59,22 @@ weight: 3
     </div>  
 </div>
 
-<div class="flex-container vertical-center">
+<div class="flex-container">
+    <div class="flex-child vertical-center">
         <a class="no-underline" href="">
             <button class="btn">
             <span class="btn__content">Download Resume</span>
             <span class="btn__glitch"></span>
             </button>
         </a>
+    </div>
+    <div class="flex-child vertical-center">
+        <a class="no-underline" href="">
+            <button class="btn">
+            <span class="btn__content">Contact Me</span>
+            <span class="btn__glitch"></span>
+            </button>
+        </a>
+    </div>
 </div>
 <br>
