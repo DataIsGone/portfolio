@@ -17,27 +17,11 @@ weight: 3
         Ryan is currently located in San Diego, CA and enjoys painting, participating in hackathons, gardening, 3D printing, and MMO gaming. She’s probably trying to complete a quest in Pokemon Go as you’re reading this.
     </div>
     <div class="flex-child">
-        <img src="../assets/img/common/test.png">
+        <img src="../assets/img/common/statue.gif">
     </div>
 </div>
+
 <br>
-<!-- <div class="pixel-div flex-container">
-    <div class="flex-child vertical-center">
-        <ul style="list-style:none">
-            <li><h5 class="cyber info-subtitle">The Skillset</h5></li>
-            <li style="list-style:square"><strong>Languages</strong>: Python, C, C++, C#</li>
-            <li style="list-style:square"><strong>Tools/Software</strong>: Adobe Photoshop, Adobe Illustrator, Autodesk Maya</li>
-            <li style="list-style:square"><strong>Toolkits</strong>: OpenVINO, ARKit, ARFoundation, MRTK</li>
-        </ul>
-    </div>
-    <div class="flex-child vertical-center">
-        <ul style="list-style:none">
-            <li><h5 class="cyber info-subtitle">Find Me Here</h5></li>
-            <li><img src="../assets/img/common/testIconSize.png"></li>
-            <li><img src="../assets/img/common/testIconSize.png"></li>
-        </ul>
-    </div>
-</div> -->
 
 <div class="pixel-div quick-info-grid">
     <div class="grid-item">
@@ -50,7 +34,7 @@ weight: 3
     <div class="grid-item">
         <ul style="list-style:none">
             <li style="list-style:square"><strong>Languages</strong>: Python, C, C++, C#</li>
-            <li style="list-style:square"><strong>Tools/Software</strong>: Adobe Photoshop, Adobe Illustrator, Autodesk Maya</li>
+            <li style="list-style:square"><strong>Tools/Software</strong>: Adobe Photoshop, Adobe Illustrator, Autodesk Maya, Unity3D</li>
             <li style="list-style:square"><strong>Toolkits</strong>: OpenVINO, ARKit, ARFoundation, MRTK</li>
         </ul>
     </div>
@@ -64,11 +48,11 @@ weight: 3
                 <img class="social-media-icon" src="../assets/img/common/linkedin.png">
             </div>
             <div class="social-media-item">
-                <img class="social-media-icon" src="../assets/img/common/devpost.png">
+                <img class="social-media-icon" src="../assets/img/common/twitter.png">
             </div>
         </div>
         <div class="social-media-grid">
-            <div class="social-media-item"><img src="../assets/img/common/twitter.png"></div>
+            <div class="social-media-item"><img src="../assets/img/common/devpost.png"></div>
             <div class="social-media-item"><img src="../assets/img/common/testIconSize.png"></div>
             <div class="social-media-item"><img src="../assets/img/common/testIconSize.png"></div>
         </div>
