@@ -41,6 +41,12 @@ body {
   -webkit-background-clip: text;
 }
 
+.project-card-title {
+  text-transform: uppercase;
+  font-size: 160%;
+  font-family: Cyber;
+}
+
 /* Inline HR: https://codepen.io/oaviv/pen/GqXwYp */
 .liner {
   display: flex;
@@ -88,8 +94,6 @@ body {
 .quick-info-grid {
   display: grid;
   grid-template-columns: auto auto auto;
-  /* background-color: #2196F3; */
-  /* padding: 10px; */
 }
 
 .social-media-grid {
@@ -103,6 +107,7 @@ body {
 
 .social-media-icon {
   margin: 0 !important;
+  padding-bottom: 5px;
 }
 
 .grid-item {

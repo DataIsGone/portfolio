@@ -41,27 +41,39 @@ weight: 3
     <div class="grid-item spacer"></div>
     <div class="grid-item">
         <div class="social-media-grid">
+            <!-- LinkedIn -->
             <div class="social-media-item">
-                <img class="social-media-icon" src="../assets/img/common/email.png">
+                <a class="no-underline" href="https://www.linkedin.com/in/ryanalexdavis/"><img class="social-media-icon half-hover" alt="LinkedIn: My work history" title="LinkedIn: My work history" src="../assets/img/common/socialmedia/linkedin.png"></a>
             </div>
+            <!-- GitHub -->
             <div class="social-media-item">
-                <img class="social-media-icon" src="../assets/img/common/linkedin.png">
+                <a class="no-underline" href="https://github.com/DataIsGone"><img class="social-media-icon half-hover" alt="GitHub: View my code" title="GitHub: View my code" src="../assets/img/common/socialmedia/github.png"></a>
             </div>
+            <!-- Twitter -->
             <div class="social-media-item">
-                <img class="social-media-icon" src="../assets/img/common/twitter.png">
+                <a class="no-underline" href="https://twitter.com/dataisgone"><img class="social-media-icon half-hover" alt="Twitter: Ramblings and WIPs" title="Twitter: Ramblings and WIPs" src="../assets/img/common/socialmedia/twitter.png"></a>
             </div>
         </div>
         <div class="social-media-grid">
-            <div class="social-media-item"><img src="../assets/img/common/devpost.png"></div>
-            <div class="social-media-item"><img src="../assets/img/common/testIconSize.png"></div>
-            <div class="social-media-item"><img src="../assets/img/common/testIconSize.png"></div>
+            <!-- Devpost -->
+            <div class="social-media-item">
+                <a class="no-underline" href="https://devpost.com/NODATA"><img class="social-media-icon half-hover" alt="Devpost: See my hackathon projects" title="Devpost: See my hackathon projects" src="../assets/img/common/socialmedia/devpost.png"></a>
+            </div>
+            <!-- Itch.io -->
+            <div class="social-media-item">
+                <a class="no-underline" href="https://dataisgone.itch.io/"><img class="social-media-icon half-hover" alt="Itch.io: See the games I've worked on" title="Itch.io: See the games I've worked on" src="../assets/img/common/socialmedia/itchio.png"></a>
+            </div>
+            <!-- ArtStation -->
+            <div class="social-media-item">
+                <a class="no-underline" href="#"><img class="social-media-icon half-hover" alt="ArtStation: Check out my art" title="Itch.io: Check out my art" src="../assets/img/common/socialmedia/artstation.png"></a>
+            </div>
         </div>
     </div>  
 </div>
-
+<!-- Resume/Contact -->
 <div class="flex-container">
     <div class="flex-child vertical-center">
-        <a class="no-underline" href="">
+        <a class="no-underline" href="" download>
             <button class="btn">
             <span class="btn__content">Download Resume</span>
             <span class="btn__glitch"></span>
@@ -69,7 +81,7 @@ weight: 3
         </a>
     </div>
     <div class="flex-child vertical-center">
-        <a class="no-underline" href="">
+        <a class="no-underline" href="mailto: ryan.alex.davis@gmail.com">
             <button class="btn">
             <span class="btn__content">Contact Me</span>
             <span class="btn__glitch"></span>
