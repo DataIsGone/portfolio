@@ -25,7 +25,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Ryan Davis
-  image             : assets/img/common/facePlant.png
+  image             : assets/img/common/front_page_test.png
 # dribbble          : your_username
   email             : ryan.alex.davis@gmail.com
   github            : DataIsGone
