@@ -29,6 +29,6 @@
 - **Inline Horizontal Rule**: https://codepen.io/oaviv/pen/GqXwYp
 - **Pixel Art**: Myself
 
-### Special Thanks
+## Special Thanks
 - EH and Oxymore for giving me important info and feedback on how to make my site more accessible
 - Mitchell and Nancy for giving me critique on aesthetic
