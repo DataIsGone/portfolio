@@ -73,7 +73,7 @@ weight: 3
 <!-- Resume/Contact -->
 <div class="flex-container">
     <div class="flex-child vertical-center">
-        <a class="no-underline" href="" download>
+        <a class="no-underline" href="../assets/img/common/RyanDavis_Resume.pdf" download>
             <button class="btn">
             <span class="btn__content">Download Resume</span>
             <span class="btn__glitch"></span>
