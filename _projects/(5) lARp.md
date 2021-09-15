@@ -30,16 +30,6 @@ description: Exercise and treat your body with mush respect.
         <li><strong>Tools</strong>: Unity3D, Adobe Photoshop</li>
         <li><strong>Languages</strong>: C#</li>
     </ul>
-    <!-- <hr class="inner-hr">
-    <h5 class="cyber info-subtitle">Interested in trying Catiator?</h5>
-    <ul>
-        <li>Download from our <a href="https://trisol.itch.io/catiators">Itch.io</a> and use password <em>Treehacks</em></li>
-        <li>Catiator is an Oculus Quest application; you must sideload the APK using any of the following:</li>
-            <ul>
-                <li>Sidequest</li>
-                <li>Oculus Developer App</li>
-            </ul>
-    </ul> -->
 </div>
 
 <div class="flex-container">
