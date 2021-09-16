@@ -21,6 +21,7 @@
 ## Functionality
 - **Lightbox Gallery**: ["Lightbox" by Lokesh Dhakar](http://lokeshdhakar.com/projects/lightbox2/)
 - **Cropped Gallery Images**: https://www.educative.io/edpresso/how-to-crop-an-image-in-css
+- **Custom Domain**: https://medium.com/@goelanirudh/add-https-to-your-namecheap-domain-hosted-on-github-pages-d66fd96308b5
 
 
 ## Aesthetic

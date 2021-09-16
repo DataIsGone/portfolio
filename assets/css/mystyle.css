@@ -229,3 +229,7 @@ ul {
   opacity: 30%;
   background-color: var(--main-color);
 }
+
+a.text-link {
+  color: #754848 !important;
+}
