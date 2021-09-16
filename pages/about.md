@@ -33,7 +33,7 @@ weight: 3
     </div>  
     <div class="grid-item">
         <ul style="list-style:none">
-            <li style="list-style:square"><strong>Languages</strong>: Python, C, C++, C#</li>
+            <li style="list-style:square"><strong>Programming Languages</strong>: Python, C, C++, C#, HTML, CSS, Javascript</li>
             <li style="list-style:square"><strong>Tools/Software</strong>: Adobe Photoshop, Adobe Illustrator, Autodesk Maya, Unity3D</li>
             <li style="list-style:square"><strong>Toolkits</strong>: OpenVINO, ARKit, ARFoundation, MRTK</li>
         </ul>
