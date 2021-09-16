@@ -88,7 +88,7 @@ description: Social media doesn't have to be two dimensions of endless scrolling
 <br><br>
 
 {:.cyber .subtitle .liner}
-### Made By Yours Truly
+### The Gallery
 <div class="pixel-div">
     <div class="flex-container">
         <div class="flex-child vertical-center">

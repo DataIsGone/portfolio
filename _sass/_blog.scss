@@ -64,12 +64,16 @@
     }
   }
 
+  /* For most links */
   a:not(.btn):not([class^="carousel-"]):not([class^="list-"]):not(.no-underline) {
     display: inline-block;
     text-decoration: none;
+    color: #924a4a;
 
     &:hover {
-      color: $primary;
+      // color: $primary;
+      color: #924a4a;
+      transition: 0.35s;
     }
 
     &::after {
@@ -78,7 +82,8 @@
       height: 0.15em;
       margin-top: -0.15em;
       width: 0;
-      background: $primary;
+      // background: $primary;
+      background: #924a4a;
       transition: width 0.35s;
     }
 
