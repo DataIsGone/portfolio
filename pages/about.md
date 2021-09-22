@@ -35,6 +35,7 @@ weight: 3
             <ul class="none">
                 <li>OSU EECS: <a href="https://eecs.oregonstate.edu/hacking-way-success">"Hacking the way to success"</a> (2021)</li>
                 <li>ACM SIGGRAPH <a href="https://www.siggraph.org/member-profile/ryan-davis/">Spotlight</a> (2017)</li>
+                <li>UC Berkeley Art Practice <a href="https://art.berkeley.edu/alumni">Alumni Gallery</a> (Ongoing)</li>
             </ul>
         </div>
     </div>
