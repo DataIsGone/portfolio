@@ -28,7 +28,6 @@
 - **Centering Div Content**: [W3Schools Tutorial](https://www.w3schools.com/howto/howto_css_center_button.asp)
 - **8bit Div Borders**: (still trying to find resouce used for proper credit)
 - **Credit Link Highlighting**: ["SCSS link hover animations" by Jens Lettkemann](https://codepen.io/jltk/pen/dMvGvG)
-
 - **Pixel Art**: Myself
 
 ## Special Thanks
