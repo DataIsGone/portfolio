@@ -30,5 +30,5 @@
 - **Pixel Art**: Myself
 
 ## Special Thanks
-- EH and Oxymore for giving me important info and feedback on how to make my site more accessible
+- EH and Oxymore for giving me important info and feedback on my site and my art WIPs, including how to make my site more accessible
 - Mitchell and Nancy for giving me critique on aesthetic
