@@ -18,7 +18,6 @@
 - **Custom Domain**: [Domain from Namecheap for Education](https://nc.me/) | [Guide by Anirudh Goel](https://medium.com/@goelanirudh/add-https-to-your-namecheap-domain-hosted-on-github-pages-d66fd96308b5)
 - **Scroll Box Divs**: ["Basic HTML Scroll Box" by quackit.com](https://www.quackit.com/html/codes/html_scroll_box.cfm)
 
-
 ## Aesthetic
 - **Buttons**: ["Cyberpunk 2077 Button with CSS" by Leandro RR](https://dev.to/leandroruel/how-to-make-a-cyberpunk-2077-button-with-css-c9m)
 - **Gradient Text**: ["CSS Gradient Text" by Adam Argyle](https://codepen.io/argyleink/pen/OJMEpGp)
