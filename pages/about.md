@@ -24,6 +24,25 @@ weight: 3
 <br>
 
 <div class="pixel-div quick-info-grid">
+    <!-- <div class="flex-child vertical-center"> -->
+    <div class="grid-item">
+        <h5 class="cyber info-subtitle">Getting Featured</h5>
+        <!-- <img class="vertical-center" src="../assets/img/common/succulent.png"> -->
+    </div>
+    <div class="grid-item spacer"></div> <!-- TODO: Fix spacing? -->
+    <div class="grid-item">
+        <div class="scroll" id="feature">
+            <ul class="none">
+                <li>OSU EECS: <a href="https://eecs.oregonstate.edu/hacking-way-success">"Hacking the way to success"</a> (2021)</li>
+                <li>ACM SIGGRAPH <a href="https://www.siggraph.org/member-profile/ryan-davis/">Spotlight</a> (2017)</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<br>
+
+<div class="pixel-div quick-info-grid">
     <div class="grid-item">
         <h5 class="cyber info-subtitle">The Skillsets</h5>
     </div>
@@ -32,10 +51,10 @@ weight: 3
         <h5 class="cyber info-subtitle">Find Me Here</h5>
     </div>  
     <div class="grid-item">
-        <ul style="list-style:none">
-            <li style="list-style:square"><strong>Programming Languages</strong>: Python, C, C++, C#, HTML, CSS, Javascript</li>
-            <li style="list-style:square"><strong>Tools/Software</strong>: Adobe Photoshop, Adobe Illustrator, Autodesk Maya, Unity3D</li>
-            <li style="list-style:square"><strong>Toolkits</strong>: OpenVINO, ARKit, ARFoundation, MRTK</li>
+        <ul>
+            <li><strong>Programming Languages</strong>: Python, C, C++, C#, HTML, CSS, Javascript</li>
+            <li><strong>Tools/Software</strong>: Adobe Photoshop, Adobe Illustrator, Autodesk Maya, Unity3D</li>
+            <li><strong>Toolkits</strong>: OpenVINO, ARKit, ARFoundation, MRTK</li>
         </ul>
     </div>
     <div class="grid-item spacer"></div>
