@@ -17,7 +17,7 @@ body {
     font-family: Cyber;
 }
 
-/* Gradient: https://codepen.io/argyleink/pen/OJMEpGp */
+/* Gradient Text: https://codepen.io/argyleink/pen/OJMEpGp */
 .project-title {
   color: #3a3636;
   text-shadow: 2px 2px rgba(245, 245, 245, 0.5);
@@ -247,7 +247,7 @@ ul.none li {
 }
 
 /* Textbox CSS Base: https://www.quackit.com/html/codes/html_scroll_box.cfm */
-/* Gradient Div Boder: https://codepen.io/chriscoyier/pen/ZVYXRx */
+/* Gradient Div Border: https://codepen.io/chriscoyier/pen/ZVYXRx */
 .scroll {
   height: auto;
   display: block;
