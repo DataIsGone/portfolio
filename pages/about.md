@@ -34,6 +34,7 @@ weight: 3
         <div class="scroll" id="feature">
             <ul class="none">
                 <li>OSU EECS: <a href="https://eecs.oregonstate.edu/hacking-way-success">"Hacking the way to success"</a> (2021)</li>
+                <li>Winning GitHub Education's <a href="https://twitter.com/GitHubEducation/status/1358334185602179072">#MyOctocat Contest at QWER Hacks</a> (2021)</li>
                 <li>ACM SIGGRAPH <a href="https://www.siggraph.org/member-profile/ryan-davis/">Spotlight</a> (2017)</li>
                 <li>UC Berkeley Art Practice <a href="https://art.berkeley.edu/alumni">Alumni Gallery</a> (Ongoing)</li>
             </ul>
@@ -56,6 +57,7 @@ weight: 3
             <li><strong>Programming Languages</strong>: Python, C, C++, C#, HTML, CSS, Javascript</li>
             <li><strong>Tools/Software</strong>: Adobe Photoshop, Adobe Illustrator, Autodesk Maya, Unity3D</li>
             <li><strong>Toolkits</strong>: OpenVINO, ARKit, ARFoundation, MRTK</li>
+            <li><strong>Soft Skills</strong>: Public Speaking, Project Management, Strong Communication, Time Management</li>
         </ul>
     </div>
     <div class="grid-item spacer"></div>

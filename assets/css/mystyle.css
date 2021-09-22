@@ -261,7 +261,8 @@ ul.none li {
 
 #feature {
   max-height: 5em;
-  width: auto; /* TODO: fix for mobile */
+  /* width: auto; TODO: fix for mobile */
+  /* max-width: 5em; */
 }
 
 ::-webkit-scrollbar {
@@ -291,6 +292,7 @@ ul.none li {
 }
 
 .scroll::-webkit-scrollbar-thumb {
-  background: transparent; /* opacity: 0; should do the thing either */
-  box-shadow: 0px 0px 0px 100000vh #f5f5f5;
+  /*background: transparent; opacity: 0; should do the thing either */
+  /* box-shadow: 0px 0px 0px 5vh #f5f5f5; */
+  background: #f5f5f5;
 }
