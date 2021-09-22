@@ -6,7 +6,7 @@
         This project wouldn't have been possible with all of the great resources I found as I learned how to build a webpage from a template.
     </i>
     <br>
-    <img src="/assets/img/common/succulent.png">
+    <img src="/assets/img/common/lightbox/loading.gif">
 </div>
 
 ## Template
