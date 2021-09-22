@@ -7,6 +7,7 @@
         <br><br>
         This project wouldn't have been possible with all of the great resources I found as I learned how to build a webpage from a template.
     </em>
+    <br><br>
 </div>
 
 ## Template
