@@ -1,12 +1,12 @@
 <div align="center">
     <h1>The Portfolio Website of Ryan Davis</h1>
+    <img src="/assets/img/common/lightbox/loading.gif">
+    <br>
     <i>
         I am not a web designer nor a web developer.
         <br><br>
         This project wouldn't have been possible with all of the great resources I found as I learned how to build a webpage from a template.
     </i>
-    <br>
-    <img src="/assets/img/common/lightbox/loading.gif">
 </div>
 
 ## Template
