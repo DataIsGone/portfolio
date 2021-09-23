@@ -57,7 +57,6 @@ weight: 3
             <li><strong>Programming Languages</strong>: Python, C, C++, C#, HTML, CSS, Javascript</li>
             <li><strong>Tools/Software</strong>: Adobe Photoshop, Adobe Illustrator, Autodesk Maya, Unity3D</li>
             <li><strong>Toolkits</strong>: OpenVINO, ARKit, ARFoundation, MRTK</li>
-            <li><strong>Soft Skills</strong>: Public Speaking, Project Management, Strong Communication, Time Management</li>
         </ul>
     </div>
     <div class="grid-item spacer"></div>
@@ -83,11 +82,11 @@ weight: 3
             </div>
             <!-- Itch.io -->
             <div class="social-media-item">
-                <a class="no-underline" href="https://dataisgone.itch.io/"><img class="social-media-icon half-hover" alt="Itch.io: See the games I've worked on" title="Itch.io: See the games I've worked on" src="../assets/img/common/socialmedia/itchio.png"></a>
+                <a class="no-underline" href="https://dataisgone.itch.io/"><img class="social-media-icon half-hover" alt="Itch.io: See the games I've worked on" title="Itch.io: See the games I've worked on (UNDER CONSTRUCTION)" src="../assets/img/common/socialmedia/itchio.png"></a>
             </div>
             <!-- ArtStation -->
             <div class="social-media-item">
-                <a class="no-underline" href="#"><img class="social-media-icon half-hover" alt="ArtStation: Check out my art" title="Itch.io: Check out my art" src="../assets/img/common/socialmedia/artstation.png"></a>
+                <a class="no-underline" href="#"><img class="social-media-icon half-hover" alt="ArtStation: Check out my art" title="ArtStation: Check out my art (UNDER CONSTRUCTION)" src="../assets/img/common/socialmedia/artstation.png"></a>
             </div>
         </div>
     </div>  

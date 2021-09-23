@@ -292,7 +292,5 @@ ul.none li {
 }
 
 .scroll::-webkit-scrollbar-thumb {
-  /*background: transparent; opacity: 0; should do the thing either */
-  /* box-shadow: 0px 0px 0px 5vh #f5f5f5; */
   background: #f5f5f5;
 }
