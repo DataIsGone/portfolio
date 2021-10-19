@@ -33,3 +33,8 @@
 ## Special Thanks
 - EH and Oxymore for giving me important info and feedback on my site and my art WIPs, including how to make my site more accessible
 - Mitchell and Nancy for giving me critique on aesthetic
+- Luc for giving me feedback and lurking this repo
+
+## Known Issues / Bugs
+- This site is currently not mobile-friendly or useable on small windows *(in progress of fixing)*
+- Some portfolio links are missing
