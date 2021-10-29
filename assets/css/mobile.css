@@ -1,0 +1,7 @@
+/* MOBILE: Phones */
+@media only screen and (max-width: 600px) {
+    body {
+      /* background-color: lightblue; TODO: remove test */
+      background-image: url("");
+    }
+  }
