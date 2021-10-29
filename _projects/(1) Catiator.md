@@ -8,7 +8,7 @@ description: Fight gladiator cats in VR using American Sign Language.
 {:.project-title .cyber .liner-title}
 # Catiator
 
-<div class="flex-container">
+<div class="flex-container m-iframe-container">
     <div class="flex-child vertical-center">
         <iframe width="854" height="480" class="pixel-div-enclose" src="https://www.youtube.com/embed/_OPf_EpcgpE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
