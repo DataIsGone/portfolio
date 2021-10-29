@@ -1,10 +1,30 @@
 body {
   background-color: #f5f5f5;
   background-image: url("../img/common/plant_bg.png");
+
+  /* Background Repeat */
   background-repeat: no-repeat;
+  
+  /* Background Size */
   background-size: contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  
+  /* Background Position */
   background-position: left bottom;
+  -webkit-background-position: left bottom;
+  
+  /* Background Attachment */
   background-attachment: fixed;
+}
+
+/* MOBILE: Phones */
+@media only screen and (max-width: 600px) {
+  body {
+    /* background-color: lightblue; TODO: remove test */
+    background-image: url("");
+  }
 }
 
 @font-face {
