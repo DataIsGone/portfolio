@@ -28,7 +28,7 @@
 }
 
 .navbar-brand {
-  margin-left: 5em;
+  // margin-left: 5em;
   margin-bottom: -3px;
   &::after {
     margin-top: -0.25em;
@@ -42,4 +42,19 @@
 .navbar {
   padding-top: 1em;
   background-color: rgba(245, 245, 245, 0.85);
+}
+
+
+/* -------------------- MOBILE CSS -------------------- */
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    padding-top: 0.5em;
+    padding-left: 1em;
+    background-color: rgba(245, 245, 245, 0.95);
+  }
+
+  .navbar-toggler {
+    padding-bottom: 0.5em !important;
+  }
 }
