@@ -34,8 +34,9 @@ weight: 3
     <div class="grid-item spacer"></div> <!-- TODO: Fix spacing? -->
     <div class="grid-item">
         <div class="scroll" id="feature">
-            <ul class="none">
+            <ul class="none" id="feature-list">
                 <li>OSU EECS: <a href="https://eecs.oregonstate.edu/hacking-way-success">"Hacking the way to success"</a> (2021)</li>
+                <!-- MLH Octocat -->
                 <li>Winning GitHub Education's <a href="https://twitter.com/GitHubEducation/status/1358334185602179072">#MyOctocat Contest at QWER Hacks</a> (2021)</li>
                 <li>ACM SIGGRAPH <a href="https://www.siggraph.org/member-profile/ryan-davis/">Spotlight</a> (2017)</li>
                 <li>UC Berkeley Art Practice <a href="https://art.berkeley.edu/alumni">Alumni Gallery</a> (Ongoing)</li>
@@ -99,7 +100,7 @@ weight: 3
     <div class="flex-child vertical-center">
         <a class="no-underline" href="../assets/img/common/RyanDavis_Resume.pdf" download>
             <button class="btn m-btn">
-            <span class="btn__content">Download Resume</span>
+            <span class="btn__content" id="resume-content">Download Resume</span>
             <span class="btn__glitch"></span>
             </button>
         </a>
@@ -107,7 +108,7 @@ weight: 3
     <div class="flex-child vertical-center">
         <a class="no-underline" href="mailto: ryan.alex.davis@gmail.com">
             <button class="btn m-btn">
-            <span class="btn__content">Contact Me</span>
+            <span class="btn__content" id="contact-content">Contact Me</span>
             <span class="btn__glitch"></span>
             </button>
         </a>
