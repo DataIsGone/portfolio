@@ -9,7 +9,7 @@ description: Fight gladiator cats in VR using American Sign Language.
 # Catiator
 
 <div class="flex-container">
-    <div class="flex-child vertical-center">
+    <div class="flex-child vertical-center m-iframe-container">
         <iframe width="854" height="480" class="pixel-div-enclose" src="https://www.youtube.com/embed/_OPf_EpcgpE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 </div>
@@ -44,7 +44,7 @@ description: Fight gladiator cats in VR using American Sign Language.
 <div class="flex-container">
     <div class="flex-child vertical-center">
         <a class="no-underline" href="https://devpost.com/software/catiator">
-            <button class="btn">
+            <button class="btn m-btn">
             <span class="btn__content">Devpost</span>
             <span class="btn__glitch"></span>
             </button>
@@ -52,7 +52,7 @@ description: Fight gladiator cats in VR using American Sign Language.
     </div>
     <div class="flex-child vertical-center">
         <a class="no-underline" href="https://trisol.itch.io/catiators">
-            <button class="btn">
+            <button class="btn m-btn">
             <span class="btn__content">Itch.io</span>
             <span class="btn__glitch" style="font-size:1em;text-transform:none">PASSWORD: <em>Treehacks</em></span>
             </button>
@@ -75,16 +75,16 @@ description: Fight gladiator cats in VR using American Sign Language.
     <br>
     <h5 class="cyber info-subtitle">The Experience, My Thoughts</h5>
     <p>
-    After getting my feet wet in the hackathon world with HackDavis and QWER Hacks, I was excited but really nervous for TreeHacks 2021. I read about how competitive and intense it was. Who would want to work with an older student returning to school for that? Luckily I met my now usual crew, table1, at this very hackathon. It also goes to show that I shouldn’t judge anyone, including myself, based on age because we won, even while having fun and not taking ourselves too seriously.
+        After getting my feet wet in the hackathon world with HackDavis and QWER Hacks, I was excited but really nervous for TreeHacks 2021. I read about how competitive and intense it was. Who would want to work with an older student returning to school for that? Luckily I met my now usual crew, table1, at this very hackathon. It also goes to show that I shouldn’t judge anyone, including myself, based on age because we won, even while having fun and not taking ourselves too seriously.
     </p>
     <p>
-    My role on this project was the development of the Catiator, the enemy character the player must fight off with their alphabet signing. I created this character from scratch, excluding its texture maps; this means I produced everything else, ranging from character design to all of its animations.
+        My role on this project was the development of the Catiator, the enemy character the player must fight off with their alphabet signing. I created this character from scratch, excluding its texture maps; this means I produced everything else, ranging from character design to all of its animations.
     </p>
     <p>
-    I don't consider myself a 3D animator in the slightest (especially on a lack of sleep after working 24 hours straight!) but instead a green 3D generalist with a majority of her knowledge self-taught. Recalling how to do each stage of the 3D animation pipeline in Autodesk Maya from memory was a highlight of this hackathon for me. It gave me back that thrill of why I was interested in 3D and graphics in the first place: it is the perfect marriage of art and computer science.
+        I don't consider myself a 3D animator in the slightest (especially on a lack of sleep after working 24 hours straight!) but instead a green 3D generalist with a majority of her knowledge self-taught. Recalling how to do each stage of the 3D animation pipeline in Autodesk Maya from memory was a highlight of this hackathon for me. It gave me back that thrill of why I was interested in 3D and graphics in the first place: it is the perfect marriage of art and computer science.
     </p>
     <p>
-    While I’m not particularly interested in going back into the animation industry, <em>Catiator</em> showed me that XR is also an embodiment of art and computer science, one that will allow me more freedom to program and be a hybrid concerning my skill set. Looking back, I have to say that this is the project that got me even more into developing for XR specifically. I’m honored to have worked on it!
+        While I’m not particularly interested in going back into the animation industry, <em>Catiator</em> showed me that XR is also an embodiment of art and computer science, one that will allow me more freedom to program and be a hybrid concerning my skill set. Looking back, I have to say that this is the project that got me even more into developing for XR specifically. I’m honored to have worked on it!
     </p>
     </div>
 
