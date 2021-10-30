@@ -9,7 +9,7 @@ description: Social media doesn't have to be two dimensions of endless scrolling
 # IntARnet
 
 <div class="flex-container">
-    <div class="flex-child vertical-center">
+    <div class="flex-child vertical-center m-iframe-container">
         <iframe width="854" height="480" class="pixel-div-enclose" src="https://www.youtube.com/embed/2WW6OzM3Tsc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 </div>
@@ -44,7 +44,7 @@ description: Social media doesn't have to be two dimensions of endless scrolling
 <div class="flex-container">
     <div class="flex-child vertical-center">
         <a class="no-underline" href="https://devpost.com/software/intarnet">
-            <button class="btn">
+            <button class="btn m-btn">
             <span class="btn__content">Devpost</span>
             <span class="btn__glitch"></span>
             </button>
@@ -52,7 +52,7 @@ description: Social media doesn't have to be two dimensions of endless scrolling
     </div>
     <div class="flex-child vertical-center">
         <a class="no-underline" href="https://www.figma.com/proto/K9vbHC7FOHrSxGh8OKOMYS/intarnet?node-id=1%3A2&viewport=-3432%2C516%2C0.2884855270385742&scaling=contain">
-            <button class="btn">
+            <button class="btn m-btn">
             <span class="btn__content">Presentation</span>
             <span class="btn__glitch"></span>
             </button>

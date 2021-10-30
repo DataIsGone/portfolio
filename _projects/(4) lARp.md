@@ -9,7 +9,7 @@ description: Exercise and treat your body with mush respect.
 # LARP
 
 <div class="flex-container">
-    <div class="flex-child vertical-center">
+    <div class="flex-child vertical-center m-iframe-container">
         <iframe width="854" height="480" class="pixel-div-enclose" src="https://www.youtube.com/embed/wR7rJfNN0Ow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 </div>
@@ -35,7 +35,7 @@ description: Exercise and treat your body with mush respect.
 <div class="flex-container">
     <div class="flex-child vertical-center">
         <a class="no-underline" href="https://devpost.com/software/test-yotepg">
-            <button class="btn">
+            <button class="btn m-btn">
             <span class="btn__content">Devpost</span>
             <span class="btn__glitch"></span>
             </button>
@@ -43,7 +43,7 @@ description: Exercise and treat your body with mush respect.
     </div>
     <div class="flex-child vertical-center">
         <a class="no-underline" href="https://docs.google.com/presentation/d/1YYduuRyl2G3aSf83MsG60qYuUdKM0eRYCTBcEizqL-Q/edit?usp=sharing">
-            <button class="btn">
+            <button class="btn m-btn">
             <span class="btn__content">Presentation</span>
             <span class="btn__glitch"></span>
             </button>

@@ -8,7 +8,7 @@ weight: 3
 {:.subtitle .cyber .liner}
 # Me, in the third person
 
-<div class="pixel-div flex-container">
+<div class="pixel-div flex-container" id="bio-box">
     <div class="flex-child vertical-center">
         Ryan Davis is an aspiring software engineer, VR developer, and digital artist. She earned her first bachelor’s degree in Art Practice from UC Berkeley in 2015 and worked different positions in the animation industry. Previous companies have included Industrial Light & Magic, Pixar Animation Studios, and Microsoft with projects revolving around 3D graphics, photogrammetry, and art education.
         <br><br>
@@ -23,7 +23,7 @@ weight: 3
 
 <br>
 
-<div class="pixel-div quick-info-grid">
+<div class="pixel-div quick-info-grid" id="feature-box">
     <!-- <div class="flex-child vertical-center"> -->
     <div class="grid-item">
         <h5 class="cyber info-subtitle">Getting Featured</h5>
@@ -44,7 +44,7 @@ weight: 3
 
 <br>
 
-<div class="pixel-div quick-info-grid">
+<div class="pixel-div quick-info-grid" id="skill-box">
     <div class="grid-item">
         <h5 class="cyber info-subtitle">The Skillsets</h5>
     </div>
@@ -91,11 +91,12 @@ weight: 3
         </div>
     </div>  
 </div>
+
 <!-- Resume/Contact -->
 <div class="flex-container">
     <div class="flex-child vertical-center">
         <a class="no-underline" href="../assets/img/common/RyanDavis_Resume.pdf" download>
-            <button class="btn">
+            <button class="btn m-btn">
             <span class="btn__content">Download Resume</span>
             <span class="btn__glitch"></span>
             </button>
@@ -103,7 +104,7 @@ weight: 3
     </div>
     <div class="flex-child vertical-center">
         <a class="no-underline" href="mailto: ryan.alex.davis@gmail.com">
-            <button class="btn">
+            <button class="btn m-btn">
             <span class="btn__content">Contact Me</span>
             <span class="btn__glitch"></span>
             </button>

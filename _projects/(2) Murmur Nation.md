@@ -9,7 +9,7 @@ description: Sort candid thoughts spoken a la Tweet.
 # Murmur Nation
 
 <div class="flex-container">
-    <div class="flex-child vertical-center">
+    <div class="flex-child vertical-center m-iframe-container">
         <iframe width="854" height="480" class="pixel-div-enclose" src="https://www.youtube.com/embed/_EYNkPItX-c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 </div>
@@ -39,7 +39,7 @@ description: Sort candid thoughts spoken a la Tweet.
 <div class="flex-container">
     <div class="flex-child vertical-center">
         <a class="no-underline" href="https://www.youtube.com/watch?v=shToU-18rn0">
-            <button class="btn">
+            <button class="btn m-btn">
             <span class="btn__content">Presentation Video</span>
             <span class="btn__glitch"></span>
             </button>
@@ -47,7 +47,7 @@ description: Sort candid thoughts spoken a la Tweet.
     </div>
     <div class="flex-child vertical-center">
         <a class="no-underline" href="https://xrbrain.itch.io/murmur-nation">
-            <button class="btn">
+            <button class="btn m-btn">
             <span class="btn__content">Itch.io</span>
             <span class="btn__glitch"></span>
             </button>

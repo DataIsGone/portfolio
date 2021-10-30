@@ -28,7 +28,6 @@
 }
 
 .navbar-brand {
-  // margin-left: 5em;
   margin-bottom: -3px;
   &::after {
     margin-top: -0.25em;
@@ -56,5 +55,9 @@
 
   .navbar-toggler {
     padding-bottom: 0.5em !important;
+  }
+
+  .link-after {
+    display: initial;
   }
 }
