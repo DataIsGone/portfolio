@@ -17,9 +17,23 @@ window.onload=function() {
     // --- CONTACT BUTTONS
     editContactButtons();
   }
+  else if ((sizeTest.matches) && (window.location.href.indexOf("now") > -1)) {
+    console.log("now");
+    setupNow();
+  }
 };
 
+// ------------------------------ NOW PAGE
+function setupNow() {
+  let box = document.getElementById("now-box");
+  remakeList("now-box", "now-list");
+  box.appendChild(document.createElement("br"));
+  remakeList("now-box", "forever-list");
+}
 
+
+
+// ------------------------------ ABOUT PAGE
 // --------------- SECTION: FEATURES
 function setupFeatures() {
   formatTitles("feature-box", "Getting Featured");
@@ -45,48 +59,17 @@ function setupSocialMedia() {
 
   formatTitles("social-box", "Find Me Here");
 
-  // let iconBox = document.createElement("div");
-  // iconBox.className = "sm-icon-box";
-
-  // let testList = Array.from(document.getElementsByClassName("social-media-item"));
-  // for (const div of testList) {
-  //   let holder = document.createElement("div");
-  //   thisLink = div.getElementsByTagName("a")[0];
-  //   thisLink.className = "social-media-icon";
-  //   holder.appendChild(thisLink);
-  //   iconBox.appendChild(holder);
-  // }
-
-  // social.appendChild(iconBox);
-
+  // Fill with icons
   let cardParent = document.createElement("div");
-  cardParent.className = "cards";
-
-  for (let i = 0; i < 5; i++) {
+  cardParent.className = "m-cards";
+  let iconList = Array.from(document.getElementsByClassName("social-media-item"));
+  for (const div of iconList) {
     let card = document.createElement("div");
-    card.className = "card";
-
-    let cardContent = document.createElement("div");
-    cardContent.className = "card__content";
-
-    let cardTitle = document.createElement("div");
-    cardTitle.className = "card__title";
-
-    let cardLine = document.createElement("div");
-    cardLine.className = "card__line";
-
-    let cardImage = document.createElement("div");
-    cardImage.className = "card__image";
-
-    cardContent.appendChild(cardTitle);
-    cardContent.appendChild(cardLine);
-
-    card.appendChild(cardContent);
-    card.appendChild(cardImage);
-
+    card.className = "m-card";
+    thisIcon = div.getElementsByTagName("a")[0];
+    card.appendChild(thisIcon);
     cardParent.appendChild(card);
   }
-
   social.appendChild(cardParent);
 }
 

@@ -27,3 +27,25 @@
     filter: none;
     -webkit-filter: grayscale(0);
 }
+
+@media only screen and (max-width: 600px) {
+    .hover {
+        filter: none;
+        -webkit-filter: none;
+        /* -o-transition: filter .2s ease-out, filter .2s ease-in;
+        -ms-transition: filter .2s ease-out, filter .2s ease-in;
+        -moz-transition: filter .2s ease-out, filter .2s ease-in;
+        -webkit-transition: filter .2s ease-out, filter .2s ease-in;
+        transition: filter .2s ease-out, filter .2s ease-in; */
+    }
+
+    .half-hover {
+        filter: none;
+        -webkit-filter: none;
+        /* -o-transition: filter .5s ease-out, filter .5s ease-in;
+        -ms-transition: filter .5s ease-out, filter .5s ease-in;
+        -moz-transition: filter .5s ease-out, filter .5s ease-in;
+        -webkit-transition: filter .5s ease-out, filter .5s ease-in;
+        transition: filter .5s ease-out, filter .5s ease-in; */
+    }
+}

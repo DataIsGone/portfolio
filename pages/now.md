@@ -8,7 +8,7 @@ permalink: /now/
 {:.subtitle .cyber .liner}
 # So what am I up to now?
 
-<div class="pixel-div quick-info-grid">
+<div class="pixel-div quick-info-grid" id="now-box">
     <!-- Right Now -->
     <div class="grid-item">
         <img class="vertical-center" src="../assets/img/common/succulent.png">
@@ -17,7 +17,7 @@ permalink: /now/
     <div class="grid-item spacer"></div>
     <div class="grid-item">
         <h5 class="cyber info-subtitle">Right This Moment</h5>
-        <ul>
+        <ul id="now-list">
             <li>Embarking on the Summer 2022 internship hunt</li>
             <li>Starting my 2021-2022 school year</li>
             <li>Drafting my next XR projects</li>
@@ -25,7 +25,7 @@ permalink: /now/
         <br>
         <!-- Forever -->
         <h5 class="cyber info-subtitle">Pretty Much Forever</h5>
-        <ul>
+        <ul id="forever-list">
             <li>Drawing, can't stop won't stop</li>
             <li>Trying to improve my greenthumb</li>
         </ul>
