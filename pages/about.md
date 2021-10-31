@@ -35,10 +35,13 @@ weight: 3
     <div class="grid-item">
         <div class="scroll" id="feature">
             <ul class="none" id="feature-list">
+                <!-- OSU Hackathons Feature -->
                 <li>OSU EECS: <a href="https://eecs.oregonstate.edu/hacking-way-success">"Hacking the way to success"</a> (2021)</li>
                 <!-- MLH Octocat -->
                 <li>Winning GitHub Education's <a href="https://twitter.com/GitHubEducation/status/1358334185602179072">#MyOctocat Contest at QWER Hacks</a> (2021)</li>
+                <!-- SIGGRAPH Interview -->
                 <li>ACM SIGGRAPH <a href="https://www.siggraph.org/member-profile/ryan-davis/">Spotlight</a> (2017)</li>
+                <!-- Art Alumni -->
                 <li>UC Berkeley Art Practice <a href="https://art.berkeley.edu/alumni">Alumni Gallery</a> (Ongoing)</li>
             </ul>
         </div>
@@ -56,7 +59,7 @@ weight: 3
         <h5 class="cyber info-subtitle">Find Me Here</h5>
     </div>  
     <div class="grid-item">
-        <ul>
+        <ul id="skill-list">
             <li><strong>Programming Languages</strong>: Python, C, C++, C#, HTML, CSS, Javascript</li>
             <li><strong>Tools/Software</strong>: Adobe Photoshop, Adobe Illustrator, Autodesk Maya, Unity3D</li>
             <li><strong>Toolkits</strong>: OpenVINO, ARKit, ARFoundation, MRTK</li>
