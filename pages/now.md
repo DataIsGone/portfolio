@@ -12,14 +12,14 @@ permalink: /now/
     <!-- Right Now -->
     <div class="grid-item">
         <img class="vertical-center" src="../assets/img/common/succulent.png">
-        <p style="text-align:center;color:#746e6e;opacity:0.5;font-size:smaller;margin:0;">Last Updated: 09-21-2021</p>
+        <p style="text-align:center;color:#746e6e;opacity:0.5;font-size:smaller;margin:0;">Last Updated: 11-02-2021</p>
     </div>
     <div class="grid-item spacer"></div>
     <div class="grid-item">
         <h5 class="cyber info-subtitle">Right This Moment</h5>
         <ul id="now-list">
-            <li>Embarking on the Summer 2022 internship hunt</li>
-            <li>Starting my 2021-2022 school year</li>
+            <li>The Summer 2022 internship hunt</li>
+            <li>Studying algorithms</li>
             <li>Drafting my next XR projects</li>
         </ul>
         <br>

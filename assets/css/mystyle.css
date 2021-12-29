@@ -131,6 +131,10 @@ body {
   margin: 0 2em;
 }
 
+.spacer-sm {
+  margin: 0 0;
+}
+
 /* Div Containers */
 .flex-container {
     display: flex;
@@ -190,6 +194,12 @@ ul.none li {
                  6px 0 0 0 #746e6e,
                  0 -4px 0 0 #746e6e,
                  0 6px 0 0 #746e6e;
+}
+
+.pixel-div-gallery {
+  overflow: auto;
+  max-height: 500px;
+  text-align: center;
 }
 
 /* Cyberpunk Button: https://dev.to/leandroruel/how-to-make-a-cyberpunk-2077-button-with-css-c9m */
@@ -270,6 +280,13 @@ ul.none li {
   border-image-slice: 1;
   border-width: 2px;
   border-image-source: linear-gradient(to bottom, #746e6e, #d6d6d6);
+}
+
+.scroll-sm {
+  height: auto;
+  display: block;
+  overflow: auto;
+  padding: 5px 2px;
 }
 
 #feature {
@@ -427,4 +444,13 @@ ul.none li {
     max-width: 50px;
   }
 
+}
+
+.social-media-link img {
+  margin: 0;
+  display: block;
+}
+
+.social-media-link h5 {
+  margin: 0;
 }

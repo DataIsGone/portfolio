@@ -92,40 +92,12 @@ description: Fight gladiator cats in VR using American Sign Language.
 
 {:.cyber .subtitle .liner}
 ### The Gallery
-<div class="pixel-div">
-    <div class="flex-container">
-        <div class="flex-child vertical-center">
-            <a class="no-underline" href="../assets/img/projects/catiator/turnaround.png" data-lightbox="roadtrip">
-                <img class="hover cropped" src="../assets/img/projects/catiator/turnaround.png">
-            </a>
-        </div>
-        <div class="flex-child vertical-center">
-            <a class="no-underline" href="../assets/img/projects/catiator/bones.png" data-lightbox="roadtrip">
-                <img class="hover cropped" src="../assets/img/projects/catiator/bones.png">
-            </a>
-        </div>
-        <div class="flex-child vertical-center">
-            <a class="no-underline" href="../assets/img/projects/catiator/nurbcurves.png" data-lightbox="roadtrip">
-                <img class="hover cropped" src="../assets/img/projects/catiator/nurbcurves.png">
-            </a>
-        </div>
-    </div>
-    <div class="flex-container">
-        <div class="flex-child vertical-center">
-            <a class="no-underline" href="../assets/img/projects/catiator/defeated.gif" data-lightbox="roadtrip">
-                <img class="hover cropped" src="../assets/img/projects/catiator/defeated.gif">
-            </a>
-        </div>
-        <div class="flex-child vertical-center">
-            <a class="no-underline" href="../assets/img/projects/catiator/attackplayer.gif" data-lightbox="roadtrip">
-                <img class="hover cropped" src="../assets/img/projects/catiator/attackplayer.gif">
-            </a>
-        </div>
-        <div class="flex-child vertical-center">
-            <a class="no-underline" href="../assets/img/projects/catiator/waddle.gif" data-lightbox="roadtrip">
-                <img class="hover cropped" src="../assets/img/projects/catiator/waddle.gif">
-            </a>
-        </div>
-    </div>
+<div class="pixel-div pixel-div-gallery" markdown="1">
+[<img src="/assets/img/projects/catiator/crop/turnaround_c.png">](/assets/img/projects/catiator/turnaround.png)
+[<img src="/assets/img/projects/catiator/crop/bones_c.png">](/assets/img/projects/catiator/bones.png)
+[<img src="/assets/img/projects/catiator/crop/nurbcurves_c.png">](/assets/img/projects/catiator/nurbcurves.png)
+[<img src="/assets/img/projects/catiator/crop/defeated_c.gif">](/assets/img/projects/catiator/defeated.gif)
+[<img src="/assets/img/projects/catiator/crop/waddle_c.gif">](/assets/img/projects/catiator/waddle.gif)
+[<img src="/assets/img/projects/catiator/crop/attackplayer_c.gif">](/assets/img/projects/catiator/attackplayer.gif)
 </div>
 <br>
