@@ -62,9 +62,39 @@ description: Two little robo-cooks need your help before they get fired from the
     </p>
     <br>
     <h5 class="cyber info-subtitle">The Experience, My Thoughts</h5>
-    <p>
-        [text here]
-    </p>
+        <p>
+            I decided to do another competition once I gave myself enough of a break from a hackathon I was slowly preparing for for 5 months. In all honesty I was hesitant to jump into a completely new team, but I am so glad I did! The level of cooperation amongst our diverse members was superb, and we ended up making what’s now <em>Beep N’ Bop</em>.
+        </p>
+        <p>
+            Within this team, I acted as the main artist. I contributed to nearly all aspects of Beep N’ Bop’s visual aesthetics and collaborated closely with our UX mini team to ensure what I was doing worked with their vision for accessibility. The composer and sound designer utilized the concept art I made to inspire his work. I also worked with our developer on rapid prototyping of how my pixel art would look in a 2.5D perspective alongside our 3D assets under a pixelated camera filter. In fact, cooperative, rapid prototyping between all our revolving parts was what made this game as nice as it is.
+        </p>
+        <p>
+            This level of cooperation inspired me to really push myself past my comfort zone. The biggest example of this are the 2D animations. I really don’t consider myself an animator, but we needed animations to help our game stand out, and I wanted to step up to the plate. To help me accomplish this, I prioritized simplistic visuals to help speed up my frame-by-frame process of animating. The base design of both Beep and Bop centered around a ball, allowing me to work with basic squash and stretch animation and no walk-cycles involving legs. Approaching the animations like this gave me a chance to add more details, including basic shading that helped Beep and Bop stand out in their 3D environment.
+        </p>
+        <!-- <p>
+            <div class="flex-container">
+                <div class="flex-child">
+                    <img src="/assets/img/projects/beepNBop/wips/wobble_wip1.gif">
+                </div>
+                <div class="flex-child">
+                    <img src="/assets/img/projects/beepNBop/wips/wobble_wip2.gif">
+                </div>
+                <div class="flex-child">
+                    <img src="/assets/img/projects/beepNBop/wips/wobble_complete.gif">
+                </div>
+            </div>
+        </p> -->
+        <p markdown="1" style="text-align:center">
+        [<img src="/assets/img/projects/beepNBop/wips/wobble_wip1.gif">](/assets/img/projects/beepNBop/wips/wobble_wip1.gif)
+        [<img src="/assets/img/projects/beepNBop/wips/wobble_wip2.gif">](/assets/img/projects/beepNBop/wips/wobble_wip2.gif)
+        [<img src="/assets/img/projects/beepNBop/wips/wobble_complete.gif">](/assets/img/projects/beepNBop/wips/wobble_complete.gif)
+        </p>
+        <p>
+            Additionally, my design choices allowed me to balance animating with creating illustrations. I have more confidence in my ability to draw than my animation skills, but nevertheless I quickly learned how to speedpaint more efficiently through this project. In particular, the three “level completed” splashes (the bibimbap, spaghetti with cheese, and the eggrolls) were all painted within the span of two hours. I hand paint my pixel art and do not use filters over existing images, so I am proud of what I was able to accomplish in that time.
+        </p>
+        <p>
+            Because I was the only team member working on the art assets, I needed to work fast and ended up with a lot of little mistakes across the board. However, for the time that we had, I am proud of what I accomplished here, and I look forward to another project like this!
+        </p>
     </div>
 
 <br><br>
