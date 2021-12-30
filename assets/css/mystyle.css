@@ -197,7 +197,7 @@ ul.none li {
 }
 
 .pixel-div-gallery {
-  overflow: auto;
+  overflow: scroll;
   max-height: 500px;
   text-align: center;
 }
