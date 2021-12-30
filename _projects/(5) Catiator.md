@@ -64,7 +64,7 @@ description: Fight gladiator cats in VR using American Sign Language.
 
 {:.cyber .subtitle .liner}
 ### Let Me Tell You More
-<div class="pixel-div">
+<div class="pixel-div pixel-div-exp">
     <h5 class="cyber info-subtitle">What is Catiator exactly?</h5>
     <p>
         <em>Catiator</em> is a VR game aimed at teaching American Sign Language through gamification. Using the Oculus Quest 2's gesture recognition feature, players practice one-handed signs to defeat charging gladiator cats in a vaporwave colosseum.

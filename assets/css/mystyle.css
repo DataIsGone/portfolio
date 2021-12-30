@@ -197,9 +197,14 @@ ul.none li {
 }
 
 .pixel-div-gallery {
-  overflow: scroll;
+  overflow: auto;
   max-height: 500px;
   text-align: center;
+}
+
+.pixel-div-exp {
+  overflow: auto !important;
+  max-height: 600px !important;
 }
 
 /* Cyberpunk Button: https://dev.to/leandroruel/how-to-make-a-cyberpunk-2077-button-with-css-c9m */

@@ -64,7 +64,7 @@ description: Social media doesn't have to be two dimensions of endless scrolling
 
 {:.cyber .subtitle .liner}
 ### Let Me Tell You More
-<div class="pixel-div">
+<div class="pixel-div pixel-div-exp">
     <h5 class="cyber info-subtitle">What is IntARnet exactly?</h5>
     <p>
         <em>IntARnet</em> is the idea of social media in augmented reality come to life. Inspired by graffiti and pop culture, posts can consist of drawings, text, and graphics and reside in augmented reality. Users can place these posts on landmarks they find memorable -- for example, a college student could bookmark the lecture hall where they took their first college course with a 3D model of a book. Posts stay live where the user sets their AR memory, though they eventually fade from the augmented reality space as time passes.
@@ -89,23 +89,9 @@ description: Social media doesn't have to be two dimensions of endless scrolling
 
 {:.cyber .subtitle .liner}
 ### The Gallery
-<div class="pixel-div">
-    <div class="flex-container">
-        <div class="flex-child vertical-center">
-            <a class="no-underline" href="../assets/img/projects/intARnet/text.gif" data-lightbox="roadtrip">
-                <img class="hover" src="../assets/img/projects/intARnet/text.gif">
-            </a>
-        </div>
-        <div class="flex-child vertical-center">
-            <a class="no-underline" href="../assets/img/projects/intARnet/sticker.gif" data-lightbox="roadtrip">
-                <img class="hover" src="../assets/img/projects/intARnet/sticker.gif">
-            </a>
-        </div>
-        <div class="flex-child vertical-center">
-            <a class="no-underline" href="../assets/img/projects/intARnet/writing.gif" data-lightbox="roadtrip">
-                <img class="hover" src="../assets/img/projects/intARnet/writing.gif">
-            </a>
-        </div>
-    </div>
+<div class="pixel-div pixel-div-gallery" markdown="1">
+[<img src="/assets/img/projects/intARnet/crop/text_c.gif">](/assets/img/projects/intARnet/text.gif)
+[<img src="/assets/img/projects/intARnet/crop/sticker_c.gif">](/assets/img/projects/intARnet/sticker.gif)
+[<img src="/assets/img/projects/intARnet/crop/writing_c.gif">](/assets/img/projects/intARnet/writing.gif)
 </div>
 <br>

@@ -59,7 +59,7 @@ description: Sort candid thoughts spoken a la Tweet.
 
 {:.cyber .subtitle .liner}
 ### Let Me Tell You More
-<div class="pixel-div">
+<div class="pixel-div pixel-div-exp">
 <h5 class="cyber info-subtitle">What is Murmur Nation exactly?</h5>
 <p>
 <em>Murmur Nation</em> is commentary on the current state of social media wrapped up in an Oculus Quest 2 VR minigame. Have you ever felt like you’re receiving too much information, so much there’s no point in trying to think about it or work through it, and yet you’re stuck with it? We tried to encapsulate that feeling here.
@@ -90,23 +90,9 @@ I really enjoyed making a commentary piece instead of a marketable product: it d
 
 {:.cyber .subtitle .liner}
 ### The Gallery
-<div class="pixel-div">
-    <div class="flex-container">
-        <div class="flex-child vertical-center">
-            <a class="no-underline" href="../assets/img/projects/murmur/mn1.gif" data-lightbox="roadtrip">
-                <img class="hover cropped" src="../assets/img/projects/murmur/mn1.gif">
-            </a>
-        </div>
-        <!-- <div class="flex-child vertical-center">
-            <a class="no-underline" href="../assets/img/projects/murmur/mn2.gif" data-lightbox="roadtrip">
-                <img class="hover cropped" src="../assets/img/projects/murmur/mn2.gif">
-            </a>
-        </div> -->
-        <div class="flex-child vertical-center">
-            <a class="no-underline" href="../assets/img/projects/murmur/mn3.gif" data-lightbox="roadtrip">
-                <img class="hover cropped" src="../assets/img/projects/murmur/mn3.gif">
-            </a>
-        </div>
-    </div>
+<div class="pixel-div pixel-div-gallery" markdown="1">
+[<img src="/assets/img/projects/murmur/mn1.gif">](/assets/img/projects/murmur/mn1.gif)
+[<img src="/assets/img/projects/murmur/mn2.gif">](/assets/img/projects/murmur/mn2.gif)
+[<img src="/assets/img/projects/murmur/mn3.gif">](/assets/img/projects/murmur/mn3.gif)
 </div>
 <br>

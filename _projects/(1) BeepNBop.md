@@ -55,7 +55,7 @@ description: Two little robo-cooks need your help before they get fired from the
 
 {:.cyber .subtitle .liner}
 ### Let Me Tell You More
-<div class="pixel-div">
+<div class="pixel-div pixel-div-exp">
     <h5 class="cyber info-subtitle">What is Beep N' Bop exactly?</h5>
     <p>
         <em>Beep N' Bop</em> is a 2.5D scavenger hunt where two robo-cooks work in tandem to complete a single dish between them. These bots are separated by a wall dividing the kitchen, causing the player to switch between them to access everything they need in order to serve up some delicious food under the time limit. Help them do their job before they're fired from their beloved 80's diner!

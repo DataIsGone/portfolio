@@ -55,7 +55,7 @@ description: Exercise and treat your body with mush respect.
 
 {:.cyber .subtitle .liner}
 ### Let Me Tell You More
-<div class="pixel-div">
+<div class="pixel-div pixel-div-exp">
 <h5 class="cyber info-subtitle">What is lARp exactly?</h5>
     <p>
     <em>lARp</em> is an augmented reality roleplaying game encouraging exercise via running. Players become a questing fungi looking to better the lives of their shroomy homeland by running (literally running) errands for its denizens.
@@ -98,23 +98,9 @@ description: Exercise and treat your body with mush respect.
 
 {:.cyber .subtitle .liner}
 ### The Gallery
-<div class="pixel-div">
-    <div class="flex-container">
-        <div class="flex-child vertical-center">
-            <a class="no-underline" href="../assets/img/projects/lARp/piecewise.png" data-lightbox="roadtrip">
-                <img class="hover cropped" src="../assets/img/projects/lARp/piecewise.png">
-            </a>
-        </div>
-        <div class="flex-child vertical-center">
-            <a class="no-underline" href="../assets/img/projects/lARp/randomize.gif" data-lightbox="roadtrip">
-                <img class="hover cropped" src="../assets/img/projects/lARp/randomize.gif">
-            </a>
-        </div>
-        <div class="flex-child vertical-center">
-            <a class="no-underline" href="../assets/img/projects/lARp/island.gif" data-lightbox="roadtrip">
-                <img class="hover cropped" src="../assets/img/projects/lARp/island.gif">
-            </a>
-        </div>
-    </div>
+<div class="pixel-div pixel-div-gallery" markdown="1">
+[<img src="/assets/img/projects/lARp/crop/piecewise_c.png">](/assets/img/projects/lARp/piecewise.png)
+[<img src="/assets/img/projects/lARp/crop/randomize_c.gif">](/assets/img/projects/lARp/randomize.gif)
+[<img src="/assets/img/projects/lARp/crop/island_c.gif">](/assets/img/projects/lARp/crop/island_c.gif)
 </div>
 <br>
