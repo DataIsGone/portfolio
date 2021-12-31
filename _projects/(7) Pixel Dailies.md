@@ -8,55 +8,8 @@ description: Painting pixel art profusely.
 {:.project-title .cyber .liner-title}
 # Pixel Dailies
 
-<!-- <div class="flex-container">
-    <div class="flex-child vertical-center m-iframe-container">
-        <iframe width="854" height="480" class="pixel-div-enclose" src="https://www.youtube.com/embed/WsmUjETZv8A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-</div> -->
-<div class="pixel-div">
-</div>
-
-<br>
-
-{:.cyber .subtitle .liner}
-## Get The Lowdown
-<div class="pixel-div">
-    <h4 class="cyber info-subtitle">The Event</h4>
-    <ul>
-        <li><strong>Game Jam</strong>: <a href="https://www.designbuddies.community/">Design Buddies</a>' <a href="https://itch.io/jam/design-buddies-game-jam-2021">Game Jam (2021)</a> (7 days)</li>
-        <li><strong>Awards/Recognitions</strong>: Best Game Mechanics, Voted #2 for Best Art</li>
-    </ul>
-    <h4 class="cyber info-subtitle">My Contributions</h4>
-    <ul>
-        <li><strong>Roles</strong>: Team Artist -- Character Designer, 2D Artist, Animator</li>
-        <li><strong>Tools</strong>: Procreate, Adobe Photoshop</li>
-    </ul>
-    <hr class="inner-hr">
-    <h5 class="cyber info-subtitle">Interested in trying Beep N' Bop?</h5>
-    <ul>
-        <li><em>Beep N' Bop</em> can be played two different ways:</li>
-            <ul>
-                <li>Directly on our <a href="https://dataisgone.itch.io/beep-n-bop">Itch.io</a> page through embedded WebGL</li>
-                <li>Downloadable Windows executable found at the bottom of our <a href="https://dataisgone.itch.io/beep-n-bop">Itch.io</a> page</li>
-            </ul>
-    </ul>
-</div>
-
-<div class="flex-container">
-    <div class="flex-child vertical-center">
-        <a class="no-underline" href="https://dataisgone.itch.io/beep-n-bop">
-            <button class="btn m-btn">
-            <span class="btn__content">Twitter</span>
-            <span class="btn__glitch"></span>
-            </button>
-        </a>
-    </div>
-</div>
-
-<br><br>
-
-{:.cyber .subtitle .liner}
-### The Gallery
+<!-- {:.cyber .subtitle .liner}
+### A Sample of the Journey -->
 <div class="pixel-div pixel-div-gallery" markdown="1">
 [<img src="/assets/img/projects/beepNBop/crop/bibimbap_c.png">](/assets/img/projects/beepNBop/bibimbap.png)
 [<img src="/assets/img/projects/beepNBop/crop/eggrolls_c.png">](/assets/img/projects/beepNBop/eggrolls.png)
@@ -72,17 +25,55 @@ description: Painting pixel art profusely.
 [<img src="/assets/img/projects/beepNBop/crop/gameplay_c.png">](/assets/img/projects/beepNBop/gameplay.png)
 </div>
 
+<br>
+
+{:.cyber .subtitle .liner}
+## Get The Lowdown
+<div class="pixel-div">
+    <!-- <h4 class="cyber info-subtitle">The Event</h4> -->
+    <h5 class="cyber info-subtitle">What are Pixel Dailies exactly?</h5>
+    <ul>
+        <li><strong>Game Jam</strong>: <a href="https://www.designbuddies.community/">Design Buddies</a>' <a href="https://itch.io/jam/design-buddies-game-jam-2021">Game Jam (2021)</a> (7 days)</li>
+        <li><strong>Awards/Recognitions</strong>: Best Game Mechanics, Voted #2 for Best Art</li>
+    </ul>
+    <!-- <h4 class="cyber info-subtitle">My Contributions</h4>
+    <ul>
+        <li><strong>Roles</strong>: Team Artist -- Character Designer, 2D Artist, Animator</li>
+        <li><strong>Tools</strong>: Procreate, Adobe Photoshop</li>
+    </ul> -->
+    <hr class="inner-hr">
+    <h5 class="cyber info-subtitle">Interested in trying Beep N' Bop?</h5>
+    <ul>
+        <li><em>Beep N' Bop</em> can be played two different ways:</li>
+            <ul>
+                <li>text</li>
+                <li>text</li>
+            </ul>
+    </ul>
+</div>
+
+<div class="flex-container">
+    <div class="flex-child vertical-center">
+        <a class="no-underline" href="https://twitter.com/dataisgone">
+            <button class="btn m-btn">
+            <span class="btn__content">Twitter</span>
+            <span class="btn__glitch"></span>
+            </button>
+        </a>
+    </div>
+</div>
+
 <br><br>
 
 {:.cyber .subtitle .liner}
-### Let Me Tell You More
+### The Experience, My Thoughts
 <div class="pixel-div pixel-div-exp">
-    <h5 class="cyber info-subtitle">What is Beep N' Bop exactly?</h5>
+    <!-- <h5 class="cyber info-subtitle">What is "Pixel Dailies" exactly?</h5> -->
     <!-- <p>
         <em>Beep N' Bop</em> is a 2.5D scavenger hunt where two robo-cooks work in tandem to complete a single dish between them. These bots are separated by a wall dividing the kitchen, causing the player to switch between them to access everything they need in order to serve up some delicious food under the time limit. Help them do their job before they're fired from their beloved 80's diner!
     </p> -->
-    <br>
-    <h5 class="cyber info-subtitle">The Experience, My Thoughts</h5>
+    <!-- <br>
+    <h5 class="cyber info-subtitle">The Experience, My Thoughts</h5> -->
         <!-- <p>
             I decided to do another competition once I gave myself enough of a break from a hackathon I was slowly preparing for for 5 months. In all honesty I was hesitant to jump into a completely new team, but I am so glad I did! The level of cooperation amongst our diverse members was superb, and we ended up making what’s now <em>Beep N’ Bop</em>.
         </p>

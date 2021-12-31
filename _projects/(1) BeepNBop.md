@@ -71,11 +71,6 @@ description: Two little robo-cooks need your help before they get fired from the
         <p>
             This level of cooperation inspired me to really push myself past my comfort zone. The biggest example of this are the 2D animations. I really don’t consider myself an animator, but we needed animations to help our game stand out, and I wanted to step up to the plate. To help me accomplish this, I prioritized simplistic visuals to help speed up my frame-by-frame process of animating. The base design of both Beep and Bop centered around a ball, allowing me to work with basic squash and stretch animation and no walk-cycles involving legs. Approaching the animations like this gave me a chance to add more details, including basic shading that helped Beep and Bop stand out in their 3D environment.
         </p>
-        <!-- <p markdown="1" style="text-align:center">
-        [<img src="/assets/img/projects/beepNBop/wips/wobble_wip1.gif">](/assets/img/projects/beepNBop/wips/wobble_wip1.gif)
-        [<img src="/assets/img/projects/beepNBop/wips/wobble_wip2.gif">](/assets/img/projects/beepNBop/wips/wobble_wip2.gif)
-        [<img src="/assets/img/projects/beepNBop/wips/wobble_complete.gif">](/assets/img/projects/beepNBop/wips/wobble_complete.gif)
-        </p> -->
         <p>
             Additionally, my design choices allowed me to balance animating with creating illustrations. I have more confidence in my ability to draw than my animation skills, but nevertheless I quickly learned how to speedpaint more efficiently through this project. In particular, the three “level completed” splashes (the bibimbap, spaghetti with cheese, and the eggrolls) were all painted within the span of two hours. I hand paint my pixel art and do not use filters over existing images, so I am proud of what I was able to accomplish in that time.
         </p>
