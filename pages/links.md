@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Now
+title: Links
 weight: 4
 permalink: /links/
 ---
 
 {:.subtitle .cyber .liner}
-# The Work of Ryan Davis
+# Ryan Davis | No Data
 
 <div class="pixel-div quick-info-grid">
     <div class="grid-item scroll-sm">

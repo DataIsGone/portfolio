@@ -1,6 +1,6 @@
 <div align="center">
     <h1>The Portfolio Website of Ryan Davis</h1>
-    <img src="/assets/img/common/lightbox/loading.gif">
+    <img src="/assets/img/common/img/loading.gif">
     <br><br>
     <em>
         <strong>I am not a web designer nor a web developer.</strong>
