@@ -11,18 +11,11 @@ description: Painting pixel art profusely.
 <!-- {:.cyber .subtitle .liner}
 ### A Sample of the Journey -->
 <div class="pixel-div pixel-div-gallery" markdown="1">
-[<img src="/assets/img/projects/beepNBop/crop/bibimbap_c.png">](/assets/img/projects/beepNBop/bibimbap.png)
-[<img src="/assets/img/projects/beepNBop/crop/eggrolls_c.png">](/assets/img/projects/beepNBop/eggrolls.png)
-[<img src="/assets/img/projects/beepNBop/crop/spaghetti_c.png">](/assets/img/projects/beepNBop/spaghetti.png)
-[<img src="/assets/img/projects/beepNBop/crop/decorative_c.png">](/assets/img/projects/beepNBop/decorative.png)
-[<img src="/assets/img/projects/beepNBop/crop/dumpster_c.png">](/assets/img/projects/beepNBop/dumpster.png)
-[<img src="/assets/img/projects/beepNBop/crop/environment_c.png">](/assets/img/projects/beepNBop/environment.png)
-[<img src="/assets/img/projects/beepNBop/crop/idle_c.gif">](/assets/img/projects/beepNBop/idle.gif)
-[<img src="/assets/img/projects/beepNBop/crop/wobble_bop_c.gif">](/assets/img/projects/beepNBop/wobble_bop.gif)
-[<img src="/assets/img/projects/beepNBop/crop/wobble_beep_c.gif">](/assets/img/projects/beepNBop/wobble_beep.gif)
-[<img src="/assets/img/projects/beepNBop/crop/expressions_c.png">](/assets/img/projects/beepNBop/expressions.png)
-[<img src="/assets/img/projects/beepNBop/crop/character_concept_c.png">](/assets/img/projects/beepNBop/character_concept.png)
-[<img src="/assets/img/projects/beepNBop/crop/gameplay_c.png">](/assets/img/projects/beepNBop/gameplay.png)
+[<img src="/assets/img/projects/pd/crop/kingdra_c.png">](/assets/img/projects/pd/kingdra.png)
+[<img src="/assets/img/projects/pd/crop/bottle_c.png">](/assets/img/projects/pd/bottle.png)
+[<img src="/assets/img/projects/pd/crop/meter_c.png">](/assets/img/projects/pd/meter.png)
+[<img src="/assets/img/projects/pd/crop/tent_c.png">](/assets/img/projects/pd/tent.png)
+[<img src="/assets/img/projects/pd/gallery_link.png">](https://dataisgone.tumblr.com/)
 </div>
 
 <br>
