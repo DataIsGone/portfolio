@@ -1,6 +1,6 @@
 ---
 name: Murmur Nation
-tools: [Game Jams, VR]
+tools: [Game Jam, VR]
 image: /assets/img/projcards/murmur_card.gif
 description: Sort candid thoughts spoken a la Tweet.
 ---
