@@ -97,9 +97,9 @@ description: Language learning in VR, but you're a pepper cat.
 <span class="divider line razor">Click a preview to view the full asset</span>
 </p>
 <div class="pixel-div-gallery" markdown="1">
-[<img src="/assets/img/projects/beepNBop/crop/bibimbap_c.png">](/assets/img/projects/beepNBop/bibimbap.png)
-[<img src="/assets/img/projects/beepNBop/crop/eggrolls_c.png">](/assets/img/projects/beepNBop/eggrolls.png)
-[<img src="/assets/img/projects/beepNBop/crop/spaghetti_c.png">](/assets/img/projects/beepNBop/spaghetti.png)
+[<img src="/assets/img/projects/hg/crop/hg_anim_set1_c.gif">](/assets/img/projects/hg/hg_anim_set1.gif)
+[<img src="/assets/img/projects/hg/crop/hg_anim_set2_c.gif">](/assets/img/projects/hg/hg_anim_set2.gif)
+[<img src="/assets/img/projects/hg/crop/hg_anim_set3_c.gif">](/assets/img/projects/hg/hg_anim_set3.gif)
 [<img src="/assets/img/projects/beepNBop/crop/decorative_c.png">](/assets/img/projects/beepNBop/decorative.png)
 [<img src="/assets/img/projects/beepNBop/crop/dumpster_c.png">](/assets/img/projects/beepNBop/dumpster.png)
 [<img src="/assets/img/projects/beepNBop/crop/environment_c.png">](/assets/img/projects/beepNBop/environment.png)
