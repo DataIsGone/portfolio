@@ -92,12 +92,17 @@ description: Fight gladiator cats in VR using American Sign Language.
 
 {:.cyber .subtitle .liner}
 ### The Gallery
-<div class="pixel-div pixel-div-gallery" markdown="1">
+<div class="pixel-div">
+<p class="instruct">
+<span class="divider line razor">Click a preview to view the full asset</span>
+</p>
+<div class="pixel-div-gallery" markdown="1">
 [<img src="/assets/img/projects/catiator/crop/turnaround_c.png">](/assets/img/projects/catiator/turnaround.png)
 [<img src="/assets/img/projects/catiator/crop/bones_c.png">](/assets/img/projects/catiator/bones.png)
 [<img src="/assets/img/projects/catiator/crop/nurbcurves_c.png">](/assets/img/projects/catiator/nurbcurves.png)
 [<img src="/assets/img/projects/catiator/crop/defeated_c.gif">](/assets/img/projects/catiator/defeated.gif)
 [<img src="/assets/img/projects/catiator/crop/waddle_c.gif">](/assets/img/projects/catiator/waddle.gif)
 [<img src="/assets/img/projects/catiator/crop/attackplayer_c.gif">](/assets/img/projects/catiator/attackplayer.gif)
+</div>
 </div>
 <br>

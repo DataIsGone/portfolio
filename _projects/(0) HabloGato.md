@@ -85,8 +85,8 @@ description: Language learning in VR, but you're a pepper cat.
 {:.cyber .subtitle .liner}
 ### The Gallery
 <div class="pixel-div">
-<p align="center" style="margin:0">
-<em>click each preview to view the full asset</em>
+<p class="instruct">
+<span class="divider line razor">Click a preview to view the full asset</span>
 </p>
 <div class="pixel-div-gallery" markdown="1">
 [<img src="/assets/img/projects/beepNBop/crop/bibimbap_c.png">](/assets/img/projects/beepNBop/bibimbap.png)

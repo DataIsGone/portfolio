@@ -89,9 +89,14 @@ description: Social media doesn't have to be two dimensions of endless scrolling
 
 {:.cyber .subtitle .liner}
 ### The Gallery
-<div class="pixel-div pixel-div-gallery" markdown="1">
+<div class="pixel-div">
+<p class="instruct">
+<span class="divider line razor">Click a preview to view the full asset</span>
+</p>
+<div class="pixel-div-gallery" markdown="1">
 [<img src="/assets/img/projects/intARnet/crop/text_c.gif">](/assets/img/projects/intARnet/text.gif)
 [<img src="/assets/img/projects/intARnet/crop/sticker_c.gif">](/assets/img/projects/intARnet/sticker.gif)
 [<img src="/assets/img/projects/intARnet/crop/writing_c.gif">](/assets/img/projects/intARnet/writing.gif)
+</div>
 </div>
 <br>

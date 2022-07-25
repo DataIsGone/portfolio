@@ -98,9 +98,14 @@ description: Exercise and treat your body with mush respect.
 
 {:.cyber .subtitle .liner}
 ### The Gallery
-<div class="pixel-div pixel-div-gallery" markdown="1">
+<div class="pixel-div">
+<p class="instruct">
+<span class="divider line razor">Click a preview to view the full asset</span>
+</p>
+<div class="pixel-div-gallery" markdown="1">
 [<img src="/assets/img/projects/lARp/crop/piecewise_c.png">](/assets/img/projects/lARp/piecewise.png)
 [<img src="/assets/img/projects/lARp/crop/randomize_c.gif">](/assets/img/projects/lARp/randomize.gif)
-[<img src="/assets/img/projects/lARp/crop/island_c.gif">](/assets/img/projects/lARp/crop/island_c.gif)
+[<img src="/assets/img/projects/lARp/crop/island_c.gif">](/assets/img/projects/lARp/island.gif)
+</div>
 </div>
 <br>
