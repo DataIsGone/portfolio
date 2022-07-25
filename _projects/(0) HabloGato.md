@@ -1,7 +1,7 @@
 ---
 name: Hablo Gato
 tools: [School, VR]
-image: /assets/img/projcards/bnb_card.gif
+image: /assets/img/projcards/hg_card.gif
 description: Language learning in VR, but you're a pepper cat.
 ---
 
@@ -51,6 +51,14 @@ description: Language learning in VR, but you're a pepper cat.
         <a class="no-underline" href="https://dataisgone.itch.io/hablo-gato">
             <button class="btn m-btn">
             <span class="btn__content">Itch.io</span>
+            <span class="btn__glitch"></span>
+            </button>
+        </a>
+    </div>
+    <div class="flex-child vertical-center">
+        <a class="no-underline" href="https://media.oregonstate.edu/media/t/1_3ii484gk">
+            <button class="btn m-btn">
+            <span class="btn__content">Final Presentation</span>
             <span class="btn__glitch"></span>
             </button>
         </a>

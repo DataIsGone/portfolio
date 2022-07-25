@@ -33,7 +33,7 @@ body {
 .project-title {
   color: #3a3636;
   text-shadow: 2px 2px rgba(245, 245, 245, 0.5);
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   font-size: 500%;
   text-transform: uppercase;
 }
@@ -51,7 +51,7 @@ body {
   text-transform: uppercase;
   font-size: 150%;
   color: #3a3636;
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
 }
 
 .project-card-title {
@@ -408,7 +408,7 @@ p.instruct {
   .project-title {
     color: #3a3636;
     text-shadow: 2px 2px rgba(245, 245, 245, 0.5);
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     font-size: 400%;
     text-transform: uppercase;
   }
