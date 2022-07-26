@@ -100,7 +100,7 @@ description: Language learning in VR, but you're a pepper cat.
 [<img src="/assets/img/projects/hg/crop/hg_anim_set1_c.gif">](/assets/img/projects/hg/hg_anim_set1.gif)
 [<img src="/assets/img/projects/hg/crop/hg_anim_set2_c.gif">](/assets/img/projects/hg/hg_anim_set2.gif)
 [<img src="/assets/img/projects/hg/crop/hg_anim_set3_c.gif">](/assets/img/projects/hg/hg_anim_set3.gif)
-[<img src="/assets/img/projects/hg/crop/env_ca_c.png">](/assets/img/projects/hg/env_ca.png)
+[<img src="/assets/img/projects/hg/crop/env_CA_c.png">](/assets/img/projects/hg/env_CA.png)
 [<img src="/assets/img/projects/hg/crop/char_design_c.png">](/assets/img/projects/hg/char_design.png)
 [<img src="/assets/img/projects/hg/crop/char_idea_c.png">](/assets/img/projects/hg/char_idea.png)
 [<img src="/assets/img/projects/hg/crop/ux_ui_c.png">](/assets/img/projects/hg/ux_ui.png)
