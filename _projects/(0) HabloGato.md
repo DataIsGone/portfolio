@@ -100,15 +100,11 @@ description: Language learning in VR, but you're a pepper cat.
 [<img src="/assets/img/projects/hg/crop/hg_anim_set1_c.gif">](/assets/img/projects/hg/hg_anim_set1.gif)
 [<img src="/assets/img/projects/hg/crop/hg_anim_set2_c.gif">](/assets/img/projects/hg/hg_anim_set2.gif)
 [<img src="/assets/img/projects/hg/crop/hg_anim_set3_c.gif">](/assets/img/projects/hg/hg_anim_set3.gif)
-[<img src="/assets/img/projects/beepNBop/crop/decorative_c.png">](/assets/img/projects/beepNBop/decorative.png)
-[<img src="/assets/img/projects/beepNBop/crop/dumpster_c.png">](/assets/img/projects/beepNBop/dumpster.png)
-[<img src="/assets/img/projects/beepNBop/crop/environment_c.png">](/assets/img/projects/beepNBop/environment.png)
-[<img src="/assets/img/projects/beepNBop/crop/idle_c.gif">](/assets/img/projects/beepNBop/idle.gif)
-[<img src="/assets/img/projects/beepNBop/crop/wobble_bop_c.gif">](/assets/img/projects/beepNBop/wobble_bop.gif)
-[<img src="/assets/img/projects/beepNBop/crop/wobble_beep_c.gif">](/assets/img/projects/beepNBop/wobble_beep.gif)
-[<img src="/assets/img/projects/beepNBop/crop/expressions_c.png">](/assets/img/projects/beepNBop/expressions.png)
-[<img src="/assets/img/projects/beepNBop/crop/character_concept_c.png">](/assets/img/projects/beepNBop/character_concept.png)
-[<img src="/assets/img/projects/beepNBop/crop/gameplay_c.png">](/assets/img/projects/beepNBop/gameplay.png)
+[<img src="/assets/img/projects/hg/crop/env_ca_c.png">](/assets/img/projects/hg/env_ca.png)
+[<img src="/assets/img/projects/hg/crop/char_design_c.png">](/assets/img/projects/hg/char_design.png)
+[<img src="/assets/img/projects/hg/crop/char_idea_c.png">](/assets/img/projects/hg/char_idea.png)
+[<img src="/assets/img/projects/hg/crop/ux_ui_c.png">](/assets/img/projects/hg/ux_ui.png)
+[<img src="/assets/img/projects/hg/crop/storyboards_c.png">](/assets/img/projects/hg/storyboards.png)
 </div>
 </div>
 <br>
