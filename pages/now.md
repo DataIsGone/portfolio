@@ -21,6 +21,7 @@ permalink: /now/
             <li>The new grad job hunt</li>
             <li>Working on <em>Translucid</em> in Code Coven's Game Developer Program</li>
             <li>Portfolio and resume reviews</li>
+            <li>Reworking <em>Starmetry</em>, my educational geometry RPG</li>
         </ul>
         <br>
         <!-- Forever -->
