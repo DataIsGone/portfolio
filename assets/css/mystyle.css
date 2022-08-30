@@ -210,9 +210,12 @@ ul.none li {
 p.instruct {
   margin: 0 0 0.5px 0;
   text-align: center;
-  font-style: italic;
-  color: #746e6e;
-  opacity: 75%;
+  font-weight: bold;
+  color: #3a3636;
+  /*Older style, hard to read - 8/2022*/
+  /*font-style: italic;*/
+  /*color: #746e6e;*/
+  /*opacity: 75%;*/
 }
 
 /* Gallery Instructions Horizontal Rule: https://codepen.io/benknight/pen/zxxeay*/

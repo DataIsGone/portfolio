@@ -14,7 +14,17 @@ description: Sort candid thoughts spoken a la Tweet.
     </div>
 </div>
 
-<br>
+<br><br>
+
+{:.cyber .subtitle .liner}
+### The GIF Gallery
+<div class="pixel-div pixel-div-gallery" markdown="1">
+[<img src="/assets/img/projects/murmur/mn1.gif">](/assets/img/projects/murmur/mn1.gif)
+[<img src="/assets/img/projects/murmur/mn2.gif">](/assets/img/projects/murmur/mn2.gif)
+[<img src="/assets/img/projects/murmur/mn3.gif">](/assets/img/projects/murmur/mn3.gif)
+</div>
+
+<br><br>
 
 {:.cyber .subtitle .liner}
 ## Get The Lowdown
@@ -86,13 +96,4 @@ I really enjoyed making a commentary piece instead of a marketable product: it d
 </p>
 </div>
 
-<br><br>
-
-{:.cyber .subtitle .liner}
-### The Gallery
-<div class="pixel-div pixel-div-gallery" markdown="1">
-[<img src="/assets/img/projects/murmur/mn1.gif">](/assets/img/projects/murmur/mn1.gif)
-[<img src="/assets/img/projects/murmur/mn2.gif">](/assets/img/projects/murmur/mn2.gif)
-[<img src="/assets/img/projects/murmur/mn3.gif">](/assets/img/projects/murmur/mn3.gif)
-</div>
 <br>

@@ -1,6 +1,6 @@
 ---
 name: Beep N' Bop
-tools: [Game Jam]
+tools: [Unity, Game Jam]
 image: /assets/img/projcards/bnb_card.gif
 description: Two little robo-cooks need your help before they get fired from their 80's diner job!
 ---
@@ -14,7 +14,31 @@ description: Two little robo-cooks need your help before they get fired from the
     </div>
 </div>
 
-<br>
+<br><br>
+
+{:.cyber .subtitle .liner}
+### The Art Gallery
+<div class="pixel-div">
+<p class="instruct">
+<span class="divider line razor">Click a preview to view the full asset</span>
+</p>
+<div class="pixel-div-gallery" markdown="1">
+[<img src="/assets/img/projects/beepNBop/crop/bibimbap_c.png">](/assets/img/projects/beepNBop/bibimbap.png)
+[<img src="/assets/img/projects/beepNBop/crop/eggrolls_c.png">](/assets/img/projects/beepNBop/eggrolls.png)
+[<img src="/assets/img/projects/beepNBop/crop/spaghetti_c.png">](/assets/img/projects/beepNBop/spaghetti.png)
+[<img src="/assets/img/projects/beepNBop/crop/decorative_c.png">](/assets/img/projects/beepNBop/decorative.png)
+[<img src="/assets/img/projects/beepNBop/crop/dumpster_c.png">](/assets/img/projects/beepNBop/dumpster.png)
+[<img src="/assets/img/projects/beepNBop/crop/environment_c.png">](/assets/img/projects/beepNBop/environment.png)
+[<img src="/assets/img/projects/beepNBop/crop/idle_c.gif">](/assets/img/projects/beepNBop/idle.gif)
+[<img src="/assets/img/projects/beepNBop/crop/wobble_bop_c.gif">](/assets/img/projects/beepNBop/wobble_bop.gif)
+[<img src="/assets/img/projects/beepNBop/crop/wobble_beep_c.gif">](/assets/img/projects/beepNBop/wobble_beep.gif)
+[<img src="/assets/img/projects/beepNBop/crop/expressions_c.png">](/assets/img/projects/beepNBop/expressions.png)
+[<img src="/assets/img/projects/beepNBop/crop/character_concept_c.png">](/assets/img/projects/beepNBop/character_concept.png)
+[<img src="/assets/img/projects/beepNBop/crop/gameplay_c.png">](/assets/img/projects/beepNBop/gameplay.png)
+</div>
+</div>
+
+<br><br>
 
 {:.cyber .subtitle .liner}
 ## Get The Lowdown
@@ -79,27 +103,4 @@ description: Two little robo-cooks need your help before they get fired from the
         </p>
     </div>
 
-<br><br>
-
-{:.cyber .subtitle .liner}
-### The Gallery
-<div class="pixel-div">
-<p class="instruct">
-<span class="divider line razor">Click a preview to view the full asset</span>
-</p>
-<div class="pixel-div-gallery" markdown="1">
-[<img src="/assets/img/projects/beepNBop/crop/bibimbap_c.png">](/assets/img/projects/beepNBop/bibimbap.png)
-[<img src="/assets/img/projects/beepNBop/crop/eggrolls_c.png">](/assets/img/projects/beepNBop/eggrolls.png)
-[<img src="/assets/img/projects/beepNBop/crop/spaghetti_c.png">](/assets/img/projects/beepNBop/spaghetti.png)
-[<img src="/assets/img/projects/beepNBop/crop/decorative_c.png">](/assets/img/projects/beepNBop/decorative.png)
-[<img src="/assets/img/projects/beepNBop/crop/dumpster_c.png">](/assets/img/projects/beepNBop/dumpster.png)
-[<img src="/assets/img/projects/beepNBop/crop/environment_c.png">](/assets/img/projects/beepNBop/environment.png)
-[<img src="/assets/img/projects/beepNBop/crop/idle_c.gif">](/assets/img/projects/beepNBop/idle.gif)
-[<img src="/assets/img/projects/beepNBop/crop/wobble_bop_c.gif">](/assets/img/projects/beepNBop/wobble_bop.gif)
-[<img src="/assets/img/projects/beepNBop/crop/wobble_beep_c.gif">](/assets/img/projects/beepNBop/wobble_beep.gif)
-[<img src="/assets/img/projects/beepNBop/crop/expressions_c.png">](/assets/img/projects/beepNBop/expressions.png)
-[<img src="/assets/img/projects/beepNBop/crop/character_concept_c.png">](/assets/img/projects/beepNBop/character_concept.png)
-[<img src="/assets/img/projects/beepNBop/crop/gameplay_c.png">](/assets/img/projects/beepNBop/gameplay.png)
-</div>
-</div>
 <br>

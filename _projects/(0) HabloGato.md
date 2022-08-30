@@ -1,6 +1,6 @@
 ---
 name: Hablo Gato
-tools: [School, VR]
+tools: [VR, Unity]
 image: /assets/img/projcards/hg_card.gif
 description: Language learning in VR, but you're a pepper cat.
 ---
@@ -14,7 +14,27 @@ description: Language learning in VR, but you're a pepper cat.
     </div>
 </div>
 
-<br>
+<br><br>
+
+{:.cyber .subtitle .liner}
+### The Art Gallery
+<div class="pixel-div">
+<p class="instruct">
+<span class="divider line razor">Click a preview to view the full asset</span>
+</p>
+<div class="pixel-div-gallery" markdown="1">
+[<img src="/assets/img/projects/hg/crop/hg_anim_set1_c.gif">](/assets/img/projects/hg/hg_anim_set1.gif)
+[<img src="/assets/img/projects/hg/crop/hg_anim_set2_c.gif">](/assets/img/projects/hg/hg_anim_set2.gif)
+[<img src="/assets/img/projects/hg/crop/hg_anim_set3_c.gif">](/assets/img/projects/hg/hg_anim_set3.gif)
+[<img src="/assets/img/projects/hg/crop/env_CA_c.png">](/assets/img/projects/hg/env_CA.png)
+[<img src="/assets/img/projects/hg/crop/char_design_c.png">](/assets/img/projects/hg/char_design.png)
+[<img src="/assets/img/projects/hg/crop/char_idea_c.png">](/assets/img/projects/hg/char_idea.png)
+[<img src="/assets/img/projects/hg/crop/ux_ui_c.png">](/assets/img/projects/hg/ux_ui.png)
+[<img src="/assets/img/projects/hg/crop/storyboards_c.png">](/assets/img/projects/hg/storyboards.png)
+</div>
+</div>
+
+<br><br>
 
 {:.cyber .subtitle .liner}
 ## Get The Lowdown
@@ -86,25 +106,6 @@ description: Language learning in VR, but you're a pepper cat.
             My team was great — we all learned from each other but also let ourselves thrive in our lanes. I ended up changing the anticipated art style a few times, and the overall look could be improved now that the project period is over. But ultimately I did more than I could chew, but the amount that I learned about setting up a small world with Unity was absolutely invaluable to the work I’m doing today. Overall, I would call this project a success, one that I’m excited to return to and improve on it more.
         </p>
 
-    </div>
-
-<br><br>
-
-{:.cyber .subtitle .liner}
-### The Gallery
-<div class="pixel-div">
-<p class="instruct">
-<span class="divider line razor">Click a preview to view the full asset</span>
-</p>
-<div class="pixel-div-gallery" markdown="1">
-[<img src="/assets/img/projects/hg/crop/hg_anim_set1_c.gif">](/assets/img/projects/hg/hg_anim_set1.gif)
-[<img src="/assets/img/projects/hg/crop/hg_anim_set2_c.gif">](/assets/img/projects/hg/hg_anim_set2.gif)
-[<img src="/assets/img/projects/hg/crop/hg_anim_set3_c.gif">](/assets/img/projects/hg/hg_anim_set3.gif)
-[<img src="/assets/img/projects/hg/crop/env_CA_c.png">](/assets/img/projects/hg/env_CA.png)
-[<img src="/assets/img/projects/hg/crop/char_design_c.png">](/assets/img/projects/hg/char_design.png)
-[<img src="/assets/img/projects/hg/crop/char_idea_c.png">](/assets/img/projects/hg/char_idea.png)
-[<img src="/assets/img/projects/hg/crop/ux_ui_c.png">](/assets/img/projects/hg/ux_ui.png)
-[<img src="/assets/img/projects/hg/crop/storyboards_c.png">](/assets/img/projects/hg/storyboards.png)
 </div>
-</div>
+
 <br>
