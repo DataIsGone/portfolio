@@ -1,14 +1,17 @@
 <!-- Simple-Jekyll-Search https://github.com/christian-fei/Simple-Jekyll-Search -->
 
 <div class="input-group mt-5 px-3">
-  <input id="search-input" type="text" class="form-control search-box" placeholder="Search posts..">
+  <input id="search-input" type="text" class="form-control search-box" placeholder="Type a keyword to search my projects!">
   <div class="input-group-append">
-    <span class="input-group-text border border-primary bg-primary text-white">
+    <!-- <span class="input-group-text border border-primary bg-primary text-white">
       <i class="fas fa-search"></i>
-    </span>
+    </span> -->
   </div>
-  <button class="btn btn-outline-primary ml-1" onclick="location.href = '{{ '/blog/tags' | relative_url }}';">
-    <i class="fas fa-tags"></i>
+</div>
+<div class="input-group mt-5 px-3">
+  <button onclick="location.href = '{{ '/blog/tags' | relative_url }}';">
+  <!-- <i class="fas fa-tags"></i> -->
+  See All Tags
   </button>
 </div>
 <ul class="px-3" id="results-container"></ul>

@@ -1,6 +1,6 @@
 body {
-  background-color: #f5f5f5;
-  background-image: url("../img/common/plant_bg.png");
+  background-color: #363231;
+  background-image: url("../img/common/test_bg4.png");
 
   /* Background Repeat */
   background-repeat: no-repeat;
@@ -20,19 +20,20 @@ body {
 }
 
 @font-face {
-  font-family: Cyber;
-  src: url("https://assets.codepen.io/605876/Blender-Pro-Bold.otf");
+  font-family: Dogica;
+  src: url("../fonts/dogicapixel.otf");
   font-display: swap;
 }
 
-.cyber {
-    font-family: Cyber;
+.pixel-font {
+    font-family: 'Dogica', monospace;
+    font-display: swap;
 }
 
 /* Gradient Text: https://codepen.io/argyleink/pen/OJMEpGp */
 .project-title {
-  color: #3a3636;
-  text-shadow: 2px 2px rgba(245, 245, 245, 0.5);
+  color: #eafbcc;
+  text-shadow: 4px 4px #00000080;
   /* -webkit-background-clip: text; */
   font-size: 500%;
   text-transform: uppercase;
@@ -41,8 +42,8 @@ body {
 .subtitle {
   text-transform: uppercase;
   font-size: 250%;
-  color: #3a3636;
-  text-shadow: 2px 2px rgba(245, 245, 245, 0.5);
+  color: #eafbcc;
+  text-shadow: 4px 4px #00000080;
   background-clip: text;
   -webkit-background-clip: text;
 }
@@ -50,14 +51,14 @@ body {
 .info-subtitle {
   text-transform: uppercase;
   font-size: 150%;
-  color: #3a3636;
+  color: #eafbcc;
   /* -webkit-background-clip: text; */
 }
 
 .project-card-title {
   text-transform: uppercase;
-  font-size: 160%;
-  font-family: Cyber;
+  font-size: 130%;
+  font-family: Dogica;
 }
 
 /* Inline HR: https://codepen.io/oaviv/pen/GqXwYp */
@@ -89,7 +90,6 @@ body {
   content: "";
   flex-grow: 1;
   height: 4px;
-  background: linear-gradient(to right, #3a3636, #746e6e, #BAB5B5, #f5f5f5);
   min-width: 20px;
   margin: auto;
 }
@@ -133,6 +133,59 @@ body {
 
 .spacer-sm {
   margin: 0 0;
+}
+
+/* button test */
+
+.btn {
+  width: 300px;
+  height: 45px;
+  background: #eafbcc;
+  border: 0px;
+  position: relative;
+  box-shadow: 
+    inset -2px 2px 1px 1px #FFD989,
+    inset -2px -2px 1px 1px #9E4D20,
+    inset 2px 0px 1px 1px #F28133
+}
+
+.btn-pixel-gallery {
+  width: 200px;
+  height: 45px;
+  background: #eafbcc;
+  border: 0px;
+  position: relative;
+  box-shadow: 
+    inset -2px 2px 1px 1px #FFD989,
+    inset -2px -2px 1px 1px #9E4D20,
+    inset 2px 0px 1px 1px #F28133
+}
+
+.btn:active {
+  outline: none;
+  top: 2px;
+}
+
+.btn::after {
+  content: '';
+  background: #eafbcc;
+  position: absolute;
+  left: -2%;
+  top: 0;
+  width: 104%;
+  height: 100%;
+  z-index: -1
+}
+
+.btn::before {
+  content: '';
+   background: #000;
+  position: absolute;
+  left: 0;
+  top: -5%;
+  width: 100%;
+  height: 110%;
+  z-index: -2
 }
 
 /* Div Containers */
@@ -179,21 +232,21 @@ ul.none li {
 .pixel-div {
   margin: 0.5em auto;
   padding: 20px;
-  background-color: #f5f5f5;
-  box-shadow:   -3px 0 0 0 #746e6e,
-                 6px 0 0 0 #746e6e,
-                 0 -4px 0 0 #746e6e,
-                 0 6px 0 0 #746e6e;
+  background-color: #44403f;
+  box-shadow:   -3px 0 0 0 #eafbcc, /* left */
+                 6px 0 0 0 #58642d, /* right */
+                 0 -4px 0 0 #eafbcc, /* top */
+                 0 6px 0 0 #0e0d0c; /* bottom */
 }
 
 .pixel-div-enclose {
   margin: 0.5em auto;
   padding: 10px;
-  background-color: #f5f5f5;
-  box-shadow:   -3px 0 0 0 #746e6e,
-                 6px 0 0 0 #746e6e,
-                 0 -4px 0 0 #746e6e,
-                 0 6px 0 0 #746e6e;
+  background-color: #44403f;
+  box-shadow:   -3px 0 0 0 #eafbcc, /* left */
+                 6px 0 0 0 #58642d, /* right */
+                 0 -4px 0 0 #eafbcc, /* top */
+                 0 6px 0 0 #0e0d0c; /* bottom */
 }
 
 .pixel-div-gallery {
@@ -246,69 +299,15 @@ p.instruct {
   background: linear-gradient(to right, #746e6e, #f5f5f5 50%, #f5f5f5 0%);
 }
 
-/* Cyberpunk Button: https://dev.to/leandroruel/how-to-make-a-cyberpunk-2077-button-with-css-c9m */
-:root {
-  --white-color: #f5f5f5;
-  --main-color: #746e6e;
-  --detail-color: #3a3636;
-}
-
-.btn {
-  width: 230px;
-  height: 60px; 
-  border: 0;
-  outline: none;
-  background-color: var(--detail-color);
-  cursor: pointer;
-  position: relative;
-  font-family: Cyber, sans-serif;
-  font-size: 1.25rem;
-  text-transform: uppercase;
-  color: var(--detail-color);
-  clip-path: polygon(92% 0, 100% 25%, 100% 100%, 8% 100%, 0% 75%, 0 0);
-}
-
-.btn__content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  right: 2px;
-  bottom: 2px;
-  background-color: var(--white-color);
-  clip-path: polygon(92% 0, 100% 25%, 100% 100%, 8% 100%, 0% 75%, 0 0);
-}
-
-.btn__glitch {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: var(--white-color);
-}
-.btn:hover .btn__glitch,
-.btn:hover .btn__content::after,
-.btn:focus .btn__glitch,
-.btn:focus .btn__content::after {
-  color: var(--white-color);
-  display: block;
-  opacity: 30%;
-  background-color: var(--main-color);
-}
-
 /* Link Hover SCSS -> CSS: https://codepen.io/jltk/pen/dMvGvG */
 .credit-link {
-  color: #924a4a !important;
+  color: #eafbcc !important;
   text-decoration: none !important;
   box-shadow: inset 0 0 0 0 #f5f5f5;
   transition: all 0.4s ease-in-out 0s;
 }
 .credit-link:hover {
-  box-shadow: inset 300px 0 0 0 #924a4a;
+  box-shadow: inset 300px 0 0 0 #58642d;
   color: #f5f5f5 !important;
   padding: 0 2px;
 }
@@ -323,7 +322,7 @@ p.instruct {
   border: 10px solid;
   border-image-slice: 1;
   border-width: 2px;
-  border-image-source: linear-gradient(to bottom, #746e6e, #d6d6d6);
+  border-image-source: linear-gradient(to bottom, #eafbcc, #58642d);
 }
 
 .scroll-sm {
@@ -334,7 +333,7 @@ p.instruct {
 }
 
 #feature {
-  max-height: 5em;
+  max-height: 15em;
   /* width: auto; TODO: fix for mobile */
   /* max-width: 5em; */
 }
@@ -345,15 +344,15 @@ p.instruct {
 }
 
 ::-webkit-scrollbar-track {
-  background: #f5f5f5;
+  background: #44403f;
 }
  
 ::-webkit-scrollbar-thumb {
-  background: #d6d6d6;  
+  background: #eafbcc;  
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #746e6e;  
+  background: #58642d;  
 }
 
 /* Gradient Scrollbar: https://codepen.io/jpaezsa/pen/OJPYdzg */
@@ -409,8 +408,8 @@ p.instruct {
   }
 
   .project-title {
-    color: #3a3636;
-    text-shadow: 2px 2px rgba(245, 245, 245, 0.5);
+    color: #eafbcc;
+    text-shadow: 2px 2px #00000080;
     /* -webkit-background-clip: text; */
     font-size: 400%;
     text-transform: uppercase;
@@ -497,4 +496,32 @@ p.instruct {
 
 .social-media-link h5 {
   margin: 0;
+}
+
+
+   /*! div style */
+   .image-gallery {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
+    justify-content: center;
+    padding: 4px;
+  }
+
+  .box {
+      flex-basis: 25%;
+      width: 100%;
+      padding: 10px;
+      margin: 2px;
+  }
+
+  .img-gallery {
+	width: 100%;
+  height: 200px;
+	object-fit: cover;
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+  /* &:hover {
+      transform: scale(1.05);
+  } */
 }

@@ -1,19 +1,20 @@
 ---
 layout: page
-title: About
+title: About/Resume
 permalink: /about/
 weight: 3
 ---
 
-{:.subtitle .cyber .liner}
-# Me, in the third person
+{:.subtitle .cyber}
+# About Me // Contact Me
 
 <div class="pixel-div flex-container" id="bio-box">
     <div class="flex-child vertical-center">
         <span id="bio-text">
-            Ryan Davis is an aspiring software engineer, VR developer, and digital artist. She earned her first bachelor’s degree in Art Practice from UC Berkeley in 2015 and worked different positions in the animation industry. Previous companies have included Industrial Light & Magic, Pixar Animation Studios, and Microsoft with projects revolving around 3D graphics, photogrammetry, and art education.
+        <h5 class="cyber info-subtitle">Just a Little Bio</h5>
+            Ryan Davis is an aspiring software engineer, VR developer, and digital artist. She earned her bachelor’s degrees in Art Practice from UC Berkeley (2015) and in Computer Science from Oregon State University (2022).
             <br><br>
-            She is now attending Oregon State University’s post baccalaureate computer science program where she currently focuses on computer vision and mixed reality applications. Recently, she completed an internship at Intel designing for an augmented reality application.
+            She's worked different positions in the animation and mixed reality industries. Previous companies have included Industrial Light & Magic, Pixar Animation Studios, Microsoft, and Intel with projects revolving around 3D graphics, augmented reality tools, photogrammetry, and art education.
             <br><br>
             Ryan is currently located in San Diego, CA and enjoys painting, participating in hackathons, gardening, 3D printing, and MMO gaming. She’s probably trying to complete a quest in Pokemon Go as you’re reading this.
         </span>
@@ -25,22 +26,19 @@ weight: 3
 
 <br>
 
-<div class="pixel-div quick-info-grid" id="feature-box">
-    <!-- <div class="flex-child vertical-center"> -->
-    <div class="grid-item">
-        <h5 class="cyber info-subtitle">Getting Featured</h5>
-        <!-- <img class="vertical-center" src="../assets/img/common/succulent.png"> -->
+<div class="pixel-div">
+    <div>
+        <h5 class="pixel-font info-subtitle">Features & Awards</h5>
     </div>
-    <div class="grid-item spacer"></div> <!-- TODO: Fix spacing? -->
-    <div class="grid-item">
+    <div>
         <div class="scroll" id="feature">
             <ul class="none" id="feature-list">
                 <!-- OSU Hackathons Feature -->
-                <li>OSU EECS: <a href="https://eecs.oregonstate.edu/hacking-way-success">"Hacking the way to success"</a> (2021)</li>
+                <!-- <li>OSU EECS: <a href="https://eecs.oregonstate.edu/hacking-way-success">"Hacking the way to success"</a> (2021)</li> -->
                 <!-- MLH Octocat -->
                 <li>Winning GitHub Education's <a href="https://twitter.com/GitHubEducation/status/1358334185602179072">#MyOctocat Contest at QWER Hacks</a> (2021)</li>
                 <!-- SIGGRAPH Interview -->
-                <li>ACM SIGGRAPH <a href="https://www.siggraph.org/member-profile/ryan-davis/">Spotlight</a> (2017)</li>
+                <li>ACM SIGGRAPH <a href="https://www.siggraph.org/member-profile/ryan-davis">Spotlight</a> (2017)</li>
                 <!-- Art Alumni -->
                 <li>UC Berkeley Art Practice <a href="https://art.berkeley.edu/alumni">Alumni Gallery</a> (Ongoing)</li>
             </ul>
@@ -50,71 +48,22 @@ weight: 3
 
 <br>
 
-<div class="pixel-div quick-info-grid" id="skill-box">
-    <div class="grid-item">
-        <h5 class="cyber info-subtitle">The Skillsets</h5>
-    </div>
-    <div class="grid-item spacer"></div>
-    <div class="grid-item">
-        <h5 class="cyber info-subtitle">Find Me Here</h5>
-    </div>  
-    <div class="grid-item">
-        <ul id="skill-list">
-            <li><strong>Programming Languages</strong>: Python, C, C++, C#, HTML, CSS, Javascript</li>
-            <li><strong>Tools/Software</strong>: Adobe Photoshop, Adobe Illustrator, Autodesk Maya, Unity3D</li>
-            <li><strong>Toolkits</strong>: OpenVINO, ARKit, ARFoundation, MRTK</li>
-        </ul>
-    </div>
-    <div class="grid-item spacer"></div>
-    <div class="grid-item">
-        <div class="social-media-grid">
-            <!-- LinkedIn -->
-            <div class="social-media-item">
-                <a class="no-underline" href="https://www.linkedin.com/in/ryanalexdavis/"><img class="social-media-icon half-hover" alt="LinkedIn: My work history" title="LinkedIn: My work history" src="../assets/img/common/socialmedia/linkedin.png"></a>
-            </div>
-            <!-- GitHub -->
-            <div class="social-media-item">
-                <a class="no-underline" href="https://github.com/DataIsGone"><img class="social-media-icon half-hover" alt="GitHub: View my code" title="GitHub: View my code" src="../assets/img/common/socialmedia/github.png"></a>
-            </div>
-            <!-- Twitter -->
-            <div class="social-media-item">
-                <a class="no-underline" href="https://twitter.com/dataisgone"><img class="social-media-icon half-hover" alt="Twitter: Ramblings and WIPs" title="Twitter: Ramblings and WIPs" src="../assets/img/common/socialmedia/twitter.png"></a>
-            </div>
-        </div>
-        <div class="social-media-grid">
-            <!-- Devpost -->
-            <div class="social-media-item">
-                <a class="no-underline" href="https://devpost.com/NODATA"><img class="social-media-icon half-hover" alt="Devpost: See my hackathon projects" title="Devpost: See my hackathon projects" src="../assets/img/common/socialmedia/devpost.png"></a>
-            </div>
-            <!-- Itch.io -->
-            <div class="social-media-item">
-                <a class="no-underline" href="https://dataisgone.itch.io/"><img class="social-media-icon half-hover" alt="Itch.io: See the games I've worked on" title="Itch.io: See the games I've worked on (UNDER CONSTRUCTION)" src="../assets/img/common/socialmedia/itchio.png"></a>
-            </div>
-            <!-- ArtStation -->
-            <div class="social-media-item">
-                <a class="no-underline" href="#"><img class="social-media-icon half-hover" alt="ArtStation: Check out my art" title="ArtStation: Check out my art (UNDER CONSTRUCTION)" src="../assets/img/common/socialmedia/artstation.png"></a>
-            </div>
-        </div>
-    </div>  
-</div>
+<br>
 
 <!-- Resume/Contact -->
-<div class="flex-container" id="contact-box">
-    <div class="flex-child vertical-center">
-        <a class="no-underline" href="../assets/img/common/RyanDavis_Resume.pdf" download>
-            <button class="btn m-btn">
-            <span class="btn__content" id="resume-content">Download Resume</span>
-            <span class="btn__glitch"></span>
-            </button>
-        </a>
+<div class="pixel-div" id="contact-box">
+    <h5 class="cyber info-subtitle">Contact Me</h5>
+    <div class="flex-container">
+        <div class="flex-child vertical-center">
+            <button class="btn" onclick="location.href='../assets/img/common/RyanDavis_Resume.pdf'">Download Resume</button>
+        </div>
+            <div class="flex-child vertical-center">
+            <button class="btn" onclick="location.href='mailto:ryan.alex.davis@gmail.com';">Contact Me</button>
+        </div>
     </div>
-    <div class="flex-child vertical-center">
-        <a class="no-underline" href="mailto: ryan.alex.davis@gmail.com">
-            <button class="btn m-btn">
-            <span class="btn__content" id="contact-content">Contact Me</span>
-            <span class="btn__glitch"></span>
-            </button>
-        </a>
+    <div class="flex-container">
+        <div class="flex-child vertical-center">
+            Incase you don't want to open an email client: ryan.alex.davis@gmail.com :D
+        </div>
     </div>
 </div>
-<br>

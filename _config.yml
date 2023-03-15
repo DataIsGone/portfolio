@@ -1,7 +1,7 @@
 ### Site Settings ###
 title               : RYAN DAVIS
 description         : >-
-                      TECHNICAL ARTIST
+                      TECH ARTIST // PIXEL ARTIST
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : DataIsGone/dataisgone.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 port: 4444
@@ -18,37 +18,32 @@ nav_exclude:                                            # The following paths ar
   - pages/404.html
   - pages/blog.html
   - pages/index.md
-  - pages/links.md
-  - documentation/partials/**                           # For Documentation Only
+  - pages/pixelprojects.html
 
 
 ### Author Info ###
 author:
   name              : Ryan Davis
   image             : /assets/img/common/splash.gif
-# dribbble          : your_username
   email             : ryan.alex.davis@gmail.com
   github            : DataIsGone
-# gitlab            : your_username
-# instagram         : your_username
-# kaggle            : your_username
   linkedin          : ryanalexdavis
   twitter           : dataisgone
-# vimeo             : your_username
-# youtube           : your_channel_name
-# keybase           : your_username
 
 
 ### Posts ###
-permalink: /blog/:title
+permalink: /pixelprojects/:title
 
 
 ### Collections ###
 collections:
   projects:
     output: true
-    permalink: /projects/:name
+    permalink: /techart/:name
 
+### Variables for Pixel Art Gallery ###
+imagesurl: /art/img/
+thumbsurl: /art/thumbs/
 
 ### Disqus ###
 disqus:
@@ -69,11 +64,11 @@ defaults:
       type: "projects"
     values:
       layout: "page"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      comments: false                                   # Set to true to enable disqus comments
+  # - scope:
+  #     path: ""
+  #     type: "posts"
+  #   values:
+  #     comments: false                                   # Set to true to enable disqus comments
 
 ### Exclude from processing ###
 exclude:

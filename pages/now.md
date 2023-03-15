@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Now
-weight: 4
+weight: 5
 permalink: /now/
 ---
 

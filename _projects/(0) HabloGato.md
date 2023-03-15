@@ -37,7 +37,7 @@ description: Language learning in VR, but you're a pepper cat.
 <br><br>
 
 {:.cyber .subtitle .liner}
-## Get The Lowdown
+## Project Info
 <div class="pixel-div">
     <h4 class="cyber info-subtitle">The Project</h4>
     <ul>
@@ -55,6 +55,11 @@ description: Language learning in VR, but you're a pepper cat.
         <li><strong>Tools</strong>: Procreate iOS, Adobe Photoshop, Autodesk Maya, Unity3D</li>
     </ul>
     <hr class="inner-hr">
+    <h5 class="cyber info-subtitle">What is Hablo Gato exactly?</h5>
+    <p>
+        <em>Hablo Gato</em> is a prototype VR game that provides a language-immersion experience through speech recognition from the comfort of home, or wherever they may be. Traveling to immerse one's self in a country's language is the best way to learn, but that is a privilege. Compared to the cost of traveling and the development of XR technologies, this could be a very affordable option.
+    </p>
+    <hr class="inner-hr">
     <h5 class="cyber info-subtitle">Interested in trying Hablo Gato?</h5>
     <ul>
         <li><em>Hablo Gato</em> is currently not available for demoing.</li>
@@ -67,27 +72,53 @@ description: Language learning in VR, but you're a pepper cat.
 </div>
 
 <div class="flex-container">
-    <div class="flex-child vertical-center">
+    <!-- <div class="flex-child vertical-center">
         <a class="no-underline" href="https://dataisgone.itch.io/hablo-gato">
             <button class="btn m-btn">
             <span class="btn__content">Itch.io</span>
             <span class="btn__glitch"></span>
             </button>
         </a>
+    </div> -->
+    <!-- <div class="flex-child">
+        <button>
+            <div class="top"></div>
+            <div class="bottom"></div>
+            <div class="left"></div>
+            <div class="right"></div>
+            <div class="bottom shadow"></div>
+            <div class="right shadow"></div>
+            <div class="top light"></div>
+            <div class="left light"></div>
+                ITCH.IO
+        </button>
     </div>
-    <div class="flex-child vertical-center">
+    <div class="flex-child">
+        <button>
+            <div class="top"></div>
+            <div class="bottom"></div>
+            <div class="left"></div>
+            <div class="right"></div>
+            <div class="bottom shadow"></div>
+            <div class="right shadow"></div>
+            <div class="top light"></div>
+            <div class="left light"></div>
+                Final Presentation
+        </button>
+    </div> -->
+    <!-- <div class="flex-child vertical-center">
         <a class="no-underline" href="https://media.oregonstate.edu/media/t/1_3ii484gk">
             <button class="btn m-btn">
             <span class="btn__content">Final Presentation</span>
             <span class="btn__glitch"></span>
             </button>
         </a>
-    </div>
+    </div> -->
 </div>
 
 <br><br>
 
-{:.cyber .subtitle .liner}
+<!-- {:.cyber .subtitle .liner}
 ### Let Me Tell You More
 <div class="pixel-div pixel-div-exp">
     <h5 class="cyber info-subtitle">What is Hablo Gato exactly?</h5>
@@ -108,4 +139,4 @@ description: Language learning in VR, but you're a pepper cat.
 
 </div>
 
-<br>
+<br> -->
