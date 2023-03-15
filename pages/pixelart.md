@@ -10,7 +10,7 @@ permalink: /pixelart/
 <div class="pixel-div">
 <p class="instruct">
 </p>
-<div class="pixel-div-gallery" markdown="1">
+<div class="pixel-div-pixelart-gallery" markdown="1">
 
 {% include art/pixelgallery.html folder="art" %}
 

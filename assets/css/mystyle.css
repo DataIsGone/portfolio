@@ -255,6 +255,13 @@ ul.none li {
   text-align: center;
 }
 
+.pixel-div-pixelart-gallery {
+  overflow: auto;
+  max-height: 500px;
+  max-width: 1000px;
+  /* text-align: center; */
+}
+
 .pixel-div-exp {
   overflow: auto !important;
   max-height: 600px !important;
@@ -265,10 +272,6 @@ p.instruct {
   text-align: center;
   font-weight: bold;
   color: #3a3636;
-  /*Older style, hard to read - 8/2022*/
-  /*font-style: italic;*/
-  /*color: #746e6e;*/
-  /*opacity: 75%;*/
 }
 
 /* Gallery Instructions Horizontal Rule: https://codepen.io/benknight/pen/zxxeay*/
@@ -445,11 +448,6 @@ p.instruct {
     margin-left: initial;
   }
 
-  /* .pixel-div {
-    max-height: 300px;
-    overflow: auto;
-  } */
-
   .social-media-icon {
     padding-bottom: 0px;
   }
@@ -503,7 +501,8 @@ p.instruct {
    .image-gallery {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill,minmax(250px, 1fr));
+    /* grid-template-rows: repeat(auto-fill,minmax(250px, 1fr)); */
     justify-content: center;
     padding: 4px;
   }
@@ -517,7 +516,7 @@ p.instruct {
 
   .img-gallery {
 	width: 100%;
-  height: 200px;
+  height: 100%;
 	object-fit: cover;
   transform: scale(1);
   transition: all 0.3s ease-in-out;

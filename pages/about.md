@@ -6,17 +6,19 @@ weight: 3
 ---
 
 {:.subtitle .cyber}
-# About Me // Contact Me
+# About // Contact // Resume
 
 <div class="pixel-div flex-container" id="bio-box">
     <div class="flex-child vertical-center">
         <span id="bio-text">
         <h5 class="cyber info-subtitle">Just a Little Bio</h5>
-            Ryan Davis is an aspiring software engineer, VR developer, and digital artist. She earned her bachelor’s degrees in Art Practice from UC Berkeley (2015) and in Computer Science from Oregon State University (2022).
+            <span style="font-size:smaller">
+            Ryan Davis is an aspiring technical artist and digital artist. She earned her bachelor’s degrees in Art Practice from UC Berkeley (2015) and in Computer Science from Oregon State University (2022).
             <br><br>
             She's worked different positions in the animation and mixed reality industries. Previous companies have included Industrial Light & Magic, Pixar Animation Studios, Microsoft, and Intel with projects revolving around 3D graphics, augmented reality tools, photogrammetry, and art education.
             <br><br>
             Ryan is currently located in San Diego, CA and enjoys painting, participating in hackathons, gardening, 3D printing, and MMO gaming. She’s probably trying to complete a quest in Pokemon Go as you’re reading this.
+            </span>
         </span>
     </div>
     <div class="flex-child">
@@ -46,24 +48,32 @@ weight: 3
     </div>
 </div>
 
-<br>
+<br><br>
 
-<br>
-
-<!-- Resume/Contact -->
+<!-- Contact -->
 <div class="pixel-div" id="contact-box">
     <h5 class="cyber info-subtitle">Contact Me</h5>
+    <ul class="none">
+        <li>For pixel art opportunities and inquiries only:
+            <ul class="none">
+                <li><a href="mailto:thedataisgone.com">thedataisgone@gmail.com</a></li>
+            </ul>
+        </li>
+        <br>
+        <li>For tech art opportunities and all other communication:
+            <ul class="none">
+                <li><a href="mailto:ryan.alex.davis@gmail.com">ryan.alex.davis@gmail.com</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+<br><br>
+
+<div class="pixel-div" id="contact-box">
+    <h5 class="cyber info-subtitle">Resume</h5>
     <div class="flex-container">
         <div class="flex-child vertical-center">
             <button class="btn" onclick="location.href='../assets/img/common/RyanDavis_Resume.pdf'">Download Resume</button>
         </div>
-            <div class="flex-child vertical-center">
-            <button class="btn" onclick="location.href='mailto:ryan.alex.davis@gmail.com';">Contact Me</button>
-        </div>
-    </div>
-    <div class="flex-container">
-        <div class="flex-child vertical-center">
-            Incase you don't want to open an email client: ryan.alex.davis@gmail.com :D
-        </div>
-    </div>
 </div>

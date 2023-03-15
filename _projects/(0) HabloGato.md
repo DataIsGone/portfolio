@@ -16,33 +16,14 @@ description: Language learning in VR, but you're a pepper cat.
 
 <br><br>
 
-{:.cyber .subtitle .liner}
-### The Art Gallery
-<div class="pixel-div">
-<p class="instruct">
-<span class="divider line razor">Click a preview to view the full asset</span>
-</p>
-<div class="pixel-div-gallery" markdown="1">
-[<img src="/assets/img/projects/hg/crop/hg_anim_set1_c.gif">](/assets/img/projects/hg/hg_anim_set1.gif)
-[<img src="/assets/img/projects/hg/crop/hg_anim_set2_c.gif">](/assets/img/projects/hg/hg_anim_set2.gif)
-[<img src="/assets/img/projects/hg/crop/hg_anim_set3_c.gif">](/assets/img/projects/hg/hg_anim_set3.gif)
-[<img src="/assets/img/projects/hg/crop/env_CA_c.png">](/assets/img/projects/hg/env_CA.png)
-[<img src="/assets/img/projects/hg/crop/char_design_c.png">](/assets/img/projects/hg/char_design.png)
-[<img src="/assets/img/projects/hg/crop/char_idea_c.png">](/assets/img/projects/hg/char_idea.png)
-[<img src="/assets/img/projects/hg/crop/ux_ui_c.png">](/assets/img/projects/hg/ux_ui.png)
-[<img src="/assets/img/projects/hg/crop/storyboards_c.png">](/assets/img/projects/hg/storyboards.png)
-</div>
-</div>
-
-<br><br>
-
-{:.cyber .subtitle .liner}
+{:.cyber .subtitle}
 ## Project Info
-<div class="pixel-div">
+<div class="pixel-div pixel-div-exp">
     <h4 class="cyber info-subtitle">The Project</h4>
     <ul>
         <li><strong>Course</strong>: Oregon State University's CS457: Online Capstone (2.5 months)</li>
     </ul>
+    <br>
     <h4 class="cyber info-subtitle">My Contributions</h4>
     <ul>
         <li><strong>Roles</strong>:
@@ -71,16 +52,38 @@ description: Language learning in VR, but you're a pepper cat.
     </ul>
 </div>
 
-<div class="flex-container">
-    <!-- <div class="flex-child vertical-center">
+<br><br>
+
+{:.cyber .subtitle .liner}
+### Work Samples
+<div class="pixel-div">
+<p class="instruct">
+<span class="divider line razor">Click a preview to view the full asset</span>
+</p>
+<div class="pixel-div-gallery" markdown="1">
+[<img src="/assets/img/projects/hg/crop/hg_anim_set1_c.gif">](/assets/img/projects/hg/hg_anim_set1.gif)
+[<img src="/assets/img/projects/hg/crop/hg_anim_set2_c.gif">](/assets/img/projects/hg/hg_anim_set2.gif)
+[<img src="/assets/img/projects/hg/crop/hg_anim_set3_c.gif">](/assets/img/projects/hg/hg_anim_set3.gif)
+[<img src="/assets/img/projects/hg/crop/env_CA_c.png">](/assets/img/projects/hg/env_CA.png)
+[<img src="/assets/img/projects/hg/crop/char_design_c.png">](/assets/img/projects/hg/char_design.png)
+[<img src="/assets/img/projects/hg/crop/char_idea_c.png">](/assets/img/projects/hg/char_idea.png)
+[<img src="/assets/img/projects/hg/crop/ux_ui_c.png">](/assets/img/projects/hg/ux_ui.png)
+[<img src="/assets/img/projects/hg/crop/storyboards_c.png">](/assets/img/projects/hg/storyboards.png)
+</div>
+</div>
+
+<br><br><br><br>
+
+<!--<div class="flex-container">
+    <div class="flex-child vertical-center">
         <a class="no-underline" href="https://dataisgone.itch.io/hablo-gato">
             <button class="btn m-btn">
             <span class="btn__content">Itch.io</span>
             <span class="btn__glitch"></span>
             </button>
         </a>
-    </div> -->
-    <!-- <div class="flex-child">
+    </div>
+    <div class="flex-child">
         <button>
             <div class="top"></div>
             <div class="bottom"></div>
@@ -105,18 +108,17 @@ description: Language learning in VR, but you're a pepper cat.
             <div class="left light"></div>
                 Final Presentation
         </button>
-    </div> -->
-    <!-- <div class="flex-child vertical-center">
+    </div> 
+    <div class="flex-child vertical-center">
         <a class="no-underline" href="https://media.oregonstate.edu/media/t/1_3ii484gk">
             <button class="btn m-btn">
             <span class="btn__content">Final Presentation</span>
             <span class="btn__glitch"></span>
             </button>
         </a>
-    </div> -->
+    </div>
 </div>
-
-<br><br>
+<br><br> -->
 
 <!-- {:.cyber .subtitle .liner}
 ### Let Me Tell You More
