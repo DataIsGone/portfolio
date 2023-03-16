@@ -2,7 +2,8 @@
   border-radius: 0 0 0 0;
   text-decoration: none !important;
   margin: 16px auto;
-  background-color: #363231;
+  // background-color: #363231;
+  background-color: #44403f;
 
   .card-img-top {
     border-radius: 0 0 0 0;
@@ -10,9 +11,9 @@
 
   transition: transform 400ms;
 
-  /* Pink/Cyan Hovering */
+  /* Cast Shadow Hovering */
   &:hover:not(.post) {
     transform: translateY(-8px);
-    box-shadow: 20px 20px 0px -12px #58642d, -20px -20px 0px -12px #58642d;
+    box-shadow: 20px 20px 0px -12px #000000;
   }
 }

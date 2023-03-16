@@ -6,13 +6,13 @@ permalink: /now/
 ---
 
 {:.subtitle .cyber .liner}
-# So what am I up to now?
+# What I'm Up To Now
 
 <div class="pixel-div quick-info-grid" id="now-box">
     <!-- Right Now -->
     <div class="grid-item">
         <img class="vertical-center" src="../assets/img/common/succulent.png">
-        <p style="text-align:center;color:#746e6e;opacity:0.5;font-size:smaller;margin:0;">Last Updated: 08-10-2022</p>
+        <p style="text-align:center;color:#746e6e;opacity:0.5;font-size:smaller;margin:0;">Last Updated: Mar. 03 2023</p>
     </div>
     <div class="grid-item spacer"></div>
     <div class="grid-item">

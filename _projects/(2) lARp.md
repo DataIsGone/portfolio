@@ -17,7 +17,36 @@ description: Exercise and treat your body with mush respect.
 <br><br>
 
 {:.cyber .subtitle .liner}
-### The Art Gallery
+## Project Info
+<div class="pixel-div pixel-div-exp">
+    <h4 class="cyber info-subtitle">Event Info</h4>
+    <ul>
+        <li><strong>Hackathon</strong>: University of Virginia's <a href="https://hoohacks21.devpost.com">HooHacks (2021)</a> (24 Hours)</li>
+        <li><strong>Awards</strong>: Best Art & Gaming Hack - 1st Place</li>
+    </ul>
+    <br>
+    <h4 class="cyber info-subtitle">My Contributions</h4>
+    <ul>
+        <li><strong>Roles</strong>: Character generation development, character pixel art</li>
+        <li><strong>Tools</strong>: Unity3D, Adobe Photoshop</li>
+        <li><strong>Languages</strong>: C#</li>
+    </ul>
+    <hr class="inner-hr">
+    <h5 class="cyber info-subtitle">What is lARp exactly?</h5>
+    <p>
+    <em>lARp</em> is an augmented reality roleplaying game encouraging exercise via running. Players become a questing fungi looking to better the lives of their shroomy homeland by running (literally running) errands for its denizens.
+    </p>
+    <p>
+    Under the guise of these quests, this game tracks the time exercised and steps taken using a pedometer. Along the way, questers can run into friendly and deadly mushrooms. Using GPT-3, players can converse back and forth with unique characters before deciding their fate and defeating them in minigame battles between quests.
+    </p>
+    <hr class="inner-hr">
+    <h5 class="cyber info-subtitle">Interested in trying lARp?</h5>
+</div>
+
+<br><br>
+
+{:.cyber .subtitle}
+### Work Samples
 <div class="pixel-div">
 <p class="instruct">
 <span class="divider line razor">Click a preview to view the full asset</span>
@@ -25,29 +54,13 @@ description: Exercise and treat your body with mush respect.
 <div class="pixel-div-gallery" markdown="1">
 [<img src="/assets/img/projects/lARp/crop/piecewise_c.png">](/assets/img/projects/lARp/piecewise.png)
 [<img src="/assets/img/projects/lARp/crop/randomize_c.gif">](/assets/img/projects/lARp/randomize.gif)
-[<img src="/assets/img/projects/lARp/crop/island_c.gif">](/assets/img/projects/lARp/island.gif)
+<!-- [<img src="/assets/img/projects/lARp/crop/island_c.gif">](/assets/img/projects/lARp/island.gif) -->
 </div>
 </div>
 
-<br><br>
+<br>
 
-{:.cyber .subtitle .liner}
-## Get The Lowdown
-<div class="pixel-div">
-    <h4 class="cyber info-subtitle">Event</h4>
-    <ul>
-        <li><strong>Hackathon</strong>: University of Virginia's <a href="https://hoohacks21.devpost.com">HooHacks (2021)</a> (24 Hours)</li>
-        <li><strong>Awards</strong>: Best Art & Gaming Hack - 1st Place</li>
-    </ul>
-    <h4 class="cyber info-subtitle">Contributions</h4>
-    <ul>
-        <li><strong>Roles</strong>: Development, Art</li>
-        <li><strong>Tools</strong>: Unity3D, Adobe Photoshop</li>
-        <li><strong>Languages</strong>: C#</li>
-    </ul>
-</div>
-
-<div class="flex-container">
+<!-- <div class="flex-container">
     <div class="flex-child vertical-center">
         <a class="no-underline" href="https://devpost.com/software/test-yotepg">
             <button class="btn m-btn">
@@ -64,9 +77,9 @@ description: Exercise and treat your body with mush respect.
             </button>
         </a>
     </div>
-</div>
+</div> -->
 
-<br><br>
+<!-- <br><br>
 
 {:.cyber .subtitle .liner}
 ### Let Me Tell You More
@@ -107,6 +120,6 @@ description: Exercise and treat your body with mush respect.
     <p>
     Overall, I’m happy with how our MVP came out, even more so that it won a prize!
     </p>
-</div>
+</div> -->
 
 <br>

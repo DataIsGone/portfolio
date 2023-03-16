@@ -15,9 +15,9 @@ weight: 3
             <span style="font-size:smaller">
             Ryan Davis is an aspiring technical artist and digital artist. She earned her bachelor’s degrees in Art Practice from UC Berkeley (2015) and in Computer Science from Oregon State University (2022).
             <br><br>
-            She's worked different positions in the animation and mixed reality industries. Previous companies have included Industrial Light & Magic, Pixar Animation Studios, Microsoft, and Intel with projects revolving around 3D graphics, augmented reality tools, photogrammetry, and art education.
+            She has held different positions in the animation and mixed reality industries; previous companies have included Industrial Light & Magic, Pixar Animation Studios, Microsoft, and Intel with projects revolving around 3D graphics, augmented reality tools, photogrammetry, and art education.
             <br><br>
-            Ryan is currently located in San Diego, CA and enjoys painting, participating in hackathons, gardening, 3D printing, and MMO gaming. She’s probably trying to complete a quest in Pokemon Go as you’re reading this.
+            Ryan is currently located in San Diego, CA and enjoys painting, gardening, 3D printing, MMO gaming, and being a giant Pokemon nerd. She’s probably trying to complete a quest in Pokemon Go as you’re reading this.
             </span>
         </span>
     </div>
@@ -66,6 +66,13 @@ weight: 3
             </ul>
         </li>
     </ul>
+</div>
+
+<br><br>
+
+<!-- Social Media -->
+<div class="pixel-div" id="contact-box">
+    <h5 class="cyber info-subtitle">Find Me Here</h5>
 </div>
 
 <br><br>

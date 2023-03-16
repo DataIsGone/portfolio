@@ -35,13 +35,19 @@ description: Language learning in VR, but you're a pepper cat.
         </li>
         <li><strong>Tools</strong>: Procreate iOS, Adobe Photoshop, Autodesk Maya, Unity3D</li>
     </ul>
+    <br>
+    <h4 class="cyber info-subtitle">Project Links</h4>
+    <ul>
+        <li><strong>Capstone Final Presentation (Solo)</strong>: <a href="https://media.oregonstate.edu/media/t/1_3ii484gk">Katura (Video)</a></li>
+        <li><strong>Game Page</strong>: <a href="https://dataisgone.itch.io/hablo-gato">Itch.io</a></li>
+    </ul>
     <hr class="inner-hr">
-    <h5 class="cyber info-subtitle">What is Hablo Gato exactly?</h5>
-    <p>
+    <h5 class="cyber info-subtitle">What is <em>Hablo Gato</em> exactly?</h5>
+    <p style="font-size:smaller">
         <em>Hablo Gato</em> is a prototype VR game that provides a language-immersion experience through speech recognition from the comfort of home, or wherever they may be. Traveling to immerse one's self in a country's language is the best way to learn, but that is a privilege. Compared to the cost of traveling and the development of XR technologies, this could be a very affordable option.
     </p>
     <hr class="inner-hr">
-    <h5 class="cyber info-subtitle">Interested in trying Hablo Gato?</h5>
+    <h5 class="cyber info-subtitle">Interested in trying <em>Hablo Gato</em>?</h5>
     <ul>
         <li><em>Hablo Gato</em> is currently not available for demoing.</li>
             <ul>
@@ -54,11 +60,11 @@ description: Language learning in VR, but you're a pepper cat.
 
 <br><br>
 
-{:.cyber .subtitle .liner}
+{:.cyber .subtitle}
 ### Work Samples
 <div class="pixel-div">
 <p class="instruct">
-<span class="divider line razor">Click a preview to view the full asset</span>
+<span class="divider line">Click a preview to view the full asset</span>
 </p>
 <div class="pixel-div-gallery" markdown="1">
 [<img src="/assets/img/projects/hg/crop/hg_anim_set1_c.gif">](/assets/img/projects/hg/hg_anim_set1.gif)

@@ -6,20 +6,29 @@ permalink: /pixelart/
 ---
 
 {:.cyber .subtitle}
-### Pixel Art Gallery
+### Pixel Art Portfolio
+
 <div class="pixel-div">
 <p class="instruct">
+    Click on a thumbnail to view at full size.
 </p>
-<div class="pixel-div-pixelart-gallery" markdown="1">
+<br>
+<div class="pixel-div-exp" markdown="1">
 
 {% include art/pixelgallery.html folder="art" %}
 
 </div>
 </div>
 <br>
-<div class="flex-container" markdown="0">
+<div class="pixel-div">
+<h5 class="cyber info-subtitle">Artist Profile</h5>
+    <span style="font-size:smaller">
+        <p>When doing anything related to my pixel art online, I go by my artist names of <em>No Data</em> or <em>DataIsGone</em>, and I'm represented as an angry little cat.</p>
+    </span>
+    <br>
+    <div class="flex-container" markdown="0">
     <div class="flex-child vertical-center">
-        <button class="btn-pixel-gallery" onclick="location.href='https://nodata.carrd.co/'">Commissions</button>
+        <button class="btn-pixel-gallery" onclick="location.href='https://nodata.carrd.co/';">Commissions</button>
     </div>
     <div class="flex-child vertical-center">
         <button class="btn-pixel-gallery" onclick="location.href='/pixelprojects/';">Pixel Projects</button>
@@ -28,4 +37,7 @@ permalink: /pixelart/
         <button class="btn-pixel-gallery" onclick="location.href='https://bio.link/dataisgone';">Social Media</button>
     </div>
 </div>
+</div>
+<br>
+
 
