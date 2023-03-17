@@ -28,6 +28,7 @@ body {
 .pixel-font {
     font-family: 'Dogica', monospace;
     font-display: swap;
+    text-transform: uppercase;
 }
 
 /* Gradient Text: https://codepen.io/argyleink/pen/OJMEpGp */
@@ -100,7 +101,7 @@ body {
 .inner-hr {
   max-width: 30%;
   margin: 5% auto;
-  border: 1.5px solid #363231;
+  border: 1.5px solid rgba(234, 251, 204, 0.3);
 
 }
 
@@ -199,14 +200,12 @@ body {
     margin-top: 5px;
     margin-bottom: 5px;
 }  
-
-/* Centering: https://www.w3schools.com/howto/howto_css_center_button.asp */
+/* Centering: https://www.w3schoolscom/howto/howto_css_center_button.asp */
 .vertical-center {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
+}
 
 a.no-underline {
     text-decoration: none !important;
@@ -221,9 +220,9 @@ ul.none li {
   padding: 0;
 }
 
-/* Cropped Images: https://www.educative.io/edpresso/how-to-crop-an-image-in-css */
+/* Cropped Images: https://www.eductive.io/edpresso/how-to-crop-an-image-in-css */
 .cropped {
-    max-width: 300px; 
+    max-width: 300px;
     max-height: 200px;
     object-fit: cover;
     overflow: hidden;
@@ -249,17 +248,17 @@ ul.none li {
                  0 6px 0 0 #0e0d0c; /* bottom */
 }
 
-.pixel-div-gallery {
+.pixel-div-gallery { 
   overflow: auto;
   max-height: 500px;
   text-align: center;
 }
 
-.pixel-div-pixelart-gallery {
+.pixel-div-pixelart-gallery { 
   overflow: auto;
   max-height: 500px;
   max-width: 2000px;
-  /* text-align: center; */
+  text-align: center;
 }
 
 .pixel-div-exp {
@@ -271,7 +270,27 @@ p.instruct {
   margin: 0 0 0.5px 0;
   text-align: center;
   font-weight: bold;
-  color: #3a3636;
+  color: #eafbcc;
+  text-transform: uppercase;
+}
+
+/* Pixel Art Image Gallery */
+#photos {
+  /* Prevent vertical gaps */
+  line-height: 0;
+  -webkit-column-count: 5;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    5;
+  -moz-column-gap:      0px;
+  column-count:         5;
+  column-gap:           0px;  
+}
+
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+  margin: 0;
 }
 
 /* Gallery Instructions Horizontal Rule: https://codepen.io/benknight/pen/zxxeay*/
@@ -303,6 +322,18 @@ p.instruct {
 }
 
 /* Link Hover SCSS -> CSS: https://codepen.io/jltk/pen/dMvGvG */
+.link {
+  color: #eafbcc !important;
+  /* text-decoration: none !important; */
+  box-shadow: inset 0 0 0 0 #f5f5f5;
+  transition: all 0.4s ease-in-out 0s;
+}
+.link:hover {
+  box-shadow: inset 300px 0 0 0 #58642d;
+  color: #f5f5f5 !important;
+  padding: 0 2px;
+}
+
 .credit-link {
   color: #eafbcc !important;
   text-decoration: none !important;
@@ -487,34 +518,7 @@ p.instruct {
 
 }
 
-/* .social-media-link img {
-  margin: 0;
-  display: block;
-}
-
-.social-media-link h5 {
-  margin: 0;
-} */
-
-/* Pixel Art Image Gallery */
-
-#photos {
-  /* Prevent vertical gaps */
-  line-height: 0;
-  -webkit-column-count: 5;
-  -webkit-column-gap:   0px;
-  -moz-column-count:    5;
-  -moz-column-gap:      0px;
-  column-count:         5;
-  column-gap:           0px;  
-}
-
-#photos img {
-  /* Just in case there are inline attributes */
-  width: 100% !important;
-  height: auto !important;
-  margin: 0;
-}
+/* Pixel Art Image Gallery -- Mobile Changes */
 
 @media (max-width: 1200px) {
   #photos {

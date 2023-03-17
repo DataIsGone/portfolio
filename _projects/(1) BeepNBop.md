@@ -5,7 +5,7 @@ image: /assets/img/projcards/bnb_card.gif
 description: Two little robo-cooks need your help before they get fired from their 80's diner job!
 ---
 
-{:.project-title .cyber .liner-title}
+{:.project-title .pixel-font}
 # Beep N' Bop
 
 <div class="flex-container">
@@ -14,30 +14,35 @@ description: Two little robo-cooks need your help before they get fired from the
     </div>
 </div>
 
-<br>
+<br><br>
 
-{:.cyber .subtitle}
+{:.pixel-font .subtitle}
 ## Project Info
 <div class="pixel-div pixel-div-exp">
-    <h4 class="cyber info-subtitle">The Event</h4>
-    <ul>
+    <h4 class="pixel-font info-subtitle">The Event</h4>
+    <ul style="font-size:larger">
         <li><strong>Game Jam</strong>: <a href="https://www.designbuddies.community/">Design Buddies</a>' <a href="https://itch.io/jam/design-buddies-game-jam-2021">Game Jam (2021)</a> (7 days)</li>
         <li><strong>Awards/Recognitions</strong>: Best Game Mechanics, Voted #2 for Best Art</li>
     </ul>
     <br>
-    <h4 class="cyber info-subtitle">My Contributions</h4>
-    <ul>
+    <h4 class="pixel-font info-subtitle">My Contributions</h4>
+    <ul style="font-size:larger">
         <li><strong>Roles</strong>: Team Artist -- Character Designer, 2D Artist, Animator</li>
         <li><strong>Tools</strong>: Procreate, Adobe Photoshop</li>
     </ul>
+    <br>
+    <h4 class="pixel-font info-subtitle">Project Links</h4>
+    <ul style="font-size:larger">
+        <li><strong>Game Page</strong>: <a href="https://dataisgone.itch.io/beep-n-bop">Itch.io</a></li>
+    </ul>
     <hr class="inner-hr">
-    <h5 class="cyber info-subtitle">What is <em>Beep N' Bop</em> exactly?</h5>
-    <p style="font-size:smaller">
+    <h5 class="pixel-font info-subtitle">What is <em>Beep N' Bop</em> exactly?</h5>
+    <p style="font-size:larger">
         <em>Beep N' Bop</em> is a 2.5D scavenger hunt where two robo-cooks work in tandem to complete a single dish between them. These bots are separated by a wall dividing the kitchen, causing the player to switch between them to access everything they need in order to serve up some delicious food under the time limit. Help them do their job before they're fired from their beloved 80's diner!
     </p>
     <hr class="inner-hr">
-    <h5 class="cyber info-subtitle">Interested in trying <em>Beep N' Bop?</em></h5>
-    <ul>
+    <h5 class="pixel-font info-subtitle">Interested in trying <em>Beep N' Bop?</em></h5>
+    <ul style="font-size:larger">
         <li><em>Beep N' Bop</em> can be played two different ways:</li>
             <ul>
                 <li>Directly on our <a href="https://dataisgone.itch.io/beep-n-bop">Itch.io</a> page through embedded WebGL</li>
@@ -48,11 +53,11 @@ description: Two little robo-cooks need your help before they get fired from the
 
 <br><br>
 
-{:.cyber .subtitle}
+{:.pixel-font .subtitle}
 ### Work Samples
 <div class="pixel-div">
 <p class="instruct">
-<span>Click a preview to view the full asset</span>
+<span class="pixel-font">Click a preview to view the full asset</span>
 </p>
 <div class="pixel-div-gallery" markdown="1">
 [<img src="/assets/img/projects/beepNBop/crop/bibimbap_c.png">](/assets/img/projects/beepNBop/bibimbap.png)

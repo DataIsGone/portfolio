@@ -5,14 +5,13 @@ permalink: /about/
 weight: 3
 ---
 
-{:.subtitle .cyber}
-# About // Contact // Resume
+{:.subtitle .pixel-font}
+# About Me
 
 <div class="pixel-div flex-container" id="bio-box">
     <div class="flex-child vertical-center">
         <span id="bio-text">
-        <h5 class="cyber info-subtitle">Just a Little Bio</h5>
-            <span style="font-size:smaller">
+            <span style="font-size:larger">
             Ryan Davis is an aspiring technical artist and digital artist. She earned her bachelor’s degrees in Art Practice from UC Berkeley (2015) and in Computer Science from Oregon State University (2022).
             <br><br>
             She has held different positions in the animation and mixed reality industries; previous companies have included Industrial Light & Magic, Pixar Animation Studios, Microsoft, and Intel with projects revolving around 3D graphics, augmented reality tools, photogrammetry, and art education.
@@ -34,10 +33,8 @@ weight: 3
     </div>
     <div>
         <div class="scroll" id="feature">
-            <ul class="none" id="feature-list">
-                <!-- OSU Hackathons Feature -->
-                <!-- <li>OSU EECS: <a href="https://eecs.oregonstate.edu/hacking-way-success">"Hacking the way to success"</a> (2021)</li> -->
-                <!-- MLH Octocat -->
+            <ul class="none" id="feature-list" style="font-size:larger">
+                <!-- Octocat -->
                 <li>Winning GitHub Education's <a href="https://twitter.com/GitHubEducation/status/1358334185602179072">#MyOctocat Contest at QWER Hacks</a> (2021)</li>
                 <!-- SIGGRAPH Interview -->
                 <li>ACM SIGGRAPH <a href="https://www.siggraph.org/member-profile/ryan-davis">Spotlight</a> (2017)</li>
@@ -45,42 +42,63 @@ weight: 3
                 <li>UC Berkeley Art Practice <a href="https://art.berkeley.edu/alumni">Alumni Gallery</a> (Ongoing)</li>
             </ul>
         </div>
+        <br><br>
+        <h5 class="pixel-font info-subtitle">Skillset</h5>
+        <ul id="skill-list" style="font-size:larger">
+            <li><strong>Programming Languages</strong>: Python, C, C++, C#, HTML, CSS, Javascript</li>
+            <li><strong>Tools/Software</strong>: Adobe Photoshop, Adobe Illustrator, Autodesk Maya, Unity3D</li>
+            <li><strong>Toolkits</strong>: OpenVINO, ARKit, ARFoundation, MRTK</li>
+        </ul>
     </div>
 </div>
 
-<br><br>
+<br>
 
-<!-- Contact -->
-<div class="pixel-div" id="contact-box">
-    <h5 class="cyber info-subtitle">Contact Me</h5>
-    <ul class="none">
-        <li>For pixel art opportunities and inquiries only:
-            <ul class="none">
-                <li><a href="mailto:thedataisgone.com">thedataisgone@gmail.com</a></li>
-            </ul>
-        </li>
+<!-- Contact/Social Media -->
+<div class="pixel-div quick-info-grid" id="skill-box">
+    <div class="grid-item">
+        <h5 class="pixel-font info-subtitle">Contact</h5>
+    </div>
+    <div class="grid-item spacer"></div>
+    <div class="grid-item">
+        <h5 class="pixel-font info-subtitle">Social Media</h5>
+    </div>  
+    <div class="grid-item">
+    <span style="font-size:larger">
+        Pixel Art Opportunities Only:
         <br>
-        <li>For tech art opportunities and all other communication:
-            <ul class="none">
-                <li><a href="mailto:ryan.alex.davis@gmail.com">ryan.alex.davis@gmail.com</a></li>
-            </ul>
-        </li>
-    </ul>
+        <a href="mailto:thedataisgone.com">thedataisgone@gmail.com</a>
+        <br><br>
+        Tech Art Opportunities, etc.:
+        <br>
+        <a href="mailto:ryan.alex.davis@gmail.com">ryan.alex.davis@gmail.com</a>
+    </span>
+    </div>
+    <div class="grid-item spacer"></div>
+    <div class="grid-item">
+        <div class="social-media-grid">
+            <!-- LinkedIn -->
+            <div class="social-media-item">
+                <a class="no-underline" href="https://www.linkedin.com/in/ryanalexdavis/"><img class="social-media-icon half-hover" alt="LinkedIn: My work history" title="LinkedIn: My work history" src="../assets/img/common/socialmedia/linkedin.png"></a>
+            </div>
+            <!-- GitHub -->
+            <div class="social-media-item">
+                <a class="no-underline" href="https://github.com/DataIsGone"><img class="social-media-icon half-hover" alt="GitHub: View my code" title="GitHub: View my code" src="../assets/img/common/socialmedia/github.png"></a>
+            </div>
+            <!-- Twitter -->
+            <div class="social-media-item">
+                <a class="no-underline" href="https://twitter.com/dataisgone"><img class="social-media-icon half-hover" alt="Twitter: Ramblings and WIPs" title="Twitter: Ramblings and WIPs" src="../assets/img/common/socialmedia/twitter.png"></a>
+            </div>
+        </div>
+    </div>  
 </div>
 
-<br><br>
-
-<!-- Social Media -->
-<div class="pixel-div" id="contact-box">
-    <h5 class="cyber info-subtitle">Find Me Here</h5>
-</div>
-
-<br><br>
+<br>
 
 <div class="pixel-div" id="contact-box">
-    <h5 class="cyber info-subtitle">Resume</h5>
+    <h5 class="pixel-font info-subtitle">Resume</h5>
     <div class="flex-container">
         <div class="flex-child vertical-center">
-            <button class="btn" onclick="location.href='../assets/img/common/RyanDavis_Resume.pdf'">Download Resume</button>
+            <button class="btn pixel-font" onclick="location.href='../assets/img/common/RyanDavis_Resume.pdf'">Download Resume</button>
         </div>
 </div>

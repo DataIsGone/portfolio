@@ -5,8 +5,8 @@ weight: 5
 permalink: /now/
 ---
 
-{:.subtitle .cyber .liner}
-# What I'm Up To Now
+{:.subtitle .pixel-font}
+# What I'm Up To
 
 <div class="pixel-div quick-info-grid" id="now-box">
     <!-- Right Now -->
@@ -16,8 +16,8 @@ permalink: /now/
     </div>
     <div class="grid-item spacer"></div>
     <div class="grid-item">
-        <h5 class="cyber info-subtitle">Right This Moment</h5>
-        <ul id="now-list">
+        <h5 class="pixel-font info-subtitle">Right Now</h5>
+        <ul id="now-list" style="font-size:larger">
             <li>The new grad job hunt</li>
             <li>Working on <em>Translucid</em> in Code Coven's Game Developer Program</li>
             <li>Portfolio and resume reviews</li>
@@ -25,8 +25,8 @@ permalink: /now/
         </ul>
         <br>
         <!-- Forever -->
-        <h5 class="cyber info-subtitle">Always</h5>
-        <ul id="forever-list">
+        <h5 class="pixel-font info-subtitle">Always</h5>
+        <ul id="forever-list" style="font-size:larger">
             <li>Pixel art practice</li>
             <li>Code and game dev practice</li>
         </ul>

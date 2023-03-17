@@ -5,7 +5,7 @@ image: /assets/img/projcards/catiator_card.png
 description: Fight gladiator cats in VR using American Sign Language.
 ---
 
-{:.project-title .cyber}
+{:.project-title .pixel-font}
 # Catiator
 
 <div class="flex-container">
@@ -16,33 +16,33 @@ description: Fight gladiator cats in VR using American Sign Language.
 
 <br><br>
 
-{:.cyber .subtitle}
+{:.pixel-font .subtitle}
 ## Project Info
 <div class="pixel-div pixel-div-exp">
-    <h4 class="cyber info-subtitle">The Event</h4>
-    <ul>
+    <h4 class="pixel-font info-subtitle">The Event</h4>
+    <ul style="font-size:larger">
         <li><strong>Hackathon</strong>: Stanford University's <a href="https://devpost.com/software/catiator">TreeHacks (2021)</a> (36 hours)</li>
         <li><strong>Awards</strong>: Moonshot Prize, <a href="https://pinnacle.us.org/">Pinnacle</a> Qualification</li>
     </ul>
     <br>
-    <h4 class="cyber info-subtitle">My Contributions</h4>
-    <ul>
-        <li><strong>Roles</strong>: Character Designer, 3D Generalist</li>
+    <h4 class="pixel-font info-subtitle">My Contributions</h4>
+    <ul style="font-size:larger">
+        <li><strong>Roles</strong>: 3D Generalist (Modeling sheets, Block modeling, Rigging, Animations, UV mapping)</li>
         <li><strong>Tools</strong>: Autodesk Maya, Adobe Photoshop, Unity3D</li>
     </ul>
     <br>
-    <h4 class="cyber info-subtitle">Project Links</h4>
-    <ul>
+    <h4 class="pixel-font info-subtitle">Project Links</h4>
+    <ul style="font-size:larger">
         <li><strong>Hackathon Submission</strong>: <a href="https://devpost.com/software/catiator">Devpost</a></li>
     </ul>
     <hr class="inner-hr">
-    <h5 class="cyber info-subtitle">What is <em>Catiator</em> exactly?</h5>
-    <p style="font-size:smaller">
+    <h5 class="pixel-font info-subtitle">What is <em>Catiator</em> exactly?</h5>
+    <p style="font-size:larger">
         <em>Catiator</em> is a VR game aimed at teaching American Sign Language through gamification. Using the Oculus Quest 2's gesture recognition feature, players practice one-handed signs to defeat charging gladiator cats in a vaporwave colosseum.
     </p>
     <hr class="inner-hr">
-    <h5 class="cyber info-subtitle">Interested in trying <em>Catiator</em>?</h5>
-    <ul>
+    <h5 class="pixel-font info-subtitle">Interested in trying <em>Catiator</em>?</h5>
+    <ul style="font-size:larger">
         <li>Download from our <a href="https://trisol.itch.io/catiators">Itch.io</a> and use password <em>Treehacks</em></li>
         <li>Catiator is an Oculus Quest application; you must sideload the APK using any of the following:</li>
             <ul>
@@ -54,11 +54,11 @@ description: Fight gladiator cats in VR using American Sign Language.
 
 <br><br>
 
-{:.cyber .subtitle}
+{:.pixel-font .subtitle}
 ### Work Samples
 <div class="pixel-div">
 <p class="instruct">
-<span class="divider line">Click a preview to view the full asset</span>
+<span class="divider pixel-font">Click a preview to view the full asset</span>
 </p>
 <div class="pixel-div-gallery" markdown="1">
 [<img src="/assets/img/projects/catiator/crop/turnaround_c.png">](/assets/img/projects/catiator/turnaround.png)
