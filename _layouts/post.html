@@ -2,10 +2,12 @@
 layout: page
 ---
 
-<h1><b>{{ page.title }}</b></h1>
+<h1 class="subtitle pixel-font"><b>{{ page.title }}</b></h1>
 
-<p class="post-metadata text-muted">
-  {{ page.date | date_to_long_string }} -  
+<p class="post-metadata text-muted pixel-font" style="font-size: larger">
+  Project Start: {{ page.date | date_to_long_string }}
+  <!-- Project End: {{ page.end }} -->
+  <!-- -  
   <b>
   {%- assign words = content | number_of_words -%}
   {%- if words < 360 -%}
@@ -13,10 +15,9 @@ layout: page
   {%- else -%}
     {{ words | divided_by: 180 }} mins read time
   {%- endif -%}
-  </b>
-
-  <br>
-
+  </b> -->
+  </p>
+  <p class="pixel-font">
   {%- if page.tags != empty -%}
     Tags: 
     {% for tag in page.tags %}

@@ -2,63 +2,58 @@
 title: Sheer Cold
 tags: [Zine, Charity, Pokemon]
 style: fill
-color: warning
-description: Charity Fanthology focused on Ice type Pokemon
+color: dark
+description: Charity fanthology focused on Ice-type Pokemon
 ---
 
-{:.cyber .subtitle .liner}
-## Project Info
-<div class="pixel-div">
-    <h4 class="cyber info-subtitle">The Project</h4>
-    <ul>
-        <li><strong>Course</strong>: Oregon State University's CS457: Online Capstone (2.5 months)</li>
+<br>
+<div class="pixel-div pixel-div-exp">
+    <h5 class="pixel-font info-subtitle">Project Info</h5>
+    <ul style="font-size: larger">
+        <li><strong>Project Type</strong>: Zine (Charity)</li>
+        <li><strong>Charity Served</strong>: <a href="https://oceanconservancy.org/">Ocean Conservancy</a></li>
+        <li><strong>Subject</strong>: Pokemon</li>
+        <li><strong>Links</strong>: <a href="https://twitter.com/sheercoldzine">Twitter</a>, <a href="https://sheercoldzine.carrd.co/">Website</a>, Store</li>
     </ul>
-    <h4 class="cyber info-subtitle">My Contributions</h4>
-    <ul>
-        <li><strong>Roles</strong>:
-            <ul>
-                <li>Team Lead: Directed project, established game UX, main communication with third party contributors</li>
-                <li>Team Artist: Character Designer, 2D Artist & Animator, UI assets</li>
-                <li>Developer: Scripted procedural character generation, 2.5D stylization</li>
-            </ul>
-        </li>
-        <li><strong>Tools</strong>: Procreate iOS, Adobe Photoshop, Autodesk Maya, Unity3D</li>
+    <br>
+    <h5 class="pixel-font info-subtitle">Artist Info</h5>
+    <ul style="font-size: larger">
+        <li><strong>Roles</strong>: Page Artist, Digital Merch Artist</li>
+        <li><strong>Assignments</strong>: Crabombinable - Single Page, Froslass - Desktop Background</li>
     </ul>
     <hr class="inner-hr">
-    <h5 class="cyber info-subtitle">What is Hablo Gato exactly?</h5>
-    <p>
-        <em>Hablo Gato</em> is a prototype VR game that provides a language-immersion experience through speech recognition from the comfort of home, or wherever they may be. Traveling to immerse one's self in a country's language is the best way to learn, but that is a privilege. Compared to the cost of traveling and the development of XR technologies, this could be a very affordable option.
+    <h5 class="pixel-font info-subtitle">What is <em>Sheer Cold</em> exactly?</h5>
+    <p style="font-size:larger">
+        <em>Sheer Cold</em> is a fan-made zine, or an independently-published miniature magazine, full of derivative art and stories centered around Ice-type Pokemon. It was produced and sold for charity, with all profits going towards the <a href="https://oceanconservancy.org/">Ocean Conservancy</a>. All artists and writers work on a volunteer basis.
     </p>
-    <hr class="inner-hr">
-    <h5 class="cyber info-subtitle">Interested in trying Hablo Gato?</h5>
-    <ul>
-        <li><em>Hablo Gato</em> is currently not available for demoing.</li>
-            <ul>
-                <li>We're still looking at fixing an issue with needing to insert our Azure API key directly into our code. This poses a security for our team members who've signed up for the service.
-                </li>
-                <li>In the meantime, we've recorded both a <a href src="https://www.youtube.com/watch?v=YIcWWMNTfkQ">abbreviated demo</a> and a <a href src="https://www.youtube.com/watch?v=5ufRYOeSCDk">full demo</a> for viewing.</li>
-            </ul>
-    </ul>
 </div>
 
 <br><br>
 
-{:.cyber .subtitle .liner}
-### Work Samples
+{:.pixel-font .subtitle}
+### Gallery I
 <div class="pixel-div">
 <p class="instruct">
-<span class="divider line razor">Click a preview to view the full asset</span>
+<span class="divider line pixel-font">Click a preview to view the full asset</span>
 </p>
 <div class="pixel-div-gallery" markdown="1">
-[<img src="/assets/img/projects/hg/crop/hg_anim_set1_c.gif">](/assets/img/projects/hg/hg_anim_set1.gif)
-[<img src="/assets/img/projects/hg/crop/hg_anim_set2_c.gif">](/assets/img/projects/hg/hg_anim_set2.gif)
-[<img src="/assets/img/projects/hg/crop/hg_anim_set3_c.gif">](/assets/img/projects/hg/hg_anim_set3.gif)
-[<img src="/assets/img/projects/hg/crop/env_CA_c.png">](/assets/img/projects/hg/env_CA.png)
-[<img src="/assets/img/projects/hg/crop/char_design_c.png">](/assets/img/projects/hg/char_design.png)
-[<img src="/assets/img/projects/hg/crop/char_idea_c.png">](/assets/img/projects/hg/char_idea.png)
-[<img src="/assets/img/projects/hg/crop/ux_ui_c.png">](/assets/img/projects/hg/ux_ui.png)
-[<img src="/assets/img/projects/hg/crop/storyboards_c.png">](/assets/img/projects/hg/storyboards.png)
+<br>
+<span style="font-size:larger">Please check back once the project is finished -- I can't post any of my work until sales are complete!</span>
 </div>
 </div>
 
-<br><br><br><br>
+<br><br>
+
+{:.pixel-font .subtitle}
+### Gallery II
+<div class="pixel-div">
+<p class="instruct">
+<span class="divider line pixel-font">Click a preview to view the full asset</span>
+</p>
+<div class="pixel-div-gallery" markdown="1">
+<br>
+<span style="font-size:larger">Please check back once the project is finished -- I can't post any of my work until sales are complete!</span>
+</div>
+</div>
+
+<br><br>

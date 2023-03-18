@@ -394,9 +394,9 @@ p.instruct {
   width: 10px;
 }
 
-.scroll::-webkit-scrollbar-track {
+/* .scroll::-webkit-scrollbar-track {
   background:  linear-gradient(180deg, #746e6e 0%, #d6d6d6 100%);
-}
+} */
 
 .scroll::-webkit-scrollbar-thumb {
   background: #f5f5f5;
@@ -407,7 +407,6 @@ p.instruct {
 @media only screen and (max-width: 600px) {
   /* --- COMMON --- */
   body {
-    /* background-color: lightblue; TODO: remove test */
     background-image: url("");
   }
 
@@ -444,7 +443,6 @@ p.instruct {
   .project-title {
     color: #eafbcc;
     text-shadow: 2px 2px #00000080;
-    /* -webkit-background-clip: text; */
     font-size: 400%;
     text-transform: uppercase;
   }
