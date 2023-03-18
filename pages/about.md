@@ -21,7 +21,7 @@ weight: 3
         </span>
     </div>
     <div class="flex-child">
-        <img src="../assets/img/common/statue.gif">
+        <img src="../assets/img/common/splash.gif">
     </div>
 </div>
 
@@ -79,15 +79,15 @@ weight: 3
         <div class="social-media-grid">
             <!-- LinkedIn -->
             <div class="social-media-item">
-                <a class="no-underline" href="https://www.linkedin.com/in/ryanalexdavis/"><img class="social-media-icon half-hover" alt="LinkedIn: My work history" title="LinkedIn: My work history" src="../assets/img/common/socialmedia/linkedin.png"></a>
+                <a class="no-underline" href="https://www.linkedin.com/in/ryanalexdavis/"><img class="social-media-icon half-hover" alt="LinkedIn: My work history" title="LinkedIn: My work history" src="../assets/img/common/socialmedia/linkedin2.png"></a>
             </div>
             <!-- GitHub -->
             <div class="social-media-item">
-                <a class="no-underline" href="https://github.com/DataIsGone"><img class="social-media-icon half-hover" alt="GitHub: View my code" title="GitHub: View my code" src="../assets/img/common/socialmedia/github.png"></a>
+                <a class="no-underline" href="https://github.com/DataIsGone"><img class="social-media-icon half-hover" alt="GitHub: View my code" title="GitHub: View my code" src="../assets/img/common/socialmedia/github2.png"></a>
             </div>
             <!-- Twitter -->
             <div class="social-media-item">
-                <a class="no-underline" href="https://twitter.com/dataisgone"><img class="social-media-icon half-hover" alt="Twitter: Ramblings and WIPs" title="Twitter: Ramblings and WIPs" src="../assets/img/common/socialmedia/twitter.png"></a>
+                <a class="no-underline" href="https://twitter.com/dataisgone"><img class="social-media-icon half-hover" alt="Twitter: Ramblings and WIPs" title="Twitter: Ramblings and WIPs" src="../assets/img/common/socialmedia/twitter2.png"></a>
             </div>
         </div>
     </div>  

@@ -68,11 +68,11 @@
   a:not(.btn):not([class^="carousel-"]):not([class^="list-"]):not(.no-underline) {
     display: inline-block;
     text-decoration: none;
-    color: #924a4a;
+    color: #b7cf8a;
 
     &:hover {
       // color: $primary;
-      color: #924a4a;
+      color: #f7d39d;
       transition: 0.35s;
     }
 
@@ -83,7 +83,7 @@
       margin-top: -0.15em;
       width: 0;
       // background: $primary;
-      background: #924a4a;
+      background: #f7d39d;
       transition: width 0.35s;
     }
 

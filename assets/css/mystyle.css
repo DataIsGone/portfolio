@@ -1,6 +1,6 @@
 body {
   background-color: #363231;
-  background-image: url("../img/common/test_bg4.png");
+  background-image: url("../img/common/fade_toolbrush.png");
 
   /* Background Repeat */
   background-repeat: no-repeat;
@@ -116,12 +116,13 @@ body {
 }
 
 .social-media-item {
-  padding: 0 5px 5px 5px;
+  padding: 10px 5px 5px 5px;
 }
 
 .social-media-icon {
   margin: 0 !important;
   padding-bottom: 5px;
+  
 }
 
 .grid-item {
