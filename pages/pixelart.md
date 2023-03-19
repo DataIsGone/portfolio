@@ -10,7 +10,7 @@ permalink: /pixelart/
 
 <div class="pixel-div">
 <p class="instruct pixel-font">
-    Click on a thumbnail to view at full size.
+    Click on a thumbnail to view at full size
 </p>
 <br>
 <div class="pixel-div-exp" markdown="1">
@@ -25,7 +25,7 @@ permalink: /pixelart/
     <br>
     <div class="flex-container" markdown="0" id="pixel-btn-box">
         <div class="flex-child vertical-center">
-            <button class="btn-pixel-gallery pixel-font" onclick="location.href='https://nodata.carrd.co/';">Commissions</button>
+            <button class="btn-pixel-gallery pixel-font" onclick="location.href='nodatacomms.carrd.co';">Commissions</button>
         </div>
         <div class="flex-child vertical-center">
             <button class="btn-pixel-gallery pixel-font" onclick="location.href='/pixelprojects/';">Pixel Projects</button>

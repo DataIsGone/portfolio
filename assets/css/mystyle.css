@@ -35,7 +35,6 @@ body {
 .project-title {
   color: #eafbcc;
   text-shadow: 4px 4px #00000080;
-  /* -webkit-background-clip: text; */
   font-size: 500%;
   text-transform: uppercase;
 }
