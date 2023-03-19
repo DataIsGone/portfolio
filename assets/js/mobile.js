@@ -6,6 +6,7 @@ window.onload=function() {
     document.getElementById("bio-box").innerHTML = document.getElementById("bio-text").innerHTML;
 
     // --- SOCIAL MEDIA
+    // reconstructContact();
     setupSocialMedia();
 
     // --- FEATURES
@@ -14,12 +15,13 @@ window.onload=function() {
     // --- SKILLS
     setupSkills();
 
-    // --- CONTACT BUTTONS
-    editContactButtons();
   }
   else if ((sizeTest.matches) && (window.location.href.indexOf("now") > -1)) {
-    console.log("now");
     setupNow();
+  }
+  // --- FIX BUTTONS ON PIXEL GALLERY
+  else if ((sizeTest.matches) && (window.location.href.indexOf("pixelart") > -1)) {
+    setupPixelBtns();
   }
 };
 
@@ -31,22 +33,36 @@ function setupNow() {
   remakeList("now-box", "forever-list");
 }
 
-
+// ------------------------------ PIXEL GALLERY PAGE
+function setupPixelBtns() {
+  let box = document.getElementById("pixel-btn-box");
+  box.appendChild(document.createElement("div"));
+  box.className = "pixel-btn-parent";
+}
 
 // ------------------------------ ABOUT PAGE
 // --------------- SECTION: FEATURES
 function setupFeatures() {
-  formatTitles("feature-box", "Getting Featured");
+  formatTitles("feature-box", "Features & Rewards");
   remakeList("feature-box", "feature-list");
 }
 
 
 // --------------- SECTION: SKILLS
 function setupSkills() {
-  formatTitles("skill-box", "The Skillsets");
+  formatTitles("skill-box", "Skillset");
   remakeList("skill-box", "skill-list");
 }
 
+// --------------- SECTION: CONTACT
+// function reconstructContact() {
+//   let box = document.getElementById("contact-box");
+//   let info = document.getElementById("contact-info");
+
+//   while (box.firstChild) {
+//     box.remove(box.firstChild);
+//   }
+// }
 
 // --------------- SECTION: SOCIAL MEDIA
 function setupSocialMedia() {
@@ -55,13 +71,16 @@ function setupSocialMedia() {
   social.id = "social-box";
   let contact = document.getElementById("contact-box");
   contact.before(social);
-  social.before(document.createElement("br"));
+  social.after(document.createElement("br"));
 
-  formatTitles("social-box", "Find Me Here");
+  // Remove extrenuous Social Media title
+  let extraTitle = document.getElementById("desktop-sm");
+  extraTitle.remove();
+  formatInfoSubtitles(social.id, "Social Media");
 
   // Fill with icons
   let cardParent = document.createElement("div");
-  cardParent.className = "m-cards";
+  cardParent.className = "m-cards vertical-center";
   let iconList = Array.from(document.getElementsByClassName("social-media-item"));
   for (const div of iconList) {
     let card = document.createElement("div");
@@ -73,26 +92,27 @@ function setupSocialMedia() {
   social.appendChild(cardParent);
 }
 
-
-
 // --------------- UTILITY
-function editContactButtons() {
-  let resume = document.getElementById("resume-content");
-  resume.innerHTML = "Resume";
-
-  let contact = document.getElementById("contact-content");
-  contact.innerHTML = "Contact";
-}
-
 function formatTitles(boxId, titleText) {
   let box = document.getElementById(boxId);
   let title = document.createElement("h3");
   
   title.innerHTML = titleText;
-  title.className = "cyber subtitle";
+  title.className = "pixel-font subtitle";
   
   box.before(title);
 }
+
+function formatInfoSubtitles(boxId, titleText, parentId) {
+  let box = document.getElementById(boxId);
+  let title = document.createElement("h5");
+  
+  title.innerHTML = titleText;
+  title.className = "pixel-font info-subtitle";
+  
+  box.appendChild(title);
+}
+
 
 function remakeList(parentBoxId, origListId) {
   let thisBox = document.getElementById(parentBoxId);

@@ -1,6 +1,6 @@
 body {
   background-color: #363231;
-  background-image: url("../img/common/fade_toolbrush.png");
+  background-image: url("../img/common/bg_lily.png");
 
   /* Background Repeat */
   background-repeat: no-repeat;
@@ -509,11 +509,20 @@ p.instruct {
     max-width: 75px;
     border-radius: var(--radius);
     overflow: hidden;
+    padding: 0 10px 0 10px;
   }
 
   .m-card:last-child {
-    max-width: 50px;
+    max-width: 75px;
   }
+
+  .pixel-btn-parent {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 15px;
+    }
 
 }
 

@@ -33,7 +33,7 @@ weight: 3
     </div>
     <div>
         <div class="scroll" id="feature">
-            <ul class="none" id="feature-list" style="font-size:larger">
+            <ul id="feature-list" style="font-size:larger">
                 <!-- Octocat -->
                 <li>Winning GitHub Education's <a href="https://twitter.com/GitHubEducation/status/1358334185602179072">#MyOctocat Contest at QWER Hacks</a> (2021)</li>
                 <!-- SIGGRAPH Interview -->
@@ -55,26 +55,27 @@ weight: 3
 <br>
 
 <!-- Contact/Social Media -->
-<div class="pixel-div quick-info-grid" id="skill-box">
+<div class="pixel-div quick-info-grid" id="contact-box">
     <div class="grid-item">
         <h5 class="pixel-font info-subtitle">Contact</h5>
     </div>
     <div class="grid-item spacer"></div>
     <div class="grid-item">
-        <h5 class="pixel-font info-subtitle">Social Media</h5>
+        <h5 class="pixel-font info-subtitle" id="desktop-sm">Social Media</h5>
     </div>  
     <div class="grid-item">
-    <span style="font-size:larger">
-        Pixel Art Opportunities Only:
-        <br>
-        <a href="mailto:thedataisgone.com">thedataisgone@gmail.com</a>
-        <br><br>
-        Tech Art Opportunities, etc.:
-        <br>
-        <a href="mailto:ryan.alex.davis@gmail.com">ryan.alex.davis@gmail.com</a>
-    </span>
+        <span style="font-size:larger" id="contact-info">
+            Pixel Art Opportunities Only:
+            <a href="mailto:thedataisgone.com">thedataisgone@gmail.com</a>
+            <br><br>
+            Tech Art Opportunities, etc.:
+            <br>
+            <a href="mailto:ryan.alex.davis@gmail.com">ryan.alex.davis@gmail.com</a>
+        </span>
     </div>
     <div class="grid-item spacer"></div>
+    <!-- TODO, Mobile: rebuild this area in JS and remove grid-item and grid-spacer -->
+    <!-- This is causing a slight horizontal sizing issue on mobile -->
     <div class="grid-item">
         <div class="social-media-grid">
             <!-- LinkedIn -->
@@ -87,7 +88,7 @@ weight: 3
             </div>
             <!-- Twitter -->
             <div class="social-media-item">
-                <a class="no-underline" href="https://twitter.com/dataisgone"><img class="social-media-icon half-hover" alt="Twitter: Ramblings and WIPs" title="Twitter: Ramblings and WIPs" src="../assets/img/common/socialmedia/twitter2.png"></a>
+                <a class="no-underline" href="https://twitter.com/dataisgone"><img class="social-media-icon half-hover" alt="Twitter: Pixel Art" title="Twitter: Pixel Art" src="../assets/img/common/socialmedia/twitter2.png"></a>
             </div>
         </div>
     </div>  
@@ -95,7 +96,8 @@ weight: 3
 
 <br>
 
-<div class="pixel-div" id="contact-box">
+<!-- Resume -->
+<div class="pixel-div" id="resume-box">
     <h5 class="pixel-font info-subtitle">Resume</h5>
     <div class="flex-container">
         <div class="flex-child vertical-center">
