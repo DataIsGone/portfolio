@@ -410,6 +410,11 @@ p.instruct {
     background-image: url("");
   }
 
+  #splash {
+    width: 50%;
+    height: 50%;
+  }
+
   /* --- INDIVIDUAL PROJECT PAGES --- */
 
   /* VIDEOS */
