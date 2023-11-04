@@ -28,7 +28,6 @@ import HereGitGuides from '/src/assets/img/gitguides.png';
 import HereUpdateMain from '/src/assets/img/updatemain.png';
 import HerePullRequests from '/src/assets/img/prs.png';
 
-
 const projImg = [
     // HABLO GATO: [0][0-2]
     [
