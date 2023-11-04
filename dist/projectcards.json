@@ -4,39 +4,34 @@
         "name": "Hablo Gato",
         "desc": "VR game prototype for language-immersion through speech recognition",
         "role": "<b>Roles</b>: NPC creation (generator, Unity NavMesh path-finding), 2.5D art style in VR",
-        "preview": "src/assets/img/cards/hg_card.gif",
         "tags": ["Tools", "Programming", "2D"]
     },
     {
         "id": 1,
-        "name": "Microsoft Holograms",
-        "desc": "Videogrammetric content made for clients during contract spanning 2017 - 2019",
-        "role": "<b>Roles</b>: Processed point cloud data into textured meshes, post-processing work with Adobe Photoshop and Autodesk Maya, proprietary software QA",
-        "preview": "src/assets/img/cards/mrcs_card.gif",
-        "tags": ["Optimization", "3D"]
-    },
-    {
-        "id": 2,
         "name": "Starmetry",
         "desc": "Prototype level for math-focused narrative game",
         "role": "<b>Roles</b>: Solo project - all art and development was made by me",
-        "preview": "src/assets/img/cards/starmetry_card.png",
         "tags": ["Programming", "2D", "Shaders"]
     },
     {
-        "id": 3,
+        "id": 2,
         "name": "Catiator",
         "desc": "VR game prototype for learning American Sign Language through gesture recognition",
-        "role": "<b>Roles</b>: 3D generalist -- character design, modeling, rigging, & animation",
-        "preview": "src/assets/img/cards/catiator_card.png",
+        "role": "<b>Roles</b>: 3D generalist - character design, modeling, rigging, & animation",
         "tags": ["3D"]
     },
     {
-        "id": 4,
+        "id": 3,
         "name": "Hereafter",
         "desc": "Interactive visual novel game with a focus on vision accessibility -- Project Actively in Progress",
-        "role": "<b>Roles</b>: git management, text-to-speech implementation, materials",
-        "preview": "src/assets/img/cards/hereafter_card.png",
+        "role": "<b>Roles</b>: Git management, text-to-speech implementation, materials",
         "tags": ["Programming", "Tools", "Optimization", "Shaders"]
+    },
+    {
+        "id": 4,
+        "name": "Microsoft Holograms",
+        "desc": "Videogrammetric content made for clients during contract spanning 2017 - 2019",
+        "role": "<b>Roles</b>: Processed point cloud data into textured meshes, post-processing textures, proprietary software QA",
+        "tags": ["Optimization", "3D"]
     }
 ]

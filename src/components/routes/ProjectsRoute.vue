@@ -8,16 +8,15 @@
            HabloGatoCard,
            HereafterCard,
            MicrosoftCard,
-           StarmetryCard } from '/src/importImages.js'
+           StarmetryCard } from '/src/importCardImages.js';
 
   const cardArr = [
     HabloGatoCard,    // 0
-    MicrosoftCard,    // 1
-    StarmetryCard,    // 2
+    StarmetryCard,    // 1
     CatiatorCard,     // 3
-    HereafterCard,    // 4
-  ]
-
+    HereafterCard,    // 3
+    MicrosoftCard,    // 4
+  ];
 
   // FILTER
   const currentFilter = ref('');
@@ -94,7 +93,7 @@
             :key="index"
             :cardTitle="item.name"
             :cardDesc="item.desc"
-            :cardImg="cardArr[index]"
+            :cardImg="cardArr[item.id]"
             :cardRole="item.role"
             :cardProjId="item.id"/>
       </div>

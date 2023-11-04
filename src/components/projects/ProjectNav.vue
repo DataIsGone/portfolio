@@ -8,7 +8,7 @@
     const contents = ref({});
   
     onMounted(async () => {
-        const response = await fetch('/src/assets/projects.json');
+        const response = await fetch('/projects.json');
         contents.value = await response.json();
     });
     

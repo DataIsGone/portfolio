@@ -6,19 +6,10 @@
     import Title from '../projects/AnchorTitle.vue'
     import Overview from '../projects/Overview.vue'
 
-    // CATIATOR
-
-    // HABLO GATO
-
-    // HEREAFTER
-
-    // MICROSOFT
-
-    // STARMETRY
-    import taLogo from '/src/assets/img/ta_logo.png';
-
-    import { ref, onMounted, computed, defineProps} from 'vue';
+    import { ref, onMounted, computed } from 'vue';
     import { useRoute } from 'vue-router';
+
+    import projImg from '/src/importProjImages.js';
   
     const route = useRoute();
     const contents = ref({});
@@ -28,10 +19,12 @@
         contents.value = await response.json();
     });
     
+    const projId = route.query.projId;
     const currProj = computed(() => {
-        const projId = route.query.projId;
+        // const projId = route.query.projId;
         return contents.value[projId] || 'Default content';
     });
+    
 </script>
 
 <template>
@@ -72,7 +65,7 @@
                         </div>
                     </div>
                     <div v-else v-for="(img, imgIndex) in sec.img" :key="imgIndex" class="col-sm">
-                        <ExImage :exImg="img[0]" :exDesc="img[1]"></ExImage>
+                        <ExImage :exImg="projImg[projId][img[0]]" :exDesc="img[1]"></ExImage>
                     </div>
                     <hr v-if="secIndex != (Object.keys(projContent.subdesc).length) - 1" class="short">
                 </div>
@@ -88,7 +81,7 @@
                     </div>
                 </div>
                 <div v-else v-for="(img, imgIndex) in projContent.img" :key="imgIndex" class="col-sm">
-                    <ExImage :exImg="img[0]" :exDesc="img[1]"></ExImage>
+                    <ExImage :exImg="projImg[projId][img[0]]" :exDesc="img[1]"></ExImage>
                 </div>
             </div>
         </div>

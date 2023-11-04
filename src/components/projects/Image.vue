@@ -13,6 +13,7 @@
     });
 
     const showLightbox = ref(false);
+    // console.log(exImg);
 </script>
 
 <template>
