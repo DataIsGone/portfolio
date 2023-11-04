@@ -6,6 +6,17 @@
     import Title from '../projects/AnchorTitle.vue'
     import Overview from '../projects/Overview.vue'
 
+    // CATIATOR
+
+    // HABLO GATO
+
+    // HEREAFTER
+
+    // MICROSOFT
+
+    // STARMETRY
+    import taLogo from '/src/assets/img/ta_logo.png';
+
     import { ref, onMounted, computed, defineProps} from 'vue';
     import { useRoute } from 'vue-router';
   

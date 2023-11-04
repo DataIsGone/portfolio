@@ -12,14 +12,14 @@
             "Procedural NPC Generator": {
                 "desc": "I wrote a procedural NPC generator in C# to ensure that my team did not need to set up individual and animate background characters. This saved us time when it came to populating a busy and lively world.",
                 "img": {
-                    "0": ["../src/assets/img/NPC_gen_1.gif", "Testing populating the environment on run time (excludes sprite randomization)"]
+                    "0": ["../src/assets/img/hg/NPC_gen_1.gif", "Testing populating the environment on run time (excludes sprite randomization)"]
                 }
             },
             "2.5D Art Style Development": {
                 "desc": "I handled the entire development of our 2.5D Paper Mario-inspired art style, where the characters are 2D and the environment is 3D. I opted for this to avoid both high vertex count (200k+) and lighting (for most scenes) on the Quest 2’s mobile processor. Because this was a computer science course, I made these choices to give our team more time to focus on programming-related tasks.",
                 "img": {
-                    "0": ["../src/assets/img/follow_test.gif", "Preliminary test of plane-based characters in a 3D VR environment"],
-                    "1": ["../src/assets/img/follow_curr.gif", "Animated character sprite in-game & demonstration of keeping forward vectors facing the player"]
+                    "0": ["../src/assets/img/hg/follow_test.gif", "Preliminary test of plane-based characters in a 3D VR environment"],
+                    "1": ["../src/assets/img/hg/follow_curr.gif", "Animated character sprite in-game & demonstration of keeping forward vectors facing the player"]
                 }
             }
         }
@@ -65,20 +65,20 @@
             "Point & Click Controls in 2.5D": {
                 "desc": "I designed the movement controls in this game to be accessible for not only all ages, but also to make the game compatible with both desktop and mobile devices. The controls are produced using raycasts and layer masks to determine, when clicked, walkable areas and interactable NPCs. On click, a destination marker is set at the hit point made by the casted ray, causing the player character to move in 3D space to a specific spot using Unity’s ScreenToWorld() method.",
                 "img": {
-                    "0": ["../src/assets/img/movement.gif", "A visual marker displays to show where the destination point was set"]
+                    "0": ["../src/assets/img/starmetry/movement.gif", "A visual marker displays to show where the destination point was set"]
                 }
             },
             "Reference System": {
                 "desc": "I wrote a procedural NPC generator in C# to ensure that my team did not need to set up individual and animate background characters. This saved us time when it came to populating a busy and lively world.",
                 "img": {
-                    "0": ["../src/assets/img/ref_book.gif", "Reference features can be accessed while actively playing the game"]
+                    "0": ["../src/assets/img/starmetry/ref_book.gif", "Reference features can be accessed while actively playing the game"]
                 }
             },
             "Math Problem Generator": {
                 "desc": "To create replayability, I established a system that selects random integers and calculates not only the correct answer, but plausible answers within range to make the answer a little less obvious. These values are then sent as variables into Yarn's DialogueRunner class, determining what branching narrative will be displayed depending on what answer the player gives. I formatted this system to not only work with problems in the main story, but also repeatable side quests that would reward the player with items, currency, etc. in future iterations of the game.",
                 "img": {
-                    "0": ["../src/assets/img/mathProblem_width.gif", "The NPC changes the information he gives every playthrough"],
-                    "1": ["../src/assets/img/mathProblem_wheel.gif", "Not only do the correct answers change per playthrough, but so do multiple choice options"]
+                    "0": ["../src/assets/img/starmetry/mathProblem_width.gif", "The NPC changes the information he gives every playthrough"],
+                    "1": ["../src/assets/img/starmetry/mathProblem_wheel.gif", "Not only do the correct answers change per playthrough, but so do multiple choice options"]
                 }
             },
             "Pixel Art Shader": {
@@ -88,16 +88,16 @@
                         "title": "Base Pixel Art Shader",
                         "desc": "The base shader was used for both the main material and particle effects, saving me time on creating different textures.",
                         "img": {
-                            "0": ["../src/assets/img/star_shader.gif", "Base shader as a material on a 3D sphere & a texture on plane-based particles"],
-                            "1": ["../src/assets/img/ss_river_shader.png", "The pixel look is achieved by flattening the UV node using Multiply, Floor, and Divide nodes; it's then divided further with Tile and Offset"]
+                            "0": ["../src/assets/img/starmetry/star_shader.gif", "Base shader as a material on a 3D sphere & a texture on plane-based particles"],
+                            "1": ["../src/assets/img/starmetry/ss_river_shader.png", "The pixel look is achieved by flattening the UV node using Multiply, Floor, and Divide nodes; it's then divided further with Tile and Offset"]
                         }
                     },
                     "1": {
                         "title": "Animated Pixel Art Shader",
                         "desc": "The base shader was recycled into a second material that randomizes the texture, allowing me to quickly add animations on props and the environment.",
                         "img": {
-                            "0": ["../src/assets/img/river_shader.gif", "This creates shimmering water when stretched by a primitive"],
-                            "1": ["../src/assets/img/ss_base_shader.png", "The addition of Voronoi and Remap nodes helped me create the stylistic illusion of water through randomization"]
+                            "0": ["../src/assets/img/starmetry/river_shader.gif", "This creates shimmering water when stretched by a primitive"],
+                            "1": ["../src/assets/img/starmetry/ss_base_shader.png", "The addition of Voronoi and Remap nodes helped me create the stylistic illusion of water through randomization"]
                         }
                     }
                 }
@@ -127,17 +127,17 @@
                         "title": "Rigging",
                         "desc": "After modeling our custom enemy character, I did a quick IK quadruped rig with a heatmap weight distribution, manually editing as needed.",
                         "img": {
-                            "0": ["../src/assets/img/bones.png", "Basic IK quadruped rig with clusters on an IK chain for the spine"],
-                            "1": ["../src/assets/img/nurbcurves.png", "Controller setup with nurbcurves"]
+                            "0": ["../src/assets/img/cat/bones.png", "Basic IK quadruped rig with clusters on an IK chain for the spine"],
+                            "1": ["../src/assets/img/cat/nurbcurves.png", "Controller setup with nurbcurves"]
                         }
                     },
                     "1": {
                         "title": "I was also in charge of animating the Catiator. After exporting these FBX files, I crated animation states in Unity that played based on the player's actions.",
                         "desc": "desc 2",
                         "img": {
-                            "0": ["../src/assets/img/waddle.gif", "Basic walking/waddling"],
-                            "1": ["../src/assets/img/attackplayer.gif", "Attacking player by purring - this plays once player takes damage"],
-                            "2": ["../src/assets/img/defeated.gif", "Hit animation when player signs the correct letter"]
+                            "0": ["../src/assets/img/cat/waddle.gif", "Basic walking/waddling"],
+                            "1": ["../src/assets/img/cat/attackplayer.gif", "Attacking player by purring - this plays once player takes damage"],
+                            "2": ["../src/assets/img/cat/defeated.gif", "Hit animation when player signs the correct letter"]
                         }
                     }
                 }
@@ -162,9 +162,9 @@
             "Git Management": {
                 "desc": "Since we are a team of 8 people, I found it essential to establish a version control system (VCS) for our group using git. Some of our memebers have limited experience with git; I have taken the role of managing our repository and educating others on how to branch, make pull requests, and push & pull using GitHub, our VCS of choice. I also setup Git LFS to help us handle large asset packs in Unreal Engine 5. Because most of us utilize Discord, all GitHub-related communications take place on our server rather than issues on GitHub.",
                 "img": {
-                    "0": ["../src/assets/img/gitguides.png", "An introductory post I made concerning keeping the main branch safe with links to official documentation for further reference"],
-                    "1": ["../src/assets/img/updatemain.png", "A clarity post concerning updating from \"main\" and how to do so in GitHub Desktop"],
-                    "2": ["../src/assets/img/prs.png", "The GitHub webhook we have in our Discord server showing the pull requests I've approved after review -- I then ping for applicable members to update so we do not cause merge conflicts"]
+                    "0": ["../src/assets/img/hereafter/gitguides.png", "An introductory post I made concerning keeping the main branch safe with links to official documentation for further reference"],
+                    "1": ["../src/assets/img/hereafter/updatemain.png", "A clarity post concerning updating from \"main\" and how to do so in GitHub Desktop"],
+                    "2": ["../src/assets/img/hereafter/prs.png", "The GitHub webhook we have in our Discord server showing the pull requests I've approved after review -- I then ping for applicable members to update so we do not cause merge conflicts"]
                 }
             },
             "Dialogue System & Text-to-Speech": {

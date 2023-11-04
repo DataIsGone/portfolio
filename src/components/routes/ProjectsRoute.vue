@@ -3,6 +3,22 @@
   import TopButton from '../projects/TopButton.vue';
   import { ref, onMounted, computed } from 'vue';
 
+  // ----- PROJECT CARDS
+  import { CatiatorCard,
+           HabloGatoCard,
+           HereafterCard,
+           MicrosoftCard,
+           StarmetryCard } from '/src/importImages.js'
+
+  const cardArr = [
+    HabloGatoCard,    // 0
+    MicrosoftCard,    // 1
+    StarmetryCard,    // 2
+    CatiatorCard,     // 3
+    HereafterCard,    // 4
+  ]
+
+
   // FILTER
   const currentFilter = ref('');
   const filterTag = ref(null);
@@ -78,7 +94,7 @@
             :key="index"
             :cardTitle="item.name"
             :cardDesc="item.desc"
-            :cardImg="item.preview"
+            :cardImg="cardArr[index]"
             :cardRole="item.role"
             :cardProjId="item.id"/>
       </div>
