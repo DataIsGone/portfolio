@@ -10,7 +10,7 @@
 
   const fetchData = async() => {
     try {
-      const response = await fetch('/src/assets/projectcards.json');  // Ensure the correct path
+      const response = await fetch('/projectcards.json');  // Ensure the correct path
       items.value = await response.json();
     } catch (error) {
       console.error('Error fetching data:', error);

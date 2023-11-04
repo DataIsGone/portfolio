@@ -8,9 +8,9 @@ const about = ref([]);
 const socialMedia = ref([]);
 
 onMounted(async () => {
-  const aboutResponse = await fetch('src/assets/about.json');
+  const aboutResponse = await fetch('/about.json');
   about.value = await aboutResponse.json();
-  const smResponse = await fetch('src/assets/socialmedia.json');
+  const smResponse = await fetch('/socialmedia.json');
   socialMedia.value = await smResponse.json();
 });
 

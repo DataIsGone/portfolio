@@ -7,7 +7,7 @@
   const socialMedia = ref([]);
 
   onMounted(async () => {
-    const smResponse = await fetch('src/assets/socialmedia.json');
+    const smResponse = await fetch('/socialmedia.json');
     socialMedia.value = await smResponse.json();
   });
 </script>
