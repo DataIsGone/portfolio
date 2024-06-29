@@ -133,7 +133,7 @@
         ],
         "projContent": {
             "Git Management": {
-                "desc": "Since we are a team of 8 people, I found it essential to establish a version control system (VCS) for our group using git. Some of our memebers have limited experience with git; I have taken the role of managing our repository and educating others on how to branch, make pull requests, and push & pull using GitHub, our VCS of choice. I also setup Git LFS to help us handle large asset packs in Unreal Engine 5. Because most of us utilize Discord, all GitHub-related communications take place on our server rather than issues on GitHub.",
+                "desc": "Since we are a team of 8 people, I found it essential to establish a version control system (VCS) for our group using git. Some of our members have limited experience with git; I have taken the role of managing our repository and educating others on how to branch, make pull requests, and push & pull using GitHub, our VCS of choice. I also setup Git LFS to help us handle large asset packs in Unreal Engine 5. Because most of us utilize Discord, all GitHub-related communications take place on our server rather than issues on GitHub.",
                 "img": {
                     "0": ["0", "An introductory post I made concerning keeping the main branch safe with links to official documentation for further reference"],
                     "1": ["1", "A clarity post concerning updating from \"main\" and how to do so in GitHub Desktop"],

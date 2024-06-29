@@ -98,7 +98,7 @@
         },
         {
             "company": "Intel",
-            "title": "Undergraduate Tehcnical Intern",
+            "title": "Undergraduate Technical Intern",
             "duration": "Feb. 2021 - Aug. 2021",
             "desc": [
                 "Designed initial user interfaces and user experiences for extended reality products, allowing for first major playtests",
