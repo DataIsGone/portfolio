@@ -3,7 +3,8 @@
 
     const props = defineProps({
       videoId: String,
-      videoType: String
+      videoType: String,
+      exDesc: String
     });
 
     const videoUrlYT = computed(() => `https://www.youtube.com/embed/${props.videoId}`);
@@ -17,14 +18,15 @@
         allowfullscreen>
       </iframe>
     </div>
-    
+    <br>
+    <span><em>{{ exDesc }}</em></span>
 </template>
 
 <style scoped>
     .video-embed {
     position: relative;
     padding-bottom: 50%;
-    width: 150vh;
+    width: 100vh;
     height: 100%;
     overflow: hidden;
     max-width: 100%;

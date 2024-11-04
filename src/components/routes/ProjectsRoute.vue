@@ -6,7 +6,7 @@
   // ----- PROJECT CARDS
   import { CatiatorCard,
            HabloGatoCard,
-           HereafterCard,
+           GLCard,
            MicrosoftCard,
            StarmetryCard } from '/src/importCardImages.js';
 
@@ -14,7 +14,7 @@
     HabloGatoCard,    // 0
     StarmetryCard,    // 1
     CatiatorCard,     // 3
-    HereafterCard,    // 3
+    GLCard,    // 3
     MicrosoftCard,    // 4
   ];
 
