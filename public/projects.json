@@ -127,16 +127,16 @@
         "projTitle": "Guiding Light",
         "projSection": ["Overview", "Dialogue System", "Navigation Features", "Git Management", "2D Art"],
         "projOverview": [
-            ["Game Jam", "Themed Horror Game Jam (October 2023) w/ Distance Over Time Studios"],
-            ["Patch", "date"],
+            ["Game Jam", "Themed Horror Game Jam (October 2023) w/ Distance Over Time Studio"],
+            ["Patch", "(date)"],
             ["Tools", "Unreal Engine 5, C++, Git (GitHub)"],
-            ["Desc.", "Guiding Light is a visual novel adventure game with a focus on blind accessibility. I am working as a part of Distance Over Time Studios, a team of career switchers collaborating together to collectively improve our skills for the games industry."]
+            ["Desc.", "Guiding Light is a visual novel adventure game with a focus on blind accessibility. I worked on this with Distance Over Time Studio, a team of career switchers collaborating together to collectively improve our skills for the games industry."]
         ],
         "projContent": {
             "Dialogue System": {
-                "desc": "Dialogue",
+                "desc": "",
                 "video": {
-                    "0": ["_OPf_EpcgpE", "youtube", "video about dialogue"]
+                    "0": ["_OPf_EpcgpE", "youtube", "video about navigation"]
                 }
             },
             "Navigation Features": {
