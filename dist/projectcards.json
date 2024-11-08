@@ -22,10 +22,10 @@
     },
     {
         "id": 3,
-        "name": "Hereafter",
-        "desc": "Interactive visual novel game with a focus on vision accessibility -- Project Actively in Progress",
-        "role": "<b>Roles</b>: Git management, text-to-speech implementation, materials",
-        "tags": ["Programming", "Tools", "Optimization", "Shaders"]
+        "name": "Guiding Light",
+        "desc": "Visual novel & adventure game focused on vision accessibility",
+        "role": "<b>Roles</b>: Accessibility features development, gameplay programming, refactoring, git management, 2D art",
+        "tags": ["Programming", "Tools", "Optimization"]
     },
     {
         "id": 4,
