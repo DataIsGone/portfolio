@@ -23,10 +23,18 @@ import CatAnimWaddle from '/src/assets/img/waddle.gif';
 import CatAnimAttack from '/src/assets/img/attackplayer.gif';
 import CatAnimDefeated from '/src/assets/img/defeated.gif';
 
-// HEREAFTER
-import HereGitGuides from '/src/assets/img/gitguides.png';
-import HereUpdateMain from '/src/assets/img/updatemain.png';
-import HerePullRequests from '/src/assets/img/prs.png';
+// GUIDING LIGHT
+import GLGitGuides from '/src/assets/img/gitguides.png';
+import GLUpdateMain from '/src/assets/img/updatemain.png';
+import GLPullRequests from '/src/assets/img/prs.png';
+import GLDog from '/src/assets/img/gl_pa_dog.png';
+import GLPortraits from '/src/assets/img/gl_portraits.png';
+import GLPAMenu from '/src/assets/img/gl_pa_menubg.png';
+//// THUMBNAILS
+import CGThumbDog from '/src/assets/img/gl_dogCG_thumb.png';
+import CGThumbPortraits from '/src/assets/img/gl_portraits_thumb.png';
+import CGThumbMenu from '/src/assets/img/gl_menuCG_thumb.png';
+
 
 const projImg = [
     // HABLO GATO: [0][0-2]
@@ -58,11 +66,20 @@ const projImg = [
         CatAnimDefeated
     ],
 
-    // HEREAFTER: [3][0-2]
+    // GUIDING LIGHT:
+    //  Images: [3][0-5]
+    //  Thumbnails: [3][6-8]
     [
-        HereGitGuides,
-        HereUpdateMain,
-        HerePullRequests
+        GLGitGuides,
+        GLUpdateMain,
+        GLPullRequests,
+        GLDog,
+        GLPortraits,
+        GLPAMenu,
+        // THUMBNAILS
+        CGThumbMenu,
+        CGThumbPortraits,
+        CGThumbDog
     ]
 
     // MICROSOFT: (DOES NOT NEED)

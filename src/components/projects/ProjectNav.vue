@@ -19,24 +19,26 @@
 </script>
 
 <template>
-    <div>
+    <div id="nav-title">
         <span class="style-pixel">Navigation:</span>
     </div>
-        <div>
-            <span
-            v-for="(sectionName, index) in currProj.projSection" 
-            :key="index">
-               <Anchor :text=sectionName :targetId=sectionName></Anchor>
-               <span v-if="index != currProj.projSection.length - 1">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-            </span>
-        </div>
+    <div class="nav-text">
+        <span v-for="(sectionName, index) in currProj.projSection" :key="index">
+            <Anchor :text=sectionName :targetId=sectionName></Anchor>
+            <span v-if="index != currProj.projSection.length - 1">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+        </span>
+    </div>
 </template>
 
 <style scoped>
 @media screen and (max-width: 575px) {
-    .section, .section-text {
-        padding: 1em 0;
-        margin: 1em;
+    #nav-title {
+        padding-top: 0.5em;
+    }
+    .nav-text {
+        padding: 0 0.75em;
+        margin-top: 0.5em;
+        margin-bottom: 0.25em;
     }
 }
 </style>

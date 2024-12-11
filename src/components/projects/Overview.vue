@@ -38,6 +38,11 @@
     }
 
 @media screen and (max-width: 575px) {
+    ul {
+        display: table;
+        margin: 0 1em;
+        text-align: left;
+    }
     .extra-overview {
         margin: 0;
         text-align: center;

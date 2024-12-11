@@ -9,17 +9,20 @@
         exImg: {
             type: String,
             required: true
+        },
+        exThumb: {
+            type: String,
+            required: false
         }
     });
 
     const showLightbox = ref(false);
-    // console.log(exImg);
 </script>
 
 <template>
     <div class="ex">
-        <!-- Image that triggers the lightbox -->
-        <img :src="exImg" alt="Thumbnail" class="thumbnail" @click="showLightbox=true">
+        <!-- Thumbnail -->
+        <img :src="exThumb || exImg" alt="Thumbnail" class="thumbnail" @click="showLightbox = true">
 
         <!-- Lightbox -->
         <div v-if="showLightbox" class="lightbox" @click="showLightbox=false">
@@ -71,6 +74,22 @@
         border-radius: 3px;
     }
 
+    .secondary {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        opacity: 0;
+        background: white;
+        color: black;
+        transition: 0.4s ease-out;
+    }
+
+.primary:hover .secondary {
+  opacity: 0.6;
+}
+
 @media screen and (max-width: 575px) { 
     .ex {
         width: 100%;
@@ -84,7 +103,7 @@
     }
 
     .thumbnail {
-        max-height: 300px;
+        max-height: 200px;
         max-width: 300px;
     }
 }

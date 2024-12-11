@@ -1,89 +1,42 @@
-<script setup>
-  import Card from '../Card.vue';
-  import TopButton from '../projects/TopButton.vue';
-  import { ref, onMounted, computed } from 'vue';
-
-  // ----- PROJECT CARDS
-  import { CatiatorCard,
-           HabloGatoCard,
-           GLCard,
-           MicrosoftCard,
-           StarmetryCard } from '/src/importCardImages.js';
-
-  const cardArr = [
-    HabloGatoCard,    // 0
-    StarmetryCard,    // 1
-    CatiatorCard,     // 3
-    GLCard,    // 3
-    MicrosoftCard,    // 4
-  ];
-
-  // FILTER
-  const currentFilter = ref('');
-  const filterTag = ref(null);
-  const items = ref([]);
-
-  const fetchData = async() => {
-    try {
-      const response = await fetch('/projectcards.json');  // Ensure the correct path
-      items.value = await response.json();
-    } catch (error) {
-      console.error('Error fetching data:', error);
-    }
-  };
-
-  onMounted(fetchData);                                               // Trying to avoid uncaught error in promise
-
-  const uniqueTags = computed(() => {
-    const allTags = [].concat(...Object.values(items.value).map(item => item.tags));
-    return [...new Set(allTags)].sort();
-  });
-
-  const filteredItems = computed(() => {
-    if (!filterTag.value) {
-      return items.value;
-    }
-    return items.value.filter(item => item.tags.includes(filterTag.value));
-  });
-
-  const filterByTag = tag => {
-    filterTag.value = tag;
-    currentFilter.value = tag;
-  };
-
-  const resetFilter = () => {
-    filterTag.value = null;
-    currentFilter.value = null;
-  };
-
-  const headerTitle = computed(() => {
-    if (currentFilter.value) {
-      return `Projects: ${currentFilter.value}`;
-    } 
-    else {
-      return 'Projects';
-    }
-  });
-
-</script>
-
 <template>
+  <Title></Title>
   <div class="container-fluid">
-    <div class="align">
-      <h1 class="style-pixel-bold">{{ headerTitle }}</h1>
+    <!-- OLD FORMAT -->
+    <!-- <div class="align row">
+        <h1 class="style-pixel-bold">{{ headerTitle }}</h1>
+    </div> -->
+    <div class="align row">
+      <div class="col-6">
+        <h1 class="style-pixel-bold">Projects</h1>
+        <div class="row">
+          <div class="col" style="text-align:left;">
+            <span class="style-pixel-bold">{{ filterTitle }}</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 center-filter">
+        <div class="btn-group dropright">
+          <Button label="Filter Projects by Tag" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"/>
+          <div class="dropdown-menu">
+              <button v-for="(tag) in uniqueTags" :key="tag" class="dropdown-item sub-button" type="button" @click="filterByTag(tag)">{{ tag }}</button>
+              <div class="dropdown-divider"></div>
+              <button class="dropdown-item sub-button" @click="resetFilter">Show All</button>
+          </div>
+        </div>
+      </div>
       <hr>
       <nav class="navbar-filter">
-        <div class="wrap">
-          <span class="style-pixel-bold">Filter by Tag: </span>
-          <a @click="resetFilter" class="link-style style-pixel">All</a>
-          <span class="style-pixel">&nbsp;|&nbsp;</span>
-        </div>
-        <div v-for="(tag, index) in uniqueTags" :key="tag" class="wrap">
-          <a @click="filterByTag(tag)">
-            <span class="link-style style-pixel">{{ tag }}</span>
-            <span v-if="index != uniqueTags.length - 1" @click.stop class="style-pixel">&nbsp;|&nbsp;</span>
-          </a>
-        </div>
+
+        <!-- OLD FORMAT -->
+        <!-- <div class="btn-group dropright">
+          <Button label="Filter Projects by Tag" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"/>
+          <div class="dropdown-menu">
+              <button v-for="(tag) in uniqueTags" :key="tag" class="dropdown-item" type="button" @click="filterByTag(tag)">{{ tag }}</button>
+              <div class="dropdown-divider"></div>
+              <button class="dropdown-item" @click="resetFilter">Show All</button>
+          </div>
+        </div> -->
+
       </nav>
     </div>
   </div>
@@ -102,51 +55,172 @@
   <TopButton></TopButton>
 </template>
 
+<script setup>
+  import { ref, onMounted, onUnmounted, computed } from 'vue';
+
+  import Button from '../Button.vue';
+  import Card from '../Card.vue';
+  import Title from '../../components/Title.vue';
+  import TopButton from '../projects/TopButton.vue';
+
+  // ----- PROJECT CARDS
+  import { CatiatorCard,
+           HabloGatoCard,
+           GLCard,
+           MicrosoftCard,
+           StarmetryCard } from '/src/importCardImages.js';
+
+  const cardArr = [
+    HabloGatoCard,    // 0
+    StarmetryCard,    // 1
+    CatiatorCard,     // 3
+    GLCard,           // 4
+    MicrosoftCard,    // 5
+  ];
+
+  // FILTER
+  const currentFilter = ref('');
+  const filterTag = ref(null);
+  const items = ref([]);
+
+  const fetchData = async() => {
+    try {
+      const response = await fetch('/projectcards.json');
+      items.value = await response.json();
+    } catch (error) {
+      console.error('Error fetching data:', error);
+    }
+  };
+
+  onMounted(fetchData);                                   // Trying to avoid uncaught error in promise
+
+  const uniqueTags = computed(() => {
+    const allTags = [].concat(...Object.values(items.value).map(item => item.tags));
+    return [...new Set(allTags)].sort();
+  });
+  console.log('Unique Tags:', uniqueTags);
+
+  const filteredItems = computed(() => {
+    if (!filterTag.value) {
+      return items.value;
+    }
+    return items.value.filter(item => item.tags.includes(filterTag.value));
+  });
+
+  const filterByTag = tag => {
+    filterTag.value = tag;
+    currentFilter.value = tag;
+  };
+
+  const resetFilter = () => {
+    filterTag.value = null;
+    currentFilter.value = null;
+  };
+
+  const filterTitle = computed(() => {
+    if (currentFilter.value) {
+      return `Viewing: ${currentFilter.value}`;
+    } 
+    else {
+      return 'Viewing: All';
+    }
+  });
+
+  // DOM CHANGES BASED ON MEDIA QUERY
+  const isMobile = ref(false);
+  
+  const updateIsMobile = () => {
+    const mediaQuery = window.matchaMedia('(max-width: 768px)');
+    isMobile.value = mediaQuery.matches;
+  }
+
+  onMounted(() => {
+    updateIsMobile();
+    const mediaQuery = window.matchMedia('(max-width: 768px)');
+    mediaQuery.removeEventListener('change', updateIsMobile);
+  });
+
+  onUnmounted (() => {
+    const mediaQuery = window.matchMedia('(max-width: 768px)');
+    mediaQuery.removeEventListener('change', updateIsMobile);
+  });
+
+</script>
+
 <style scoped>
-.navbar-filter {
-    padding: 20px 20px;
+  h1, span {
     text-align: left;
-}
+    padding: 1em 0 0 10px;
+  }
 
-.spacer {
-  height: 5em;
-}
+  hr {
+    padding: 0 10px;
+  }
 
-.wrap {
-  display: inline-block;
-}
+  button {
+    font-family: 'Dogica Bold';
+    text-transform: uppercase;
+  }
 
-.center {
-  margin: 0 auto;
-}
+  button.sub-button {
+    font-family: 'Dogica';
+  }
 
-h1 {
-  text-align: left;
-  padding: 1em 0 0 10px;
-}
+  button:hover {
+    background-color: #ffb100;
+  }
 
-hr {
-  padding: 0 10px;
-}
+  .dropdown-menu {
+    border: 2px solid !important;
+    border-radius: 0 !important;
+    box-shadow: 1px 1px 0px 0px, 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px;
+  }
 
-.align {
-  margin: 0 5em;
-}
+  /* .dropdown-divider {
+    border: 1px!important;
+  } */
 
-.link-style {
-    background: linear-gradient(to left, rgba(255,255,255,0) 50%, #ffb100 50%) 100% 98% / 220% 100% no-repeat;
-    color: #333;
-    cursor: pointer !important;
-    cursor: pointer;
-    padding: 2px 5px;
-    text-decoration: none !important;
-    transition: all .35s ease-in-out;
-}
+  .navbar-filter {
+      padding: 20px 20px;
+      text-align: left;
+  }
 
-.link-style:hover {
-    background-position: 0 98%;
-    color: #000;
-    outline: none;
-    transition: all .5s ease-in-out;
-}
+  .spacer {
+    height: 5em;
+  }
+
+  .wrap {
+    display: inline-block;
+  }
+
+  .center {
+    margin: 0 auto;
+  }
+
+  .center-filter {
+    display: flex;
+    align-items: center;
+    height: 105px;
+  }
+
+  .align {
+    margin: 0 5em;
+  }
+
+  /* .link-style {
+      background: linear-gradient(to left, rgba(255,255,255,0) 50%, #ffb100 50%) 100% 98% / 220% 100% no-repeat;
+      color: #333;
+      cursor: pointer !important;
+      cursor: pointer;
+      padding: 2px 5px;
+      text-decoration: none !important;
+      transition: all .35s ease-in-out;
+  }
+
+  .link-style:hover {
+      background-position: 0 98%;
+      color: #000;
+      outline: none;
+      transition: all .5s ease-in-out;
+  } */
 </style>

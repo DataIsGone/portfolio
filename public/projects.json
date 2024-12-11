@@ -125,24 +125,24 @@
     },
     "3": {
         "projTitle": "Guiding Light",
-        "projSection": ["Overview", "Dialogue System", "Navigation Features", "Git Management", "2D Art"],
+        "projSection": ["Overview", "Dialogue System", "Navigation Accessibility Features", "Git Management", "Pixel Art Illustrations"],
         "projOverview": [
-            ["Game Jam", "Themed Horror Game Jam (October 2023) w/ Distance Over Time Studio"],
-            ["Patch", "(date)"],
-            ["Tools", "Unreal Engine 5, C++, Git (GitHub)"],
+            ["Original Game Jam", "Themed Horror Game Jam (October 2023) w/ Distance Over Time Studio"],
+            ["Patched Release", "The Rookies (Feb. - May 2024)"],
+            ["Tools", "Unreal Engine 5 Blueprints, Git (GitHub), Pixquare"],
             ["Desc.", "Guiding Light is a visual novel adventure game with a focus on blind accessibility. I worked on this with Distance Over Time Studio, a team of career switchers collaborating together to collectively improve our skills for the games industry."]
         ],
         "projContent": {
             "Dialogue System": {
-                "desc": "",
+                "desc": "I created this game's dialogue system using Unreal Engine 5's Blueprints. I opted to create a new system over using a pre-made one to make sure I understood it well and could implement any accessibility feature request made by our blind teammate, including voice over.",
                 "video": {
-                    "0": ["_OPf_EpcgpE", "youtube", "video about navigation"]
+                    "0": ["1029840902", "vimeo", "Please turn sound on when viewing this demo reel — Guiding Light uses audio cues for low-vision accessibility"]
                 }
             },
-            "Navigation Features": {
-                "desc": "Nav",
+            "Navigation Accessibility Features": {
+                "desc": "I worked on making navigation in this top-down game accessible to low-vision and blind players. My contributions included refactoring and redesigning accessibility features from the original game jam version in addition to creating new audio-forward ones based on play tests.",
                 "video": {
-                    "0": ["_OPf_EpcgpE", "youtube", "video about navigation"]
+                    "0": ["1029828097", "vimeo", "Please turn sound on when viewing this demo reel — Guiding Light uses audio cues for low-vision accessibility"]
                 }
             },
             "Git Management": {
@@ -153,9 +153,12 @@
                     "2": ["2", "The GitHub webhook we have in our Discord server showing the pull requests I've approved after review -- I then ping for applicable members to update so we do not cause merge conflicts"]
                 }
             },
-            "2D Art": {
-                "desc": "2D Art",
+            "Pixel Art Illustrations": {
+                "desc": "Our primary 2D artist, Monkey KG, was not available during our dedicated polishing phase. He allowed me to recreate his work as pixel art in order to align all illustrations with the pixel art our environment's pixel art shader. These images were hand-drawn, no AI was utilized.",
                 "img": {
+                    "0": ["5", "I painted over the original illustration to create this menu background image; dithering was used to push the pixel art aesthetic.", "6"],
+                    "1": ["4", "The character portraits I recreated based on the original drawings and/or narrative descriptions.", "7"],
+                    "2": ["3", "One of my pixel art paint overs on our original artist's sketches for the jam. Illustrations like these appear during notable parts of the story.", "8"]
                 }
             }
         }

@@ -1,10 +1,10 @@
 <script setup>
     import ProjNav from '../projects/ProjectNav.vue';
-    import ExImage from '../projects/Image.vue'
-    import ExVideoV from '../projects/VideoV.vue'
-    import ExVideoY from '../projects/VideoY.vue'
-    import Title from '../projects/AnchorTitle.vue'
-    import Overview from '../projects/Overview.vue'
+    import ExImage from '../projects/Image.vue';
+    import ExVideoV from '../projects/VideoV.vue';
+    import ExVideoY from '../projects/VideoY.vue';
+    import Title from '../projects/AnchorTitle.vue';
+    import Overview from '../projects/Overview.vue';
 
     import { ref, onMounted, computed } from 'vue';
     import { useRoute } from 'vue-router';
@@ -21,10 +21,8 @@
     
     const projId = route.query.projId;
     const currProj = computed(() => {
-        // const projId = route.query.projId;
-        return contents.value[projId] || 'Default content';
+        return contents.value[projId] || { projTitle: 'Default Title', projContent: {} };
     });
-    
 </script>
 
 <template>
@@ -36,10 +34,10 @@
 
     <!-- Individual Project Overview -->
     <div class="section" id="Overview">
+        <!-- <br><br><br><br><br><br><br><br> -->
         <Title secTitle="Overview"></Title>
         <Overview :content="currProj"></Overview>
     </div>
-
 
     <!-- Individual Content -->
     <div
@@ -48,6 +46,7 @@
         v-for="(projContent, projName) in currProj.projContent"
         :key="projName"
     >
+        <!-- <br><br><br><br><br><br><br><br> -->
         <Title :secTitle="projName"></Title>
         <p class="section-text">{{ projContent.desc }}</p>
         <br>
@@ -81,13 +80,11 @@
                     </div>
                 </div>
                 <div v-else v-for="(img, imgIndex) in projContent.img" :key="imgIndex" class="col-sm">
-                    <ExImage :exImg="projImg[projId][img[0]]" :exDesc="img[1]"></ExImage>
+                    <ExImage :exImg="projImg[projId][img[0]]" :exDesc="img[1]" :exThumb="projImg[projId][img[2]]"></ExImage>
                 </div>
             </div>
         </div>
     </div>
-
-    <!-- <TopButton></TopButton> -->
 </template>
 
 <style scoped>
@@ -118,7 +115,7 @@
 @media screen and (max-width: 575px) {
     .section, .section-text {
         padding: 1em 0;
-        margin: 1em;
+        margin: 0 1em;
     }
 
     #navbar {

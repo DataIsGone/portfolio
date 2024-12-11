@@ -3,7 +3,8 @@
 
     const props = defineProps({
       videoId: String,
-      videoType: String
+      videoType: String,
+      exDesc: String
     });
 
     const videoUrlVimeo = computed(() => `https://player.vimeo.com/video/${props.videoId}`);
@@ -18,14 +19,15 @@
         allowfullscreen>
       </iframe>
     </div>
-    
+    <span><em>{{ exDesc }}</em></span>
+    <br>
 </template>
 
 <style scoped>
     .video-embed {
     position: relative;
     padding-bottom: 50%;
-    width: 150vh;
+    width: 115vh;
     height: 100%;
     overflow: hidden;
     max-width: 100%;

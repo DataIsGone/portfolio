@@ -1,28 +1,3 @@
-<script>
-    import { useRouter } from 'vue-router';
-
-    export default {
-        name: 'Card',
-        props: {
-            cardTitle: String,
-            cardDesc: String,
-            cardProjId: Number,
-            cardImg: String,
-            cardRole: String
-        },
-        setup(props) {
-            const router = useRouter()
-            const goToPage = (pageId) => {
-                router.push({
-                    path: `/project/`,
-                    query: {projId: pageId}
-                })
-            }
-            return { goToPage }
-        }
-    };
-</script>
-
 <template>
     <div class="card mb-3">
         <a href="#" @click.prevent="goToPage(cardProjId)">
@@ -40,6 +15,27 @@
         </div>
     </div>
 </template>
+
+<script setup>
+    import { useRouter } from 'vue-router';
+
+    defineProps({
+        cardTitle: String,
+        cardDesc: String,
+        cardProjId: Number,
+        cardImg: String,
+        cardRole: String,
+    });
+
+    const router = useRouter();
+
+    const goToPage = (pageId) => {
+        router.push({
+            path: `/project/`,
+            query: { projId: pageId },
+        });
+    };
+</script>
   
 <style scoped>
     .card {

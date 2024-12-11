@@ -1,6 +1,7 @@
 <script setup>
 import IconLink from '../IconLink.vue'
 import Button from '../Button.vue'
+import Title from '../../components/Title.vue';
 
 import { ref, onMounted } from 'vue';
 
@@ -17,6 +18,7 @@ onMounted(async () => {
 </script>
 
 <template>
+  <Title></Title>
 <!-- Container for the entire grid -->
 <div class="container">
 
