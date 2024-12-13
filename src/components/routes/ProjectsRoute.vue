@@ -1,10 +1,12 @@
 <template>
   <Title></Title>
-  <div class="container-fluid">
-    <!-- OLD FORMAT -->
-    <!-- <div class="align row">
-        <h1 class="style-pixel-bold">{{ headerTitle }}</h1>
-    </div> -->
+  <!-- MOBILE FILTER FORMAT -->
+  <div class="container-fluid" v-if="isMobile">
+    Test
+  </div>
+
+  <!-- DESKTOP FILTER FORMAT -->
+  <div class="container-fluid" v-else>
     <div class="align row">
       <div class="col-6">
         <h1 class="style-pixel-bold">Projects</h1>
@@ -25,21 +27,10 @@
         </div>
       </div>
       <hr>
-      <nav class="navbar-filter">
-
-        <!-- OLD FORMAT -->
-        <!-- <div class="btn-group dropright">
-          <Button label="Filter Projects by Tag" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"/>
-          <div class="dropdown-menu">
-              <button v-for="(tag) in uniqueTags" :key="tag" class="dropdown-item" type="button" @click="filterByTag(tag)">{{ tag }}</button>
-              <div class="dropdown-divider"></div>
-              <button class="dropdown-item" @click="resetFilter">Show All</button>
-          </div>
-        </div> -->
-
-      </nav>
     </div>
   </div>
+
+  <!-- PROJECTS -->
   <div class="container center">
       <div class="row">
           <Card v-for="(item, index) in filteredItems"
@@ -98,7 +89,6 @@
     const allTags = [].concat(...Object.values(items.value).map(item => item.tags));
     return [...new Set(allTags)].sort();
   });
-  console.log('Unique Tags:', uniqueTags);
 
   const filteredItems = computed(() => {
     if (!filterTag.value) {
@@ -130,7 +120,7 @@
   const isMobile = ref(false);
   
   const updateIsMobile = () => {
-    const mediaQuery = window.matchaMedia('(max-width: 768px)');
+    const mediaQuery = window.matchMedia('(max-width: 768px)');
     isMobile.value = mediaQuery.matches;
   }
 
@@ -180,10 +170,10 @@
     border: 1px!important;
   } */
 
-  .navbar-filter {
+  /* .navbar-filter {
       padding: 20px 20px;
       text-align: left;
-  }
+  } */
 
   .spacer {
     height: 5em;
