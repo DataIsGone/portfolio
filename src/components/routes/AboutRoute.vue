@@ -28,8 +28,8 @@ onMounted(async () => {
     <hr>
     <div class="col-lg-4">
       <h6 class="style-pixel-bold">Contact Me</h6>
-      <div class="container">
-        <Button label="ryan.alex.davis at Gmail dot com" href="mailto:ryan.alex.davis@gmail.com"/>
+      <div class="container w-auto mx-auto">
+        <Button label="ryan.alex.davis at gmail" href="mailto:ryan.alex.davis@gmail.com"/>
       </div>
         <br><br>
         <h6 class="style-pixel-bold">Social Media</h6>
@@ -98,6 +98,10 @@ onMounted(async () => {
 </template>
 
 <style scoped>
+  button {
+    font-size: 12px !important;
+  }
+  
   .section-text {
     text-align: left;
   }
@@ -122,6 +126,8 @@ onMounted(async () => {
 
   a {
     color: black;
+    padding: 0;
+    margin: 0;
   }
 
   .link-style:link {
@@ -139,4 +145,5 @@ onMounted(async () => {
     outline: none;
     transition: all .5s ease-in-out;
   }
+
 </style>

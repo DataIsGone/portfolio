@@ -38,7 +38,12 @@
     padding: 10px 0;
   }
 
-  h3, h5 {
+  h3 {
+    color: white;
+    font-size: 250%;
+  }
+  
+  h5 {
     color: white;
   }
 
@@ -53,8 +58,13 @@
       height: auto;
     }
 
+    h3 {
+      font-size: 175%;
+    }
+
     h5 {
       margin: 1em;
+      padding-bottom: 10px;
     }
   }
   </style>

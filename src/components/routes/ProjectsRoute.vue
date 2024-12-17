@@ -2,7 +2,25 @@
   <Title></Title>
   <!-- MOBILE FILTER FORMAT -->
   <div class="container-fluid" v-if="isMobile">
-    Test
+    <!-- <div class="align row"> -->
+    <div class="row">
+        <h1 class="style-pixel-bold" style="text-align:center;">Projects</h1>
+        <span class="style-pixel-bold" style="text-align:center;">{{ filterTitle }}</span>
+    </div>
+    <!-- <div class="row">
+      <span class="style-pixel-bold" style="text-align:center;">{{ filterTitle }}</span>
+    </div> -->
+    <div class="row" id="button-row">
+      <div class="btn-group dropup w-auto mx-auto">
+        <Button label="Filter Projects" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"/>
+          <div class="dropdown-menu">
+            <button v-for="(tag) in uniqueTags" :key="tag" class="dropdown-item sub-button" type="button" @click="filterByTag(tag)">{{ tag }}</button>
+            <div class="dropdown-divider"></div>
+              <button class="dropdown-item sub-button" @click="resetFilter">Show All</button>
+          </div>
+      </div>
+    </div>
+      <hr id="mobile-hr">
   </div>
 
   <!-- DESKTOP FILTER FORMAT -->
@@ -59,7 +77,7 @@
            HabloGatoCard,
            GLCard,
            MicrosoftCard,
-           StarmetryCard } from '/src/importCardImages.js';
+           StarmetryCard } from '/src/composables/importCardImages.js';
 
   const cardArr = [
     HabloGatoCard,    // 0
@@ -68,6 +86,9 @@
     GLCard,           // 4
     MicrosoftCard,    // 5
   ];
+
+  import { responsiveMediaQuery } from '/src/composables/responsiveMediaQuery.js';
+  const isMobile = responsiveMediaQuery('(max-width: 768px)');
 
   // FILTER
   const currentFilter = ref('');
@@ -83,7 +104,7 @@
     }
   };
 
-  onMounted(fetchData);                                   // Trying to avoid uncaught error in promise
+  onMounted(fetchData);                 // Trying to avoid uncaught error in promise
 
   const uniqueTags = computed(() => {
     const allTags = [].concat(...Object.values(items.value).map(item => item.tags));
@@ -115,26 +136,6 @@
       return 'Viewing: All';
     }
   });
-
-  // DOM CHANGES BASED ON MEDIA QUERY
-  const isMobile = ref(false);
-  
-  const updateIsMobile = () => {
-    const mediaQuery = window.matchMedia('(max-width: 768px)');
-    isMobile.value = mediaQuery.matches;
-  }
-
-  onMounted(() => {
-    updateIsMobile();
-    const mediaQuery = window.matchMedia('(max-width: 768px)');
-    mediaQuery.removeEventListener('change', updateIsMobile);
-  });
-
-  onUnmounted (() => {
-    const mediaQuery = window.matchMedia('(max-width: 768px)');
-    mediaQuery.removeEventListener('change', updateIsMobile);
-  });
-
 </script>
 
 <style scoped>
@@ -166,15 +167,6 @@
     box-shadow: 1px 1px 0px 0px, 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px;
   }
 
-  /* .dropdown-divider {
-    border: 1px!important;
-  } */
-
-  /* .navbar-filter {
-      padding: 20px 20px;
-      text-align: left;
-  } */
-
   .spacer {
     height: 5em;
   }
@@ -197,20 +189,24 @@
     margin: 0 5em;
   }
 
-  /* .link-style {
-      background: linear-gradient(to left, rgba(255,255,255,0) 50%, #ffb100 50%) 100% 98% / 220% 100% no-repeat;
-      color: #333;
-      cursor: pointer !important;
-      cursor: pointer;
-      padding: 2px 5px;
-      text-decoration: none !important;
-      transition: all .35s ease-in-out;
-  }
+  @media screen and (max-width: 575px) {
+    h1 {
+      margin: 0;
+      padding-top: 1em;
+    }
 
-  .link-style:hover {
-      background-position: 0 98%;
-      color: #000;
-      outline: none;
-      transition: all .5s ease-in-out;
-  } */
+    span {
+      margin: 0;
+      padding-top: 0;
+      padding-bottom: 10px;
+    }
+
+    #button-row {
+      margin: 1em 0;
+    }
+
+    #mobile-hr {
+      margin: 2em 1em;
+    }
+  }
 </style>

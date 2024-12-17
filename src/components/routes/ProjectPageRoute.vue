@@ -9,7 +9,7 @@
     import { ref, onMounted, computed } from 'vue';
     import { useRoute } from 'vue-router';
 
-    import projImg from '/src/importProjImages.js';
+    import projImg from '/src/composables/importProjImages.js';
   
     const route = useRoute();
     const contents = ref({});

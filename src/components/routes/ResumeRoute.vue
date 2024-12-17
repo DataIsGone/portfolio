@@ -1,20 +1,23 @@
 <template>
     <div class="container">
+        <!-- NAME -->
         <div class="row">
             <div class="col-sm">
                 <h1 class="style-pixel-bold">{{ name }}</h1>
             </div>
         </div>
+        <!-- JOB TITLE -->
         <div class="row">
             <div class="col-sm">
-                <h2>{{ jobTitle }}</h2>
+                <h2 id="job-title">{{ jobTitle }}</h2>
             </div>
-            <div class="col-sm">
-                <Button label="Download Full Resume" href="https://drive.google.com/file/d/1lclcjs21SOup6I9ZDUrnp7g44y6QxiZP/view?usp=sharing"/>
+            <div class="col-sm" id="resume-button">
+                <Button label="Download Resume" href="https://drive.google.com/file/d/1lclcjs21SOup6I9ZDUrnp7g44y6QxiZP/view?usp=sharing"/>
             </div>
         </div>
         <br>
         <hr>
+        <!-- EXPERIENCE -->
         <div class="row">
             <div class="col-sm">
                 <h2>Experience</h2>
@@ -37,8 +40,8 @@
             </div>
         </div>
         <hr>
+        <!-- PROJECTS -->
         <div class="row">
-            <!-- PROJECTS -->
             <div class="col-sm">
                 <h2>Projects</h2>
             </div>
@@ -60,6 +63,7 @@
             </div>
         </div>
         <hr>
+        <!-- EDUCATION -->
         <div class="row">
             <div class="col-sm">
                 <h2>Education</h2>
@@ -74,6 +78,7 @@
             </div>
         </div>
         <hr>
+        <!-- SKILLS -->
         <div class="row">
             <div class="col-sm">
                 <h2>Skills</h2>
@@ -173,7 +178,7 @@
 
     // Languages, Tools
     const languages = ref(['Python', 'C#', 'C++', 'HTML5', 'CSS3', 'JavaScript']);
-    const tools = ref(['Autodesk Maya', 'Unreal Engine 5', 'Unity3D', 'Adobe Photoshop', 'Affinity Designer']);
+    const tools = ref(['Autodesk Maya', 'Unreal Engine 5', 'Unity3D', 'Adobe Photoshop', 'Affinity Designer', 'Git']);
 </script>
   
   <style scoped>
@@ -194,11 +199,40 @@
         padding: 1em 0;
     }
 
-    /* h5 {
-        margin: 0 auto;
-    } */
+    h2 {
+        font-family: 'Dogica Bold';
+        font-size: 125%;
+        text-transform: uppercase;
+    }
+
+    h4 {
+        font-family: 'Dogica Bold';
+        font-size: 90%;
+        text-transform: uppercase;
+    }
+
+    h5 {
+        font-family: 'Dogica Bold';
+        font-size: 80%;
+        text-transform: uppercase;
+    }
 
     .row {
         padding-top: 1vh;
+    }
+
+    @media screen and (max-width: 575px) {
+        h1 {
+            font-size: 200%;
+            padding-bottom: 0;
+        }
+
+        #job-title {
+            font-size: 115%;
+        }
+
+        #resume-button {
+            margin: 2em 0 0.5em 0;
+        }
     }
   </style>
