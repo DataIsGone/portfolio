@@ -18,7 +18,7 @@
   
 <script setup>
   import { ref } from 'vue';
-  import taLogo from '/src/assets/img/ta_logo.png';
+  import taLogo from '/src/assets/img/ta_logo.webp';
 
   const name = ref('Title');
   const imgPath = taLogo;
