@@ -12,7 +12,7 @@
                 <h2 id="job-title">{{ jobTitle }}</h2>
             </div>
             <div class="col-sm" id="resume-button">
-                <Button label="Download Resume" href="https://drive.google.com/file/d/1lclcjs21SOup6I9ZDUrnp7g44y6QxiZP/view?usp=sharing"/>
+                <Button label="Download Resume" href="https://drive.google.com/file/d/1dhDKCJaV48jnsaSkWV6XiX-ZDTIec8uC/view?usp=sharing"/>
             </div>
         </div>
         <br>
@@ -178,7 +178,7 @@
 
     // Languages, Tools
     const languages = ref(['Python', 'C#', 'C++', 'HTML5', 'CSS3', 'JavaScript']);
-    const tools = ref(['Autodesk Maya', 'Unreal Engine 5', 'Unity3D', 'Adobe Photoshop', 'Affinity Designer', 'Git']);
+    const tools = ref(['Unreal Engine 5', 'Unity3D', 'Git (Github, Diversion)', 'Autodesk Maya', 'Adobe Photoshop', 'Affinity Designer']);
 </script>
   
   <style scoped>

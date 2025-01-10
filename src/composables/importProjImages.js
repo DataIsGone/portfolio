@@ -1,39 +1,39 @@
 // ----- PAGE IMAGE ASSETS
 
 // HABLO GATO
-import HGNPCGen1 from '/src/assets/img/NPC_gen_1.webp';
-import HGFollowTest from '/src/assets/img/follow_test.webp';
-import HGFollowCurr from '/src/assets/img/follow_curr.webp';
+import HGNPCGen1 from '/src/assets/img/NPC_gen_1.gif';
+import HGFollowTest from '/src/assets/img/follow_test.gif';
+import HGFollowCurr from '/src/assets/img/follow_curr.gif';
 
 // STARMETRY
-import StarMovement25D from '/src/assets/img/movement.webp';
-import StarRef from '/src/assets/img/ref_book.webp';
-import StarMathGenWidth from '/src/assets/img/mathProblem_width.webp';
-import StarMathGenWheel from '/src/assets/img/mathProblem_wheel.webp';
-import StarShaderStar from '/src/assets/img/star_shader.webp';
-import StarShaderStarGraph from '/src/assets/img/ss_base_shader.webp';
-import StarShaderRiver from '/src/assets/img/river_shader.webp';
-import StarShaderRiverGraph from '/src/assets/img/ss_river_shader.webp';
+import StarMovement25D from '/src/assets/img/movement.gif';
+import StarRef from '/src/assets/img/ref_book.gif';
+import StarMathGenWidth from '/src/assets/img/mathProblem_width.gif';
+import StarMathGenWheel from '/src/assets/img/mathProblem_wheel.gif';
+import StarShaderStar from '/src/assets/img/star_shader.gif';
+import StarShaderStarGraph from '/src/assets/img/ss_base_shader.png';
+import StarShaderRiver from '/src/assets/img/river_shader.gif';
+import StarShaderRiverGraph from '/src/assets/img/ss_river_shader.png';
 
 // CATIATOR
-import CatTurnaround from '/src/assets/img/turnaround.webp';
-import CatBones from '/src/assets/img/bones.webp';
-import CatController from '/src/assets/img/nurbcurves.webp';
-import CatAnimWaddle from '/src/assets/img/waddle.webp';
-import CatAnimAttack from '/src/assets/img/attackplayer.webp';
-import CatAnimDefeated from '/src/assets/img/defeated.webp';
+import CatTurnaround from '/src/assets/img/turnaround.png';
+import CatBones from '/src/assets/img/bones.png';
+import CatController from '/src/assets/img/nurbcurves.png';
+import CatAnimWaddle from '/src/assets/img/waddle.gif';
+import CatAnimAttack from '/src/assets/img/attackplayer.gif';
+import CatAnimDefeated from '/src/assets/img/defeated.gif';
 
 // GUIDING LIGHT
-import GLGitGuides from '/src/assets/img/gitguides.webp';
-import GLUpdateMain from '/src/assets/img/updatemain.webp';
-import GLPullRequests from '/src/assets/img/prs.webp';
-import GLDog from '/src/assets/img/gl_pa_dog.webp';
-import GLPortraits from '/src/assets/img/gl_portraits.webp';
-import GLPAMenu from '/src/assets/img/gl_pa_menubg.webp';
+import GLGitGuides from '/src/assets/img/gitguides.png';
+import GLUpdateMain from '/src/assets/img/updatemain.png';
+import GLPullRequests from '/src/assets/img/prs.png';
+import GLDog from '/src/assets/img/gl_pa_dog.png';
+import GLPortraits from '/src/assets/img/gl_portraits.png';
+import GLPAMenu from '/src/assets/img/gl_pa_menubg.png';
 //// THUMBNAILS
-import CGThumbDog from '/src/assets/img/gl_dogCG_thumb.webp';
-import CGThumbPortraits from '/src/assets/img/gl_portraits_thumb.webp';
-import CGThumbMenu from '/src/assets/img/gl_menuCG_thumb.webp';
+import CGThumbDog from '/src/assets/img/gl_dogCG_thumb.png';
+import CGThumbPortraits from '/src/assets/img/gl_portraits_thumb.png';
+import CGThumbMenu from '/src/assets/img/gl_menuCG_thumb.png';
 
 
 const projImg = [
